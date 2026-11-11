@@ -311,6 +311,16 @@ details summary{cursor:pointer;font-size:12px;color:var(--muted);min-height:32px
 .btns{display:flex;gap:8px;flex-wrap:wrap}
 .btn{border:0;background:var(--white);border-radius:999px;padding:0 20px;height:46px;display:inline-flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;text-decoration:none}
 .btn.dark{background:var(--ink);color:var(--bg)}
+.nt{display:grid;gap:12px}
+.nt h3{font-size:20px;font-weight:700}
+.nt p,.nt li{font-size:13px;line-height:1.7;color:var(--muted)}
+.nt ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.nt b{color:var(--ink);font-weight:700}
+.nt .box{background:var(--white);border-radius:16px;padding:12px 14px;display:grid;gap:8px}
+.nt textarea{width:100%;min-height:96px;border:1px solid var(--line);border-radius:12px;background:var(--tile);color:var(--ink);font:12px/1.5 ui-monospace,Menlo,monospace;padding:10px;resize:vertical;word-break:break-all}
+.nt .ok{color:var(--green-ink)}
+.nt .ng{color:var(--peach-ink)}
+.nt a{color:var(--ink)}
 
 footer{font-size:11px;color:var(--muted);display:grid;gap:6px;padding:8px 4px}
 footer ul{margin:0;padding-left:16px;display:grid;gap:2px}
@@ -325,6 +335,7 @@ footer a{color:var(--muted)}
     </nav>
     <div class="icons">
       <button class="ic" id="btn-search" aria-label="検索"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg></button>
+      <button class="ic" id="btn-notify" aria-label="通知の設定"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 14V9a5 5 0 0 1 10 0v5l1.5 2h-13Z"/><path d="M8.5 17.5a1.6 1.6 0 0 0 3 0"/></svg></button>
       <button class="ic" id="btn-theme" aria-label="表示モードを切り替え"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7"/><path d="M10 3a7 7 0 0 0 0 14Z" fill="currentColor"/></svg></button>
     </div>
   </div>
@@ -672,6 +683,62 @@ function openSheet(id){
   document.getElementById("sheet-fav").onclick=()=>{toggleFav(x.id);openSheet(x.id);};
   sheet.scrollTop=0;document.getElementById("sheet-close").focus({preventScroll:true});
 }
+/* ---------- notifications ---------- */
+const VAPID_PUBLIC="BF0cPqf6PRHY9GrW_2otpsHdZPE7aPhMCBnK6Ves8gnNmwR6EdRDtyMzuIlNFdPSEG5ETyPacyxsPqus3-P1bFY";
+const SECRET_URL="https://github.com/ycanjp/001_art-days/settings/secrets/actions/new";
+const pushOK=()=>"serviceWorker" in navigator&&"PushManager" in window&&"Notification" in window;
+const standalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const isIOS=()=>/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+const b64u=s=>{const p="=".repeat((4-s.length%4)%4),r=atob((s+p).replace(/-/g,"+").replace(/_/g,"/"));return Uint8Array.from(r,c=>c.charCodeAt(0));};
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+async function currentSub(){try{const r=await navigator.serviceWorker.getRegistration();return r?await r.pushManager.getSubscription():null;}catch(_){return null;}}
+function subBox(sub){
+  return `<div class="box"><p class="ok">このiPhoneで通知を受け取る準備ができました。</p>
+    <p>最後に一度だけ、下の文字列をGitHubに登録してください。</p>
+    <ol><li>「コピー」を押す</li><li><a href="${SECRET_URL}" target="_blank" rel="noopener">GitHubの登録ページ</a>を開く</li>
+    <li>Name に <b>PUSH_SUBSCRIPTION</b> と入れる</li><li>Secret に貼り付けて「Add secret」を押す</li></ol>
+    <textarea id="nt-sub" readonly>${esc(JSON.stringify(sub))}</textarea>
+    <div class="btns"><button class="btn dark" id="nt-copy">コピー</button><button class="btn" id="nt-test">この端末でテスト表示</button></div>
+    <p id="nt-msg"></p></div>`;
+}
+async function openNotify(){
+  if(scrim.hidden)lastFocus=document.activeElement;
+  let body;
+  if(!pushOK()||(isIOS()&&!standalone())){
+    body=`<p>${isIOS()?"iPhoneでは、ホーム画面に追加したアイコンから開いたときだけ通知を受け取れます（iOS 16.4以降）。":"このブラウザは通知に対応していません。"}</p>
+      ${isIOS()?`<div class="box"><ol><li>Safariでこのページを開く</li><li>共有ボタン（□に↑）→「ホーム画面に追加」</li><li>ホーム画面の「アート暦」から開き、もう一度このベルを押す</li></ol></div>`:""}`;
+  }else{
+    const sub=await currentSub(), perm=Notification.permission;
+    body=perm==="denied"?`<p class="ng">通知がオフになっています。iPhoneの「設定」→「通知」→「アート暦」でオンにしてから、もう一度開いてください。</p>`
+      :sub?subBox(sub)
+      :`<p>毎朝の更新のあと、「新しく加わった展示」「今週で終わる展示」「3日以内のトーク」をまとめて1回お知らせします。</p>
+        <div class="btns"><button class="btn dark" id="nt-on">通知を受け取る</button></div><p id="nt-msg"></p>`;
+  }
+  sheet.innerHTML=`<span class="grab" aria-hidden="true"></span><div class="nt"><div class="tile-h"><h3 id="sheet-title">通知</h3>
+    <button class="go" id="sheet-close" aria-label="閉じる"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m4 4 8 8M12 4l-8 8"/></svg></button></div>${body}</div>`;
+  scrim.hidden=false;document.documentElement.style.overflow="hidden";
+  document.getElementById("sheet-close").onclick=closeSheet;
+  wireNotify();
+}
+function wireNotify(){
+  const msg=t=>{const m=document.getElementById("nt-msg");if(m)m.textContent=t;};
+  const on=document.getElementById("nt-on");
+  if(on)on.onclick=async()=>{
+    try{
+      const perm=await Notification.requestPermission();
+      if(perm!=="granted"){msg("通知が許可されませんでした。");return;}
+      const reg=await navigator.serviceWorker.register("sw.js");await navigator.serviceWorker.ready;
+      const sub=(await reg.pushManager.getSubscription())||await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64u(VAPID_PUBLIC)});
+      openNotify();
+    }catch(e){msg("うまく登録できませんでした："+(e&&e.message||e));}
+  };
+  const cp=document.getElementById("nt-copy");
+  if(cp)cp.onclick=()=>{const ta=document.getElementById("nt-sub");
+    const sel=()=>{ta.focus();ta.select();msg("文字列を選択しました。長押しして「コピー」を選んでください。");};
+    try{navigator.clipboard.writeText(ta.value).then(()=>msg("コピーしました。"),sel);}catch(_){sel();}};
+  const ts=document.getElementById("nt-test");
+  if(ts)ts.onclick=async()=>{try{const r=await navigator.serviceWorker.ready;await r.showNotification("アート暦（テスト）",{body:"通知はこのように届きます。",icon:"icon-180.png",tag:"test"});msg("テスト通知を出しました。");}catch(e){msg("表示できませんでした："+(e&&e.message||e));}};
+}
 function closeSheet(){scrim.hidden=true;document.documentElement.style.overflow="";if(lastFocus&&lastFocus.focus)lastFocus.focus({preventScroll:true});}
 function toggleFav(id){favs.has(id)?favs.delete(id):favs.add(id);saveFavs();render();drawTop();}
 
@@ -702,6 +769,7 @@ document.getElementById("f-scale").onchange=e=>{state.scale=e.target.value;rende
 document.getElementById("more").onclick=()=>{state.all=!state.all;drawRows();};
 document.getElementById("q").oninput=e=>{state.q=e.target.value.trim();drawRows();};
 document.getElementById("btn-search").onclick=()=>{document.getElementById("list").scrollIntoView({behavior:"smooth"});setTimeout(()=>document.getElementById("q").focus(),350);};
+document.getElementById("btn-notify").onclick=openNotify;
 document.getElementById("btn-theme").onclick=()=>{
   const r=document.documentElement,dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;
   r.dataset.theme=dark?"light":"dark";try{localStorage.setItem("artdays-theme",r.dataset.theme);}catch(_){}

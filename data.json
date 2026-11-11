@@ -51,7 +51,8 @@
      "place": null,
      "booking": "当日受付",
      "price": null,
-     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+     "apply": "none"
     },
     {
      "d": "2026-12-12",
@@ -62,7 +63,8 @@
      "place": "オンライン",
      "booking": "事前申込",
      "price": null,
-     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+     "apply": "required"
     },
     {
      "d": "2027-01-23",
@@ -73,7 +75,8 @@
      "place": "オンライン",
      "booking": "事前申込",
      "price": null,
-     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+     "apply": "required"
     },
     {
      "d": "2027-02-05",
@@ -84,7 +87,8 @@
      "place": null,
      "booking": "当日受付",
      "price": null,
-     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+     "apply": "none"
     }
    ],
    "eventsCheckedAt": "2026-11-10",
@@ -163,7 +167,8 @@
      "place": "東京都美術館 講堂（定員220名）",
      "booking": "事前予約制・先着順（受付終了）",
      "price": "無料",
-     "url": "https://www.tobikan.jp/exhibition/2026_orsay.html"
+     "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+     "apply": "closed"
     },
     {
      "d": "2027-02-06",
@@ -174,7 +179,9 @@
      "place": "東京都美術館 講堂（定員220名）",
      "booking": "事前予約制・先着順（2027/1/7 10:00受付開始）",
      "price": "無料",
-     "url": "https://www.tobikan.jp/exhibition/2026_orsay.html"
+     "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+     "apply": "required",
+     "opens": "2027-01-07"
     }
    ],
    "eventsCheckedAt": "2026-11-10",
@@ -406,9 +413,10 @@
      "title": "「歩く方丈」が歩く、尺八オルガン 演奏会＆体験会「霜月の宴」",
      "who": "坂野孝子",
      "place": "21_21 DESIGN SIGHT ギャラリー1＆2",
-     "booking": null,
-     "price": null,
-     "url": "https://www.2121designsight.jp/program/hojoki/events.html"
+     "booking": "予約不要（時間に作品前へ集合）",
+     "price": "無料（要入場料）",
+     "url": "https://www.2121designsight.jp/program/hojoki/events.html",
+     "apply": "none"
     },
     {
      "d": "2026-11-29",
@@ -417,9 +425,11 @@
      "title": "蓑庵衣替えワークショップ",
      "who": "正田智樹、竹中工務店（片山遥、亀田鈴香、小浦幸平）",
      "place": "21_21 DESIGN SIGHT ギャラリー3＋サンクンコート",
-     "booking": null,
-     "price": null,
-     "url": "https://www.2121designsight.jp/program/hojoki/events.html"
+     "booking": "事前申込制（11/12 12:00受付開始、定員20名程度・定員に達し次第終了）",
+     "price": "無料（要入場料）",
+     "url": "https://www.2121designsight.jp/program/hojoki/events/261129.html",
+     "apply": "required",
+     "opens": "2026-11-12"
     },
     {
      "d": "2026-12-26",
@@ -428,9 +438,10 @@
      "title": "「歩く方丈」が歩く、尺八オルガン 演奏会＆体験会「聖夜の宴」",
      "who": "青田絹江",
      "place": "21_21 DESIGN SIGHT ギャラリー1＆2",
-     "booking": null,
-     "price": null,
-     "url": "https://www.2121designsight.jp/program/hojoki/events.html"
+     "booking": "予約不要（時間に作品前へ集合）",
+     "price": "無料（要入場料）",
+     "url": "https://www.2121designsight.jp/program/hojoki/events.html",
+     "apply": "none"
     }
    ],
    "eventsCheckedAt": "2026-11-10",
@@ -601,7 +612,9 @@
      "place": "森美術館ラーニング・ルーム",
      "booking": "事前申込制（先着70名、12/17まで）",
      "price": "無料（当日有効の展覧会チケットが必要）",
-     "url": "https://www.mori.art.museum/jp/learning/9068/index.html"
+     "url": "https://www.mori.art.museum/jp/learning/9068/index.html",
+     "apply": "required",
+     "deadline": "2026-12-17"
     },
     {
      "d": "2026-12-22",
@@ -612,7 +625,9 @@
      "place": "森美術館展示室内",
      "booking": "事前予約制（11/12 10:00受付開始、先着30名）",
      "price": "3,000円（展覧会チケット込み）",
-     "url": "https://www.mori.art.museum/jp/learning/9108/index.html"
+     "url": "https://www.mori.art.museum/jp/learning/9108/index.html",
+     "apply": "required",
+     "opens": "2026-11-12"
     }
    ],
    "eventsCheckedAt": "2026-11-11",
@@ -766,7 +781,8 @@
      "place": null,
      "booking": "受付終了",
      "price": null,
-     "url": "https://yokohama.art.museum/event/20260819_shiato_crocetti/"
+     "url": "https://yokohama.art.museum/event/20260819_shiato_crocetti/",
+     "apply": "closed"
     },
     {
      "d": "2027-01-15",
@@ -777,7 +793,8 @@
      "place": null,
      "booking": "当日参加",
      "price": "無料",
-     "url": "https://yokohama.art.museum/event/yma_collection_gt202701/"
+     "url": "https://yokohama.art.museum/event/yma_collection_gt202701/",
+     "apply": "none"
     },
     {
      "d": "2027-02-06",
@@ -788,7 +805,8 @@
      "place": null,
      "booking": "当日参加",
      "price": "無料",
-     "url": "https://yokohama.art.museum/event/yma_collection_gt202702hs/"
+     "url": "https://yokohama.art.museum/event/yma_collection_gt202702hs/",
+     "apply": "none"
     }
    ],
    "eventsCheckedAt": "2026-11-11",
@@ -1582,7 +1600,8 @@
      "place": null,
      "booking": "当日先着",
      "price": null,
-     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+     "apply": "none"
     },
     {
      "d": "2026-11-15",
@@ -1591,9 +1610,10 @@
      "title": "日々の仕事としての絵画―三岸節子の芸術",
      "who": "展覧会監修者",
      "place": null,
-     "booking": "事前申込制",
+     "booking": "事前申込制（申込受付中・締切延長、新しい締切日は要確認）",
      "price": null,
-     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+     "apply": "required"
     },
     {
      "d": "2026-11-22",
@@ -1602,9 +1622,10 @@
      "title": "学芸員クロストーク「三岸節子の魅力」",
      "who": null,
      "place": null,
-     "booking": "事前申込制",
+     "booking": "事前申込制（申込受付中・締切延長、新しい締切日は要確認）",
      "price": null,
-     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+     "apply": "required"
     },
     {
      "d": "2026-11-28",
@@ -1615,7 +1636,8 @@
      "place": null,
      "booking": "当日先着",
      "price": null,
-     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+     "apply": "none"
     },
     {
      "d": "2026-12-05",
@@ -1626,7 +1648,9 @@
      "place": null,
      "booking": "事前申込制（11/18締切）",
      "price": null,
-     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+     "apply": "required",
+     "deadline": "2026-11-18"
     },
     {
      "d": "2026-12-12",
@@ -1637,7 +1661,8 @@
      "place": null,
      "booking": "当日先着",
      "price": null,
-     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+     "apply": "none"
     }
    ],
    "geo": [
@@ -1731,7 +1756,8 @@
      "place": "2階講堂",
      "booking": "申込不要（先着）",
      "price": "無料",
-     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+     "url": "https://pref.spec.ed.jp/momas/2026uchima",
+     "apply": "none"
     },
     {
      "d": "2026-11-29",
@@ -1742,7 +1768,9 @@
      "place": "3階創作室",
      "booking": "受付終了（11/13締切）",
      "price": "600円",
-     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+     "url": "https://pref.spec.ed.jp/momas/2026uchima",
+     "apply": "closed",
+     "deadline": "2026-11-13"
     },
     {
      "d": "2026-12-13",
@@ -1753,7 +1781,8 @@
      "place": "2階企画展示室",
      "booking": "申込不要",
      "price": "無料",
-     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+     "url": "https://pref.spec.ed.jp/momas/2026uchima",
+     "apply": "none"
     },
     {
      "d": "2026-12-20",
@@ -1764,7 +1793,8 @@
      "place": "2階講堂",
      "booking": "申込不要（先着）",
      "price": "無料",
-     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+     "url": "https://pref.spec.ed.jp/momas/2026uchima",
+     "apply": "none"
     },
     {
      "d": "2027-01-09",
@@ -1775,7 +1805,8 @@
      "place": "2階講堂",
      "booking": "申込不要（先着）",
      "price": "無料",
-     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+     "url": "https://pref.spec.ed.jp/momas/2026uchima",
+     "apply": "none"
     }
    ],
    "geo": [
@@ -1974,7 +2005,8 @@
      "place": null,
      "booking": "予約不要・先着50名",
      "price": "要観覧券",
-     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
+     "apply": "none"
     },
     {
      "d": "2026-12-12",
@@ -1985,7 +2017,8 @@
      "place": null,
      "booking": "予約不要・先着50名",
      "price": "要観覧券",
-     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
+     "apply": "none"
     }
    ],
    "eventsCheckedAt": "2026-11-11"
@@ -2052,36 +2085,40 @@
    "events": [
     {
      "d": "2026-11-29",
-     "time": null,
+     "time": "10:30–16:00",
      "kind": "ワークショップ",
      "title": "ワークショップ＆ディスカッション「円環と円盤 絵画を響かせる場について」",
      "who": null,
      "place": null,
-     "booking": null,
-     "price": null,
-     "url": "https://www.modernart.museum.ibk.ed.jp/"
+     "booking": "WEB申込（10/20受付開始、定員15名程度・定員に達し次第締切）",
+     "price": "50円（保険料）・ディスカッションは要企画展チケット",
+     "url": "https://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=594",
+     "apply": "required",
+     "opens": "2026-10-20"
     },
     {
      "d": "2026-12-05",
-     "time": null,
+     "time": "14:00–15:30",
      "kind": "鑑賞講座",
      "title": "担当学芸員による鑑賞講座",
      "who": null,
      "place": null,
-     "booking": null,
-     "price": null,
-     "url": "https://www.modernart.museum.ibk.ed.jp/"
+     "booking": "申込不要",
+     "price": "無料",
+     "url": "https://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=605",
+     "apply": "none"
     },
     {
      "d": "2027-01-09",
-     "time": null,
+     "time": "14:00–15:00",
      "kind": "ギャラリートーク",
      "title": "担当学芸員によるギャラリートーク",
      "who": null,
      "place": null,
-     "booking": null,
-     "price": null,
-     "url": "https://www.modernart.museum.ibk.ed.jp/"
+     "booking": "申込不要",
+     "price": "要企画展チケット",
+     "url": "https://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=606",
+     "apply": "none"
     }
    ],
    "eventsCheckedAt": "2026-11-11"
@@ -2206,7 +2243,8 @@
      "place": null,
      "booking": "事前申込制",
      "price": "500円",
-     "url": "https://artscape.jp/exhibitions/77065/"
+     "url": "https://artscape.jp/exhibitions/77065/",
+     "apply": "required"
     }
    ],
    "eventsCheckedAt": "2026-11-11"

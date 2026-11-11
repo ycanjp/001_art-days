@@ -277,6 +277,24 @@ h1,h2,h3,p{margin:0}
 .trow .t{font-size:13px;font-weight:700;line-height:1.45}
 .trow .m{font-size:11px;color:var(--muted)}
 .trow .what{display:grid;gap:3px}
+.trow.off{opacity:.5}
+.ev .kr,.trow .kr{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.ap{font-size:10px;border-radius:999px;padding:1px 8px;white-space:nowrap;justify-self:start}
+.ap.free{background:var(--green-soft);color:var(--green-ink)}
+.ap.req{background:var(--peach-soft);color:var(--peach-ink)}
+.ap.req.hot{background:var(--peach-ink);color:var(--bg)}
+.ap.soon{background:var(--blue-soft);color:var(--blue-ink)}
+.ap.closed{background:var(--white);color:var(--muted);text-decoration:line-through}
+.ap.tbd{background:var(--white);color:var(--muted)}
+.t-alert{display:grid;gap:6px}
+.t-alert:empty{display:none}
+.al-h{font-size:11px;color:var(--muted)}
+.al{all:unset;cursor:pointer;display:grid;gap:3px;background:var(--white);border-radius:14px;padding:10px 12px}
+.al:focus-visible{outline:2px solid var(--ink)}
+.al .t{font-size:13px;font-weight:700;line-height:1.45}
+.al .m{font-size:11px;color:var(--muted)}
+.tf{display:flex;gap:6px;flex-wrap:wrap}
+
 
 /* ---------- sheet ---------- */
 .scrim[hidden]{display:none}
@@ -385,6 +403,8 @@ footer a{color:var(--muted)}
 
     <section class="tile talks" id="talks">
       <div class="tile-h"><h2>近日のトーク・イベント</h2><span class="count">3週間以内</span></div>
+      <div class="t-alert" id="t-alert"></div>
+      <div class="seg tf" role="group" aria-label="申込で絞り込み"><button data-tf="all">すべて</button><button data-tf="free">申込不要</button><button data-tf="req">要申込</button></div>
       <div id="trows"></div>
     </section>
 
@@ -478,12 +498,7 @@ function drawTop(){
       <div class="tags"><span>${esc(x.pref)}</span><span>${esc(x.price?x.price.split(/[／\/、]/)[0]:"料金要確認")}</span><span>${esc(x.booking||"予約要確認")}</span></div>
     </article>`;}).join("");
 
-  const limit=new Date(+TODAY+21*DAY);
-  const talks=EX.flatMap(x=>upcoming(x).filter(e=>D(e.d)<=limit).map(e=>({x,e}))).sort((a,b)=>D(a.e.d)-D(b.e.d));
-  document.getElementById("trows").innerHTML=talks.length?talks.slice(0,6).map(({x,e})=>`<div class="trow" data-id="${esc(x.id)}" role="button" tabindex="0">
-      <span class="dbox"><b>${md(e.d)}</b><small>${wd(e.d)}${e.time?` ${esc(e.time.split(/[–-]/)[0])}`:""}</small></span>
-      <span class="what"><span class="k">${esc(e.kind||"イベント")}</span><span class="t">${esc(e.title)}</span><span class="m">${esc(x.t)}</span></span></div>`).join("")
-    :`<p class="empty">3週間以内の関連イベントは見つかっていません</p>`;
+  drawTalks();
 
   document.getElementById("sources").innerHTML=(DATA.sources||[]).map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></li>`).join("");
   document.getElementById("updated").textContent=`${DATA.updatedAt||"?"} 時点のWeb検索結果から作成。会期・料金・予約は各館の公式サイトで確認してください。`;
@@ -647,10 +662,45 @@ function render(){drawFilters();drawRows();}
 
 /* ---------- sheet ---------- */
 const scrim=document.getElementById("scrim"),sheet=document.getElementById("sheet");let lastFocus=null;
+
+/* ---------- talks: booking status ---------- */
+const talkState={f:"all",closed:false};
+function applyState(e){
+  const dl=e.deadline&&days(TODAY,D(e.deadline)), op=e.opens&&days(TODAY,D(e.opens));
+  if(e.apply==="closed"||(e.apply==="required"&&e.deadline&&dl<0))return{k:"closed",l:"受付終了"};
+  if(e.apply==="required"&&e.opens&&op>0)return{k:"soon",l:op===1?"明日 受付開始":`${md(e.opens)} 受付開始`,n:op};
+  if(e.apply==="required")return e.deadline?{k:dl<=3?"req hot":"req",l:dl===0?"今日 申込締切":`要申込・${md(e.deadline)}締切`,n:dl}:{k:"req",l:"要申込（締切は要確認）"};
+  if(e.apply==="none")return{k:"free",l:"申込不要"};
+  return{k:"tbd",l:"申込要確認"};
+}
+const apChip=e=>{const a=applyState(e);return`<span class="ap ${a.k}">${a.l}</span>`;};
+function drawTalks(){
+  const limit=new Date(+TODAY+21*DAY);
+  const all=EX.flatMap(x=>upcoming(x).map(e=>({x,e,a:applyState(e)})));
+  // deadlines and openings coming up, even for events further ahead
+  const soon=all.filter(({a})=>(a.k.startsWith("req")&&a.n!=null&&a.n<=7)||(a.k==="soon"&&a.n<=7))
+    .sort((p,q)=>p.a.n-q.a.n);
+  document.getElementById("t-alert").innerHTML=soon.length?`<p class="al-h">申込の締切・受付開始が近いもの</p>`+soon.map(({x,e,a})=>
+    `<button class="al" data-id="${esc(x.id)}"><span class="ap ${a.k}">${a.k==="soon"?(a.n===1?"明日 受付開始":`${a.n}日後 受付開始`):(a.n===0?"今日 締切":`あと${a.n}日で締切`)}</span>
+      <span class="t">${esc(e.title)}</span><span class="m">${md(e.d)}（${wd(e.d)}）開催・${esc(x.v)}</span></button>`).join(""):"";
+  let rows=all.filter(({e})=>D(e.d)<=limit);
+  const nClosed=rows.filter(r=>r.a.k==="closed").length;
+  if(!talkState.closed)rows=rows.filter(r=>r.a.k!=="closed");
+  if(talkState.f==="free")rows=rows.filter(r=>r.a.k==="free");
+  if(talkState.f==="req")rows=rows.filter(r=>r.a.k.startsWith("req")||r.a.k==="soon");
+  rows.sort((p,q)=>D(p.e.d)-D(q.e.d));
+  document.querySelectorAll("[data-tf]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.tf===talkState.f));
+  document.getElementById("trows").innerHTML=(rows.length?rows.slice(0,10).map(({x,e})=>`<div class="trow${applyState(e).k==="closed"?" off":""}" data-id="${esc(x.id)}" role="button" tabindex="0">
+      <span class="dbox"><b>${md(e.d)}</b><small>${wd(e.d)}${e.time?` ${esc(e.time.split(/[–-]/)[0])}`:""}</small></span>
+      <span class="what"><span class="kr"><span class="k">${esc(e.kind||"イベント")}</span>${apChip(e)}</span><span class="t">${esc(e.title)}</span><span class="m">${esc(x.t)}</span></span></div>`).join("")
+    :`<p class="empty">${talkState.f==="free"?"3週間以内に申込不要のイベントは見つかっていません":talkState.f==="req"?"3週間以内に申込が必要なイベントは見つかっていません":"3週間以内の関連イベントは見つかっていません"}</p>`)
+    +(rows.length>10?`<p class="count">ほか${rows.length-10}件</p>`:"")
+    +(nClosed?`<button class="morebtn" data-tclosed>${talkState.closed?"受付終了を隠す":`受付終了の${nClosed}件も表示`}</button>`:"");
+}
 function evHTML(e,past){
   const m=[e.time,e.place].filter(Boolean).map(esc).join("　"), m2=[e.booking,e.price].filter(Boolean).map(esc).join("・");
   return `<div class="ev${past?" past":""}"><span class="dbox"><b>${md(e.d)}</b><small>${wd(e.d)}曜</small></span>
-    <span class="what"><span class="k">${esc(e.kind||"イベント")}</span><span class="t">${esc(e.title)}</span>
+    <span class="what"><span class="kr"><span class="k">${esc(e.kind||"イベント")}</span>${past?"":apChip(e)}</span><span class="t">${esc(e.title)}</span>
     ${e.who?`<span class="m">登壇：${esc(e.who)}</span>`:""}${m?`<span class="m">${m}</span>`:""}
     <span class="m">${m2||'<span class="tbd">申込方法・料金は要確認</span>'}</span>
     ${e.url&&!past?`<a href="${esc(e.url)}" target="_blank" rel="noopener">詳細を見る</a>`:""}</span></div>`;
@@ -757,6 +807,8 @@ document.addEventListener("click",e=>{
   const pn=t.closest("[data-venue]");if(pn){selVenue=selVenue===pn.dataset.venue?null:pn.dataset.venue;drawMap();return;}
   const g=t.closest("[data-genre]");if(g){state.genre=state.genre===g.dataset.genre?"all":g.dataset.genre;render();return;}
   const a=t.closest("[data-area]");if(a){state.area=state.area===a.dataset.area?"all":a.dataset.area;render();return;}
+  const tf=t.closest("[data-tf]");if(tf){talkState.f=tf.dataset.tf;drawTalks();return;}
+  if(t.closest("[data-tclosed]")){talkState.closed=!talkState.closed;drawTalks();return;}
   const st=t.closest("[data-st]");if(st){state.st=st.dataset.st;render();}
   const so=t.closest("[data-sort]");if(so){state.sort=so.dataset.sort;try{localStorage.setItem("artdays-sort",state.sort);}catch(_){}drawRows();return;}
   const n=t.closest(".nav a");if(n)document.querySelectorAll(".nav a").forEach(x=>x.setAttribute("aria-current",x===n));

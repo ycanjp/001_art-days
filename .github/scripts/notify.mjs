@@ -23,7 +23,13 @@ const ending = ex.filter((x) => x.e && x.e >= today && days(today, x.e) <= 7 && 
   .sort((a, b) => a.e.localeCompare(b.e));
 const events = ex.flatMap((x) => (x.events || []).filter((e) => e.d && e.d >= today && days(today, e.d) <= 3));
 
+const applyAlerts = ex.flatMap((x) => (x.events || []).filter((e) => e.d && e.d >= today && e.apply === "required" && (
+    (e.deadline && e.deadline >= today && days(today, e.deadline) <= 3) || (e.opens && e.opens >= today && days(today, e.opens) <= 3))))
+  .map((e) => ({ e, when: e.opens && e.opens >= today ? e.opens : e.deadline, what: e.opens && e.opens >= today ? "受付開始" : "締切" }))
+  .sort((p, q) => p.when.localeCompare(q.when));
+
 const parts = [];
+if (applyAlerts.length) parts.push(`申込に注意${applyAlerts.length}件（${applyAlerts[0].e.title} ${md(applyAlerts[0].when)}${applyAlerts[0].what}${applyAlerts.length > 1 ? " ほか" : ""}）`);
 if (added.length) parts.push(`新しく${added.length}件：${added.slice(0, 2).map((x) => x.t).join("、")}${added.length > 2 ? " ほか" : ""}`);
 if (ending.length) parts.push(`今週で終わる${ending.length}件（${ending[0].t} ${md(ending[0].e)}まで${ending.length > 1 ? " ほか" : ""}）`);
 if (events.length) parts.push(`3日以内のトーク・イベント${events.length}件`);

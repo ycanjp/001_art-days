@@ -1,0 +1,2164 @@
+{
+ "updatedAt": "2026-11-11",
+ "notice": "東京国立近代美術館「MOMAT秋びより」は11/15閉幕。横浜美術館「毛利悠子」「マリー・アントワネット・スタイル」、ワタリウム「ナムジュン・パイク」は11/23閉幕。",
+ "picks": [
+  {
+   "id": "orsay",
+   "why": "今週土曜11/14開幕。ミレー、モネ、ゴッホら約110点を開幕直後に。"
+  },
+  {
+   "id": "sannomaru-shitaku",
+   "why": "三の丸尚蔵館グランドオープン展。正倉院宝物が皇居内で初公開（事前予約制）。"
+  },
+  {
+   "id": "mohri",
+   "why": "11/23閉幕・入場無料。ヴェネチア日本館の凱旋展を見逃さないうちに。"
+  }
+ ],
+ "exhibitions": [
+  {
+   "id": "turner",
+   "t": "テート美術館 ターナー展――崇高の絵画、現代美術との対話",
+   "v": "国立西洋美術館",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-10-24",
+   "e": "2027-02-21",
+   "g": "wst",
+   "one": "ターナーの油彩・水彩80点以上。現代美術との対話も。",
+   "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+   "official": true,
+   "price": "一般2,400円（前売2,200円）",
+   "booking": null,
+   "events": [
+    {
+     "d": "2026-11-10",
+     "time": null,
+     "kind": "スライドトーク",
+     "title": "スライドトーク",
+     "who": null,
+     "place": null,
+     "booking": "当日受付",
+     "price": null,
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+    },
+    {
+     "d": "2026-12-03",
+     "time": null,
+     "kind": "スライドトーク",
+     "title": "スライドトーク",
+     "who": null,
+     "place": null,
+     "booking": "当日受付",
+     "price": null,
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+    },
+    {
+     "d": "2026-12-12",
+     "time": null,
+     "kind": "オンライン講演会",
+     "title": "J. M. W. ターナー――風景の「崇高」を求めて",
+     "who": "荒川裕子",
+     "place": "オンライン",
+     "booking": "事前申込",
+     "price": null,
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+    },
+    {
+     "d": "2027-01-23",
+     "time": null,
+     "kind": "オンライン講演会",
+     "title": "ターナー、描く行為としての思考――錯時的な抽象化、色彩の論理、カタストロフ",
+     "who": "新藤淳",
+     "place": "オンライン",
+     "booking": "事前申込",
+     "price": null,
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+    },
+    {
+     "d": "2027-02-05",
+     "time": null,
+     "kind": "スライドトーク",
+     "title": "スライドトーク（日本手話通訳つき・ヒアリングループ対応）",
+     "who": null,
+     "place": null,
+     "booking": "当日受付",
+     "price": null,
+     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-10",
+   "scale": "museum",
+   "geo": [
+    35.71555,
+    139.77594
+   ]
+  },
+  {
+   "id": "louvre",
+   "t": "ルーヴル美術館展 ルネサンス",
+   "v": "国立新美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-09-09",
+   "e": "2026-12-13",
+   "g": "wst",
+   "one": "ダ・ヴィンチ《美しきフェロニエール》初来日、約50点。",
+   "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/",
+   "official": true,
+   "price": "一般2,400円／大学生1,400円／高校生1,000円",
+   "booking": "12/7〜12/13は日時指定制（別途日時指定券が必要）",
+   "scale": "museum",
+   "events": [
+    {
+     "d": "2026-09-09",
+     "time": null,
+     "kind": "講演会",
+     "title": "「ルーヴル美術館展 ルネサンス」開催記念講演会",
+     "who": null,
+     "place": null,
+     "booking": null,
+     "price": null,
+     "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/"
+    },
+    {
+     "d": "2026-10-31",
+     "time": null,
+     "kind": "講演会",
+     "title": "レオナルド・ダ・ヴィンチにしか描けなかった\"顔\"",
+     "who": null,
+     "place": null,
+     "booking": null,
+     "price": null,
+     "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11",
+   "geo": [
+    35.66534,
+    139.72644
+   ]
+  },
+  {
+   "id": "orsay",
+   "t": "オルセー美術館所蔵 いまを生きる歓び",
+   "v": "東京都美術館",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-11-14",
+   "e": "2027-03-28",
+   "g": "wst",
+   "one": "ミレー《落穂拾い》ほか、モネ、ルノワール、ゴッホら約110点。",
+   "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+   "official": true,
+   "price": "一般2,400円",
+   "booking": null,
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "What a Wonderful World いまを生きる歓び",
+     "who": "エドゥアール・パペ（オルセー美術館 彫刻部門上席学芸員）",
+     "place": "東京都美術館 講堂（定員220名）",
+     "booking": "事前予約制・先着順（受付終了）",
+     "price": "無料",
+     "url": "https://www.tobikan.jp/exhibition/2026_orsay.html"
+    },
+    {
+     "d": "2027-02-06",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "オルセー美術館40年の軌跡",
+     "who": "高橋明也（東京都美術館館長）",
+     "place": "東京都美術館 講堂（定員220名）",
+     "booking": "事前予約制・先着順（2027/1/7 10:00受付開始）",
+     "price": "無料",
+     "url": "https://www.tobikan.jp/exhibition/2026_orsay.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-10",
+   "scale": "museum",
+   "geo": [
+    35.71711,
+    139.77315
+   ]
+  },
+  {
+   "id": "daitokuji",
+   "t": "特別展「大徳寺 本朝無双之禅苑」",
+   "v": "東京国立博物館",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-10-14",
+   "e": "2026-12-06",
+   "g": "jpn",
+   "one": "京都・大徳寺の寺宝を紹介する特別展。",
+   "url": "https://daitokuji2026.exhn.jp/",
+   "official": true,
+   "price": "一般2,300円",
+   "booking": "不要（混雑時は入場待ちあり）",
+   "scale": "museum",
+   "events": [],
+   "eventsCheckedAt": "2026-11-11",
+   "geo": [
+    35.71904,
+    139.77597
+   ]
+  },
+  {
+   "id": "hiroshige",
+   "t": "歌川広重 江戸のベストアングル",
+   "v": "東京国立博物館",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-09-29",
+   "e": "2026-12-20",
+   "g": "jpn",
+   "one": "広重の構図の妙を3期・全作品入替で見る。11/25から名所江戸百景。",
+   "url": "https://www.tokyoartbeat.com/articles/-/hiroshige-new-perspective-on-edo-japan-report-202609",
+   "official": false,
+   "price": "一般1,500円",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.71904,
+    139.77597
+   ]
+  },
+  {
+   "id": "cincinnati",
+   "t": "シンシナティ美術館展",
+   "v": "上野の森美術館",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-10-10",
+   "e": "2027-01-10",
+   "g": "wst",
+   "one": "米シンシナティ美術館のコレクション展。",
+   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.71285,
+    139.77477
+   ]
+  },
+  {
+   "id": "fontanesi",
+   "t": "フォンタネージ ─ イタリアの光・心の風景",
+   "v": "三菱一号館美術館",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-10-17",
+   "e": "2027-01-24",
+   "g": "wst",
+   "one": "明治日本に西洋画法を伝えた画家の風景画。",
+   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.67857,
+    139.76339
+   ]
+  },
+  {
+   "id": "nitten",
+   "t": "第119回 日本美術展覧会（日展）",
+   "v": "国立新美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-30",
+   "e": "2026-11-22",
+   "g": "jpn",
+   "one": "日本画・洋画・彫刻・工芸・書の公募展。",
+   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.66534,
+    139.72644
+   ]
+  },
+  {
+   "id": "momat",
+   "t": "MOMAT秋びより",
+   "v": "東京国立近代美術館",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-09-29",
+   "e": "2026-11-15",
+   "g": "jpn",
+   "one": "所蔵作品で秋を楽しむコレクション展示。",
+   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.69047,
+    139.75451
+   ]
+  },
+  {
+   "id": "tada",
+   "t": "多田美波―光、凛と ゆれる",
+   "v": "東京都現代美術館",
+   "city": "江東区",
+   "pref": "東京",
+   "s": "2026-08-29",
+   "e": "2026-12-06",
+   "g": "con",
+   "one": "「光造形」の彫刻家、没後初の大規模回顧展。約70点。",
+   "url": "https://www.mot-art-museum.jp/images/pr_Tada-Minami_JP.pdf",
+   "official": true,
+   "price": "一般1,600円／大学生・65歳以上1,100円／中高生640円",
+   "booking": null,
+   "scale": "museum",
+   "events": [],
+   "eventsCheckedAt": "2026-11-11",
+   "geo": [
+    35.67978,
+    139.80879
+   ]
+  },
+  {
+   "id": "atlas",
+   "t": "TOKYO ATLAS",
+   "v": "臨海エリア（台場・青海ほか）",
+   "city": "港区・江東区",
+   "pref": "東京",
+   "s": "2026-10-10",
+   "e": "2026-12-20",
+   "g": "con",
+   "one": "屋外会場中心の国際美術展。一部有料プログラムあり。",
+   "url": "https://www.tokyoartbeat.com/articles/-/autumn-night-museum-news-202608",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "space"
+  },
+  {
+   "id": "duet",
+   "t": "デュエット――アジアン・コンテンポラリー",
+   "v": "東京都写真美術館",
+   "city": "目黒区",
+   "pref": "東京",
+   "s": "2026-09-30",
+   "e": "2027-01-17",
+   "g": "pho",
+   "one": "中国と日本の写真家6名による現代写真・映像。",
+   "url": "https://topmuseum.jp/wp-content/uploads/2026/08/Duet_Asian_Contemporary_PressRelease-1.pdf",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.64154,
+    139.7134
+   ]
+  },
+  {
+   "id": "hori",
+   "t": "MOMASコレクション 特集 堀浩哉：ゼロからの実践",
+   "v": "埼玉県立近代美術館",
+   "city": "さいたま市",
+   "pref": "埼玉",
+   "s": "2026-09-05",
+   "e": "2026-11-29",
+   "g": "con",
+   "one": "美術家・堀浩哉の実践をコレクションで辿る。",
+   "url": "https://www.museum.or.jp/schedule/2026/area_kanagawa-chiba-saitama",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.8696,
+    139.64302
+   ]
+  },
+  {
+   "id": "hojoki",
+   "t": "方丈記に学ぶ –生きるを編み直す小さな建築–",
+   "v": "21_21 DESIGN SIGHT",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-08-28",
+   "e": "2027-01-11",
+   "g": "des",
+   "one": "ディレクターは建築家・塚本由晴。小さな建築を考える。",
+   "url": "https://www.museum.or.jp/schedule/2026/area_tokyo23west",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "14:00–17:00",
+     "kind": "演奏会・体験会",
+     "title": "「歩く方丈」が歩く、尺八オルガン 演奏会＆体験会「霜月の宴」",
+     "who": "坂野孝子",
+     "place": "21_21 DESIGN SIGHT ギャラリー1＆2",
+     "booking": null,
+     "price": null,
+     "url": "https://www.2121designsight.jp/program/hojoki/events.html"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "13:00–15:00",
+     "kind": "ワークショップ",
+     "title": "蓑庵衣替えワークショップ",
+     "who": "正田智樹、竹中工務店（片山遥、亀田鈴香、小浦幸平）",
+     "place": "21_21 DESIGN SIGHT ギャラリー3＋サンクンコート",
+     "booking": null,
+     "price": null,
+     "url": "https://www.2121designsight.jp/program/hojoki/events.html"
+    },
+    {
+     "d": "2026-12-26",
+     "time": "14:00–17:00",
+     "kind": "演奏会・体験会",
+     "title": "「歩く方丈」が歩く、尺八オルガン 演奏会＆体験会「聖夜の宴」",
+     "who": "青田絹江",
+     "place": "21_21 DESIGN SIGHT ギャラリー1＆2",
+     "booking": null,
+     "price": null,
+     "url": "https://www.2121designsight.jp/program/hojoki/events.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-10",
+   "scale": "museum",
+   "geo": [
+    35.66741,
+    139.73013
+   ]
+  },
+  {
+   "id": "marimekko",
+   "t": "マリメッコ展 模様のちから",
+   "v": "東京都庭園美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-03",
+   "e": "2026-12-20",
+   "g": "des",
+   "one": "フィンランドのテキスタイルの模様を読み解く。",
+   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.63684,
+    139.71928
+   ]
+  },
+  {
+   "id": "mappa",
+   "t": "MAPPA EXPO 15th Anniversary",
+   "v": "YURAKUCHO MUSEUM",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-09-16",
+   "e": "2026-12-07",
+   "g": "pop",
+   "one": "『チェンソーマン』『呪術廻戦』などMAPPA15年の集大成。",
+   "url": "https://www.timeout.jp/tokyo/ja/news/mappa-expo-15th-yurakucho-091626",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "space",
+   "geo": [
+    35.67496,
+    139.7644
+   ]
+  },
+  {
+   "id": "chiba-kun",
+   "t": "大チーバくん展",
+   "v": "千葉県立美術館",
+   "city": "千葉市",
+   "pref": "千葉",
+   "s": "2026-10-31",
+   "e": "2027-01-17",
+   "g": "pop",
+   "one": "千葉県マスコット「チーバくん」の展覧会。",
+   "url": "https://www.museum.or.jp/schedule/2026/area_kanagawa-chiba-saitama",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.60122,
+    140.10115
+   ]
+  },
+  {
+   "id": "reading",
+   "t": "東京都美術館開館100周年記念 あなたが世界を読むために",
+   "v": "東京都美術館",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-11-19",
+   "e": "2027-01-11",
+   "g": "oth",
+   "one": "開館100周年の企画展。入場無料。",
+   "url": "https://www.tobikan.jp/exhibition/2026_waysofreading.html",
+   "official": true,
+   "price": "無料",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.71711,
+    139.77315
+   ]
+  },
+  {
+   "id": "mohri",
+   "t": "毛利悠子 Recompose 第60回ヴェネチア・ビエンナーレ日本館帰国展",
+   "v": "横浜美術館",
+   "city": "横浜市",
+   "pref": "神奈川",
+   "s": "2026-07-24",
+   "e": "2026-11-23",
+   "g": "con",
+   "one": "音と動きで空間を組み替えるインスタレーション。ヴェネチアからの凱旋展。",
+   "url": "https://yokohama.art.museum/exhibition/202607_mohriyuko/",
+   "official": true,
+   "price": "無料",
+   "booking": null,
+   "scale": "museum",
+   "events": [],
+   "eventsCheckedAt": "2026-11-11",
+   "geo": [
+    35.4571,
+    139.63053
+   ]
+  },
+  {
+   "id": "marie",
+   "t": "マリー・アントワネット・スタイル",
+   "v": "横浜美術館",
+   "city": "横浜市",
+   "pref": "神奈川",
+   "s": "2026-08-01",
+   "e": "2026-11-23",
+   "g": "des",
+   "one": "王妃の装いと室内装飾が現代のデザインに与えた影響をたどる。",
+   "url": "https://yokohama.art.museum/exhibition/202608_marie2026/",
+   "official": true,
+   "price": "一般2,500円（前売2,300円）",
+   "booking": null,
+   "scale": "museum",
+   "events": [
+    {
+     "d": "2026-11-08",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "わたしたちのマリー・アントワネット・スタイル",
+     "who": null,
+     "place": null,
+     "booking": "受付終了",
+     "price": null,
+     "url": "https://yokohama.art.museum/event/20261108_shiato_ourmas/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11",
+   "geo": [
+    35.4571,
+    139.63053
+   ]
+  },
+  {
+   "id": "mariko-mori",
+   "t": "森万里子：燦燦",
+   "v": "森美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-31",
+   "e": "2027-03-28",
+   "g": "con",
+   "one": "国内24年ぶりの大規模個展。《Wave UFO》など40点。",
+   "url": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html",
+   "official": true,
+   "price": "一般 平日2,800円／土日祝3,000円（オンラインは200円引き）",
+   "booking": "日時指定予約制（空きがあれば当日窓口購入可）",
+   "scale": "museum",
+   "events": [
+    {
+     "d": "2026-12-21",
+     "time": "18:30–20:00",
+     "kind": "トーク",
+     "title": "量子的な共生のプロトコル―森万里子、縄文の宇宙観から人新世の祈りへ",
+     "who": "飯田高誉",
+     "place": "森美術館ラーニング・ルーム",
+     "booking": "事前申込制（先着70名、12/17まで）",
+     "price": "無料（当日有効の展覧会チケットが必要）",
+     "url": "https://www.mori.art.museum/jp/learning/9068/index.html"
+    },
+    {
+     "d": "2026-12-22",
+     "time": "19:00–21:00",
+     "kind": "パフォーマンス",
+     "title": "森万里子「冬至パフォーマンス」",
+     "who": "森万里子、池田謙、音無史哉、森万奈",
+     "place": "森美術館展示室内",
+     "booking": "事前予約制（11/12 10:00受付開始、先着30名）",
+     "price": "3,000円（展覧会チケット込み）",
+     "url": "https://www.mori.art.museum/jp/learning/9108/index.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11",
+   "geo": [
+    35.66043,
+    139.72926
+   ]
+  },
+  {
+   "id": "shojo-manga",
+   "t": "少女漫画・インフィニティ 萩尾望都×山岸凉子×大和和紀",
+   "v": "国立新美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-28",
+   "e": "2027-02-08",
+   "g": "pop",
+   "one": "少女漫画の3巨匠の原画を一堂に。",
+   "url": "https://www.shojomanga.jp",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.66534,
+    139.72644
+   ]
+  },
+  {
+   "id": "haikyu",
+   "t": "古舘春一 ハイキュー!!展 挑戦者たち",
+   "v": "森アーツセンターギャラリー",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-30",
+   "e": "2027-01-11",
+   "g": "pop",
+   "one": "『ハイキュー!!』の原画展。会期中無休。",
+   "url": "https://eplus.jp/haikyu-challengers-ex/",
+   "official": false,
+   "price": null,
+   "booking": "日時指定制（イープラス販売、会場販売なし）",
+   "scale": "space",
+   "geo": [
+    35.66029,
+    139.72958
+   ]
+  },
+  {
+   "id": "ikimono-sei",
+   "t": "特別展「生きものたちの性」",
+   "v": "国立科学博物館",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-10-31",
+   "e": "2027-02-21",
+   "g": "tec",
+   "one": "性のしくみと進化、生物多様性を標本でひもとく科学展。",
+   "url": "https://www.ikimono-sei.jp/",
+   "official": true,
+   "price": "一般・大学生2,300円（前売2,100円）",
+   "booking": "土日祝は日時指定予約（無料）推奨",
+   "scale": "museum",
+   "geo": [
+    35.7159,
+    139.77669
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": "https://www.kanagawa-kankou.or.jp/event/7831",
+   "id": "tomino",
+   "t": "富野由悠季の原点―小田原から宇宙へ―",
+   "v": "小田原城天守閣・小田原三の丸ホール",
+   "city": "小田原市",
+   "pref": "神奈川",
+   "s": "2026-11-23",
+   "e": "2026-12-06",
+   "g": "pop",
+   "one": "『機動戦士ガンダム』の富野監督の原点を故郷・小田原でたどる。天守閣では11/6から先行展示。",
+   "scale": "space",
+   "geo": [
+    35.25105,
+    139.15342
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": "https://prtimes.jp/main/html/rd/p/000000001.000183886.html",
+   "id": "katayama",
+   "t": "森アートアワード2026 グランプリ受賞記念展：片山真理",
+   "v": "森美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-31",
+   "e": null,
+   "g": "con",
+   "one": "森アートアワード2026グランプリ受賞記念の展示。閉幕日は要確認。",
+   "scale": "museum",
+   "geo": [
+    35.66043,
+    139.72926
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": "https://www.tokyoartbeat.com/articles/-/top-museum-2026-schedule-news-202602",
+   "id": "top-shinshin",
+   "t": "日本の新進作家 vol.23「ふたたび くみたてる」",
+   "v": "東京都写真美術館",
+   "city": "目黒区",
+   "pref": "東京",
+   "s": "2026-09-30",
+   "e": "2027-01-17",
+   "g": "pho",
+   "one": "市田小百合、苅部太郎、野村在、橋本麦、藤倉麻子の5名。",
+   "scale": "museum",
+   "geo": [
+    35.64154,
+    139.7134
+   ]
+  },
+  {
+   "official": true,
+   "price": null,
+   "booking": null,
+   "url": "https://yokohama.art.museum/wp-content/uploads/2025/09/20250926_pressrelease_2026schedule.pdf",
+   "id": "yokohama-col",
+   "t": "コレクション展「海をこえてゆく彼女」",
+   "v": "横浜美術館",
+   "city": "横浜市西区",
+   "pref": "神奈川",
+   "s": "2026-08-01",
+   "e": "2027-02-11",
+   "g": "con",
+   "one": "所蔵作品によるコレクション展。11/24〜12/10は閉室。",
+   "scale": "museum",
+   "events": [
+    {
+     "d": "2026-11-21",
+     "time": null,
+     "kind": "講演会",
+     "title": "クロチェッティの魅力、彫刻家の視点［コレクション関連レクチャー］",
+     "who": null,
+     "place": null,
+     "booking": "受付終了",
+     "price": null,
+     "url": "https://yokohama.art.museum/event/20260819_shiato_crocetti/"
+    },
+    {
+     "d": "2027-01-15",
+     "time": null,
+     "kind": "ギャラリートーク",
+     "title": "コレクション展ギャラリートーク（1月）",
+     "who": null,
+     "place": null,
+     "booking": "当日参加",
+     "price": "無料",
+     "url": "https://yokohama.art.museum/event/yma_collection_gt202701/"
+    },
+    {
+     "d": "2027-02-06",
+     "time": null,
+     "kind": "ギャラリートーク",
+     "title": "コレクション展ギャラリートーク（手話通訳付き）",
+     "who": null,
+     "place": null,
+     "booking": "当日参加",
+     "price": "無料",
+     "url": "https://yokohama.art.museum/event/yma_collection_gt202702hs/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11",
+   "geo": [
+    35.4571,
+    139.63053
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": null,
+   "id": "black-lagoon",
+   "t": "BLACK LAGOON原画展",
+   "v": "サンシャイン60展望台",
+   "city": "豊島区",
+   "pref": "東京",
+   "s": "2026-11-13",
+   "e": "2026-12-06",
+   "g": "pop",
+   "one": "漫画原稿やカラー複製原画、作中の銃器プロップを展示。",
+   "scale": "space",
+   "geo": [
+    35.72944,
+    139.71807
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": null,
+   "id": "hyonojoheki",
+   "t": "原作コミックス展示会「氷の城壁展」東京会場",
+   "v": "有楽町マルイ 8F イベントスペース",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-11-28",
+   "e": "2026-12-13",
+   "g": "pop",
+   "one": "原作コミックスの展示会。",
+   "scale": "space",
+   "geo": [
+    35.67417,
+    139.76382
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": "https://www.toy-people.com/?p=113768",
+   "id": "yugioh",
+   "t": "高橋和希原画展 YU-GI-OH! ART WORKS",
+   "v": "CREATIVE MUSEUM TOKYO",
+   "city": "中央区",
+   "pref": "東京",
+   "s": "2026-12-12",
+   "e": "2027-02-21",
+   "g": "pop",
+   "one": "『遊☆戯☆王』連載30周年。高橋和希初の大型原画展。",
+   "scale": "space",
+   "geo": [
+    35.67817,
+    139.77165
+   ]
+  },
+  {
+   "official": false,
+   "price": "一般 平日2,200円／土日祝2,500円",
+   "booking": null,
+   "url": "https://bijutsutecho.com/magazine/news/exhibition/32584",
+   "id": "yoshirotten",
+   "t": "ヨシロットン展 彼方との交信/BEYOND EARTH",
+   "v": "TOKYO NODE GALLERY A/B/C（虎ノ門ヒルズ ステーションタワー45階）",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-30",
+   "e": "2027-01-11",
+   "g": "tec",
+   "one": "YOSHIROTTEN過去最大の個展。JAXA企画協力、地上200mのギャラリーを宇宙船に見立てた大型インスタレーション。",
+   "scale": "space",
+   "geo": [
+    35.66754,
+    139.74691
+   ]
+  },
+  {
+   "official": false,
+   "price": "前売2,600円／当日2,800円",
+   "booking": null,
+   "url": "https://www.tokyoartbeat.com/articles/-/kojima-productions-beyond-the-strand-news-202608",
+   "id": "kojima",
+   "t": "KOJIMA PRODUCTIONS 10th ANNIVERSARY EXHIBITION BEYOND THE STRAND：創造と挑戦の航路",
+   "v": "麻布台ヒルズギャラリー",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-31",
+   "e": "2026-12-20",
+   "g": "pop",
+   "one": "小島秀夫率いるコジマプロダクション設立10周年。初公開の制作資料で10年をたどる。",
+   "scale": "space",
+   "geo": [
+    35.66084,
+    139.74065
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": "https://www.tokyoartbeat.com/articles/-/tim-burtons-labyrinth-news-202607",
+   "id": "tim-burton",
+   "t": "ティム・バートンのラビリンス",
+   "v": "CREVIA BASE Tokyo",
+   "city": "江東区",
+   "pref": "東京",
+   "s": "2026-11-25",
+   "e": "2027-02-21",
+   "g": "oth",
+   "one": "ティム・バートンの創作世界を体感する没入型展覧会。",
+   "scale": "space",
+   "geo": [
+    35.65527,
+    139.79278
+   ]
+  },
+  {
+   "official": true,
+   "price": "無料",
+   "booking": null,
+   "url": "https://www.dnpfcp.jp/CGI/gallery/schedule/detail.cgi?l=1&t=1&seq=00000862",
+   "v": "ギンザ・グラフィック・ギャラリー（ggg）",
+   "city": "中央区",
+   "pref": "東京",
+   "g": "des",
+   "id": "ggg-417",
+   "t": "第417回企画展 日本のアートディレクション展 2026",
+   "s": "2026-10-30",
+   "e": "2026-11-30",
+   "one": "広告・パッケージなど、この1年の日本のアートディレクションを一覧する。",
+   "events": [],
+   "eventsCheckedAt": "2026-11-10",
+   "scale": "gallery",
+   "geo": [
+    35.66968,
+    139.76256
+   ]
+  },
+  {
+   "official": true,
+   "price": null,
+   "booking": null,
+   "url": "https://www.dnpfcp.jp/gallery/ggg/",
+   "v": "ギンザ・グラフィック・ギャラリー（ggg）",
+   "city": "中央区",
+   "pref": "東京",
+   "g": "des",
+   "id": "ggg-418",
+   "t": "第418回企画展 フランチェスカ・ゲルマンディ と ジャンルイジ・トッカフォンド",
+   "s": "2026-12-09",
+   "e": "2027-03-25",
+   "one": "イタリアのイラストレーターとアニメーション作家の二人展。",
+   "scale": "gallery",
+   "geo": [
+    35.66968,
+    139.76256
+   ]
+  },
+  {
+   "official": false,
+   "price": "大人1,500円／学生・高校生・70歳以上1,300円／小中学生500円",
+   "booking": null,
+   "url": "https://www.tokyoartbeat.com/articles/-/namjunepaik-jugemu-news-202606",
+   "id": "paik",
+   "t": "没後20年 ナムジュン・パイク｜じゅげむ展",
+   "v": "ワタリウム美術館",
+   "city": "渋谷区",
+   "pref": "東京",
+   "s": "2026-07-19",
+   "e": "2026-11-23",
+   "g": "tec",
+   "one": "ビデオ・アートの先駆者の没後20年展。2〜4階の全フロアを「森・縁・心」の3空間で構成。",
+   "scale": "museum",
+   "geo": [
+    35.67074,
+    139.71334
+   ]
+  },
+  {
+   "official": false,
+   "price": "大人 平日11,900円／土日祝12,500円（報道による）",
+   "booking": null,
+   "url": "https://www.tokyoartbeat.com/articles/-/yoichi-ochiai-null2n-news-202610",
+   "id": "null2n",
+   "t": "落合陽一 null²ⁿ（ヌルヌルネクサス）",
+   "v": "横浜ランドマークタワー ランドマークプラザ5階",
+   "city": "横浜市西区",
+   "pref": "神奈川",
+   "s": "2026-10-14",
+   "e": null,
+   "permanent": true,
+   "g": "tec",
+   "one": "大阪・関西万博のnull²を継ぐ常設ミュージアムシアター。2つのLEDシアターを含む約60分の没入体験。",
+   "scale": "space",
+   "geo": [
+    35.4546,
+    139.63145
+   ]
+  },
+  {
+   "official": true,
+   "price": null,
+   "booking": null,
+   "url": "https://www.teamlab.art/jp/e/borderless-azabudai/",
+   "id": "teamlab-borderless",
+   "t": "森ビル デジタルアート ミュージアム：エプソン チームラボボーダレス",
+   "v": "麻布台ヒルズ",
+   "city": "港区",
+   "pref": "東京",
+   "s": null,
+   "e": null,
+   "permanent": true,
+   "g": "tec",
+   "one": "境界のないアート群の常設ミュージアム。光の彫刻「Light Sculpture - Flow」の新シリーズも公開中。",
+   "scale": "space",
+   "geo": [
+    35.66147,
+    139.74083
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": "https://prtimes.jp/main/html/rd/p/000001312.000098811.html",
+   "id": "icc-winter",
+   "t": "ICC 企画展（仮称・タイトル未発表）",
+   "v": "NTTインターコミュニケーション・センター［ICC］",
+   "city": "新宿区",
+   "pref": "東京",
+   "s": "2026-12-05",
+   "e": "2027-03-07",
+   "g": "tec",
+   "one": "東京オペラシティタワー4階のメディアアート拠点の冬の企画展。内容は2026年4月時点で未発表。",
+   "scale": "museum",
+   "geo": [
+    35.68289,
+    139.68689
+   ]
+  },
+  {
+   "official": false,
+   "price": null,
+   "booking": null,
+   "url": null,
+   "id": "mot-col",
+   "t": "MOTコレクション いつかの光を今みている",
+   "v": "東京都現代美術館",
+   "city": "江東区",
+   "pref": "東京",
+   "s": "2026-09-19",
+   "e": "2027-01-06",
+   "g": "con",
+   "one": "光をテーマにした所蔵作品展。インスタレーションも。",
+   "scale": "museum",
+   "geo": [
+    35.67978,
+    139.80879
+   ]
+  },
+  {
+   "id": "teamlab-planets",
+   "t": "チームラボプラネッツ TOKYO DMM.com",
+   "v": "teamLab Planets TOKYO（豊洲）",
+   "city": "江東区",
+   "pref": "東京",
+   "s": null,
+   "e": "2027-12-31",
+   "g": "tec",
+   "one": "水に入り、身体ごと作品に没入する。新作《波の塊》を公開中",
+   "url": "https://www.teamlab.art/jp/e/planets/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "space",
+   "geo": [
+    35.64938,
+    139.78973
+   ]
+  },
+  {
+   "id": "teamlab-hamarikyu",
+   "t": "チームラボ 浜離宮",
+   "v": "浜離宮恩賜庭園",
+   "city": "中央区",
+   "pref": "東京",
+   "s": "2026-11-25",
+   "e": "2026-12-24",
+   "g": "tec",
+   "one": "夜の大名庭園を光のアートで変える野外展示（18:00〜21:15）",
+   "url": "https://www.teamlab.art/jp/e/hamarikyu/",
+   "official": true,
+   "price": "大人2,500円／中高生1,500円／小学生900円",
+   "booking": "日時指定予約制（現地販売なし）",
+   "scale": "space",
+   "geo": [
+    35.66018,
+    139.76382
+   ]
+  },
+  {
+   "official": true,
+   "booking": "不要",
+   "id": "mizuma-okuda",
+   "t": "奥田雄太「Colour of Days」",
+   "v": "ミヅマアートギャラリー",
+   "city": "新宿区",
+   "pref": "東京",
+   "s": "2026-11-18",
+   "e": "2026-12-19",
+   "g": "con",
+   "one": "市ヶ谷の老舗現代美術ギャラリー。色彩豊かな絵画の個展",
+   "url": "https://mizuma-art.co.jp/",
+   "price": "無料",
+   "scale": "gallery",
+   "geo": [
+    35.69442,
+    139.73794
+   ]
+  },
+  {
+   "official": true,
+   "booking": "不要",
+   "id": "scai-tsuchiya",
+   "t": "土屋信子「ハートのA」",
+   "v": "SCAI THE BATHHOUSE",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-11-04",
+   "e": "2026-12-19",
+   "g": "con",
+   "one": "谷中の銭湯跡ギャラリー。立体とインスタレーションの個展",
+   "url": "https://www.scaithebathhouse.com/ja/exhibitions/2026/11/nobuko_tsuchiyaace_of_hearts/",
+   "price": "無料",
+   "scale": "gallery",
+   "geo": [
+    35.72175,
+    139.7705
+   ]
+  },
+  {
+   "official": true,
+   "booking": "不要",
+   "id": "scai-mori-unity",
+   "t": "森万里子「Unity」",
+   "v": "SCAI PIRAMIDE",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-11-05",
+   "e": "2026-12-19",
+   "g": "con",
+   "one": "光をテーマにした円盤状のフォトペインティング連作。森美術館の個展と併せて",
+   "url": "https://www.scaithebathhouse.com/ja/exhibitions/2026/11/mariko_mori_unity/",
+   "price": "無料",
+   "scale": "gallery",
+   "geo": [
+    35.6603,
+    139.73082
+   ]
+  },
+  {
+   "official": true,
+   "booking": "不要",
+   "id": "pace-kwade",
+   "t": "アリシア・クワデ「La Pêche miraculeuse」",
+   "v": "Pace Gallery 東京（麻布台ヒルズ ガーデンプラザA）",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-29",
+   "e": "2026-12-25",
+   "g": "con",
+   "one": "物と空間、時間や知覚の不確かさを探る彫刻とインスタレーション",
+   "url": "https://www.pacegallery.com/exhibitions/alicja-kwade-la-peche-miraculeuse/",
+   "price": "無料",
+   "scale": "gallery",
+   "geo": [
+    35.66245,
+    139.74374
+   ]
+  },
+  {
+   "official": true,
+   "booking": "不要",
+   "id": "kanechika-tatehana",
+   "t": "舘鼻則孝「Heel-less Shoes」",
+   "v": "KOSAKU KANECHIKA 京橋",
+   "city": "中央区",
+   "pref": "東京",
+   "s": "2026-10-30",
+   "e": "2026-12-12",
+   "g": "des",
+   "one": "かかとのない靴を起点に日本文化の再構築を探る。30点以上",
+   "url": "https://kosakukanechika.com/exhibition/heel_less_shoes/",
+   "price": "無料",
+   "scale": "gallery",
+   "geo": [
+    35.67827,
+    139.77169
+   ]
+  },
+  {
+   "official": true,
+   "booking": "不要",
+   "id": "nukaga-glacier",
+   "t": "石塚元太良「Glacier Diary」",
+   "v": "KOTARO NUKAGA 天王洲（TERRADA Art Complex II）",
+   "city": "品川区",
+   "pref": "東京",
+   "s": "2026-10-31",
+   "e": "2026-12-19",
+   "g": "pho",
+   "one": "氷河を撮り続けた「氷河日記」シリーズの到達点。パノラマ作品も",
+   "url": "https://kotaronukaga.com/exhibition/glacier-diary/",
+   "price": "無料",
+   "scale": "gallery",
+   "geo": [
+    35.62067,
+    139.74561
+   ]
+  },
+  {
+   "official": true,
+   "booking": "不要",
+   "id": "fujifilm-sahara",
+   "t": "野町和嘉写真展「サハラ SAHARA THE ETERNAL」",
+   "v": "フジフイルム スクエア",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-30",
+   "e": "2026-11-26",
+   "g": "pho",
+   "one": "半世紀近く撮り続けたサハラ砂漠の63点。11/21〜23は休館",
+   "url": "https://fujifilmsquare.jp/exhibition/261030_01.html",
+   "price": "無料",
+   "scale": "gallery",
+   "geo": [
+    35.66584,
+    139.73092
+   ]
+  },
+  {
+   "id": "a4-shen",
+   "t": "沈昭良写真展 浮航―いまだ完結しない島のマジカル",
+   "v": "GALLERY A⁴（竹中工務店東京本店1F）",
+   "city": "江東区",
+   "pref": "東京",
+   "s": "2026-11-20",
+   "e": "2027-03-01",
+   "g": "pho",
+   "one": "台湾の移動式ステージカーや民衆文化を捉えた160点以上",
+   "url": "https://www.timeout.jp/tokyo/ja/art/free-art-event-nov-2026",
+   "official": false,
+   "price": "無料",
+   "booking": null,
+   "scale": "gallery",
+   "geo": [
+    35.66214,
+    139.8222
+   ]
+  },
+  {
+   "id": "kenpou-2026",
+   "t": "日本国憲法展2026",
+   "v": "無人島プロダクション ほか（2会場）",
+   "city": "江東区",
+   "pref": "東京",
+   "s": null,
+   "e": "2026-11-29",
+   "g": "con",
+   "one": "「シェルター」と「スウェットショップ」から社会の構造を問う企画展",
+   "url": "https://www.tac-kenpou-art.jp/",
+   "official": true,
+   "price": "無料",
+   "booking": null,
+   "scale": "gallery"
+  },
+  {
+   "id": "shiseido-tamayama",
+   "t": "今はいつのことか―小村雪岱と玉山拓郎",
+   "v": "資生堂ギャラリー",
+   "city": "中央区",
+   "pref": "東京",
+   "s": "2026-11-03",
+   "e": "2027-02-28",
+   "g": "con",
+   "one": "大正の美術家・小村雪岱に着想した玉山拓郎の新作インスタレーション",
+   "url": "https://www.tokyoartbeat.com/articles/-/0yen-museum-gallery-news-202610",
+   "official": false,
+   "price": "無料",
+   "booking": null,
+   "scale": "gallery",
+   "geo": [
+    35.66858,
+    139.7619
+   ]
+  },
+  {
+   "id": "what-utau",
+   "t": "書籍出版記念「謳う建築」",
+   "v": "WHAT MUSEUM",
+   "city": "品川区",
+   "pref": "東京",
+   "s": "2026-10-03",
+   "e": "2027-01-31",
+   "g": "des",
+   "one": "天王洲・寺田倉庫の現代美術と建築の美術館。建築表現の展示",
+   "url": "https://what.warehouseofart.org/exhibitions/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "gallery",
+   "geo": [
+    35.62068,
+    139.74856
+   ]
+  },
+  {
+   "id": "what-kenchiku",
+   "t": "建築倉庫",
+   "v": "WHAT MUSEUM",
+   "city": "品川区",
+   "pref": "東京",
+   "s": "2026-10-03",
+   "e": "2026-12-20",
+   "g": "des",
+   "one": "建築家の模型を保管・公開する展示。設計の思考の跡をたどれる",
+   "url": "https://what.warehouseofart.org/exhibitions/",
+   "official": true,
+   "price": "一般900円",
+   "booking": "日時指定チケットあり（予約必須かは要確認）",
+   "scale": "gallery",
+   "geo": [
+    35.62068,
+    139.74856
+   ]
+  },
+  {
+   "id": "yayoi-ishihara",
+   "t": "虚構世界をリアルに描いた 石原豪人展 around the 1970sの妄想画、大集合",
+   "v": "弥生美術館",
+   "city": "文京区",
+   "pref": "東京",
+   "s": "2026-10-03",
+   "e": "2026-12-20",
+   "g": "ill",
+   "one": "昭和の雑誌や少年誌を彩った挿絵画家・石原豪人の妄想画を一堂に",
+   "url": "https://www.yayoi-yumeji-museum.jp/",
+   "official": true,
+   "price": "一般1,200円（竹久夢二美術館と共通・現金のみ）",
+   "booking": null,
+   "scale": "gallery",
+   "geo": [
+    35.7149,
+    139.76348
+   ]
+  },
+  {
+   "id": "play-kikuchi",
+   "t": "絵本作家 きくちちき展 いきもの Rhapsody",
+   "v": "PLAY! MUSEUM",
+   "city": "立川市",
+   "pref": "東京",
+   "s": "2026-10-07",
+   "e": "2026-12-13",
+   "g": "ill",
+   "one": "墨と色で躍動する生きものを描く絵本作家の原画と、季節の部屋",
+   "url": "https://play2020.jp/museum/",
+   "official": true,
+   "price": null,
+   "booking": "平日は当日券のみ、土日祝は日付指定券あり",
+   "scale": "museum",
+   "geo": [
+    35.70341,
+    139.41137
+   ]
+  },
+  {
+   "id": "play-koguma",
+   "t": "「こぐまちゃん と しろくまちゃん」展",
+   "v": "PLAY! MUSEUM",
+   "city": "立川市",
+   "pref": "東京",
+   "s": "2026-12-23",
+   "e": "2027-02-23",
+   "g": "ill",
+   "one": "ロングセラー絵本「こぐまちゃん」シリーズの展覧会",
+   "url": "https://play2020.jp/museum/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.70341,
+    139.41137
+   ]
+  },
+  {
+   "id": "itabashi-corraini",
+   "t": "コッライーニの本づくり アートで 自由で ワクワクで",
+   "v": "板橋区立美術館",
+   "city": "板橋区",
+   "pref": "東京",
+   "s": "2026-11-21",
+   "e": "2027-01-11",
+   "g": "ill",
+   "one": "イタリアの出版社コッライーニとムナーリらの絵本づくり。手に取ってめくれる",
+   "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000016/4002027/4002033.html",
+   "official": true,
+   "price": "一般900円／大学生600円／高校生以下無料",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.78423,
+    139.64447
+   ]
+  },
+  {
+   "id": "park-naruhiko",
+   "t": "naruhiko「リラックス・オープン・エンジョイ」",
+   "v": "PARK GALLERY",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-11-19",
+   "e": "2026-11-30",
+   "g": "ill",
+   "one": "大阪拠点のイラストレーターの個展。16:00〜20:00のみ開廊",
+   "url": "https://park-tokyo.com/post/827353853857021952/naruhiko",
+   "official": true,
+   "price": "無料",
+   "booking": null,
+   "scale": "gallery",
+   "geo": [
+    35.70155,
+    139.76955
+   ]
+  },
+  {
+   "id": "uo10",
+   "t": "魚豊十周年展 UO10.",
+   "v": "YURAKUCHO MUSEUM",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-12-19",
+   "e": "2027-02-23",
+   "g": "pop",
+   "one": "『チ。』『ひゃくえむ。』の漫画家・魚豊のデビュー10周年展",
+   "url": "https://www.timeout.jp/tokyo/ja/アート/anime-manga-2026-nov-dec",
+   "official": false,
+   "price": null,
+   "booking": null,
+   "scale": "space",
+   "geo": [
+    35.67496,
+    139.7644
+   ]
+  },
+  {
+   "id": "okyo",
+   "t": "リニューアル記念特別展「円山応挙 リアルの先へ 空間革命」",
+   "v": "江戸東京博物館",
+   "city": "墨田区",
+   "pref": "東京",
+   "s": "2026-11-28",
+   "e": "2027-01-24",
+   "g": "jpn",
+   "one": "初期の眼鏡絵から大乗寺障壁画の空間再現まで120点超。",
+   "url": "https://bijutsutecho.com/magazine/news/exhibition/33131",
+   "official": false,
+   "price": "一般2,100円（前売1,900円）",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.69645,
+    139.79608
+   ]
+  },
+  {
+   "id": "sannomaru-shitaku",
+   "t": "皇室の至宝―美いづるところ",
+   "v": "皇居三の丸尚蔵館",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-11-03",
+   "e": "2027-01-24",
+   "g": "jpn",
+   "one": "グランドオープン記念。皇室の名品190件を3期で、正倉院宝物も。",
+   "url": "https://shozokan.nich.go.jp/feature/grand-opening/beauty/",
+   "official": true,
+   "price": "一般2,500円（大学生以下・23歳未満は無料）",
+   "booking": "事前予約制",
+   "scale": "museum",
+   "geo": [
+    35.68652,
+    139.75891
+   ]
+  },
+  {
+   "id": "tobikan-100",
+   "t": "東京都美術館開館100周年記念 はじまりをひらく 東京都美術館の100年",
+   "v": "東京都美術館 ギャラリーB",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-11-19",
+   "e": "2027-01-11",
+   "g": "oth",
+   "one": "日本初の公立美術館の100年をたどる無料のアーカイブ展。",
+   "url": "https://www.tobikan.jp/exhibition/2026_archives.html",
+   "official": true,
+   "price": "無料",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.71711,
+    139.77315
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "pola-monet",
+   "t": "あたらしい目―モネと21世紀のアート",
+   "v": "ポーラ美術館",
+   "city": "箱根町",
+   "pref": "神奈川",
+   "s": "2026-06-17",
+   "e": "2027-04-07",
+   "g": "wst",
+   "one": "館蔵のモネ油彩19点を全公開し、国内外18組の現代作家と並べる。",
+   "url": "https://www.polamuseum.or.jp/exhibition/",
+   "geo": [
+    35.25666,
+    139.0212
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "hayama-komai",
+   "t": "銅版画家・駒井哲郎",
+   "v": "神奈川県立近代美術館 葉山",
+   "city": "葉山町",
+   "pref": "神奈川",
+   "s": "2026-09-12",
+   "e": "2026-11-15",
+   "g": "jpn",
+   "one": "戦後日本の銅版画を切り拓いた駒井哲郎の企画展。",
+   "url": "https://www.moma.pref.kanagawa.jp/exhibition/",
+   "geo": [
+    35.26507,
+    139.5767
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "hayama-matsumoto",
+   "t": "松本陽子 宵の明星を見た日",
+   "v": "神奈川県立近代美術館 葉山",
+   "city": "葉山町",
+   "pref": "神奈川",
+   "s": "2026-11-28",
+   "e": "2027-02-28",
+   "g": "con",
+   "one": "ピンクや緑の抽象絵画で知られる松本陽子の企画展。",
+   "url": "https://www.moma.pref.kanagawa.jp/exhibition/",
+   "geo": [
+    35.26507,
+    139.5767
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "kamakura-poland",
+   "t": "ポーランド・ポスター２（銅版画家渡辺千尋旧蔵品から）",
+   "v": "神奈川県立近代美術館 鎌倉別館",
+   "city": "鎌倉市",
+   "pref": "神奈川",
+   "s": "2026-10-17",
+   "e": "2027-01-31",
+   "g": "des",
+   "one": "渡辺千尋旧蔵のポーランド・ポスターを紹介するコレクション展。",
+   "url": "https://www.moma.pref.kanagawa.jp/exhibition/",
+   "geo": [
+    35.32751,
+    139.55575
+   ]
+  },
+  {
+   "price": "一般1,500円",
+   "booking": "不要（日時指定なし）",
+   "official": true,
+   "scale": "museum",
+   "id": "yokosuka-migishi",
+   "t": "生誕120年 三岸節子展",
+   "v": "横須賀美術館",
+   "city": "横須賀市",
+   "pref": "神奈川",
+   "s": "2026-11-14",
+   "e": "2026-12-20",
+   "g": "jpn",
+   "one": "代表作や初出品を含む約70点で三岸節子の画業をたどる。",
+   "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+   "eventsCheckedAt": "2026-11-11",
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "13:30",
+     "kind": "ギャラリートーク",
+     "title": "学芸員によるギャラリートーク",
+     "who": null,
+     "place": null,
+     "booking": "当日先着",
+     "price": null,
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+    },
+    {
+     "d": "2026-11-15",
+     "time": "14:00",
+     "kind": "講演会",
+     "title": "日々の仕事としての絵画―三岸節子の芸術",
+     "who": "展覧会監修者",
+     "place": null,
+     "booking": "事前申込制",
+     "price": null,
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+    },
+    {
+     "d": "2026-11-22",
+     "time": "14:00",
+     "kind": "トーク",
+     "title": "学芸員クロストーク「三岸節子の魅力」",
+     "who": null,
+     "place": null,
+     "booking": "事前申込制",
+     "price": null,
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+    },
+    {
+     "d": "2026-11-28",
+     "time": "13:30",
+     "kind": "ギャラリートーク",
+     "title": "学芸員によるギャラリートーク",
+     "who": null,
+     "place": null,
+     "booking": "当日先着",
+     "price": null,
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "11:00／13:30",
+     "kind": "ワークショップ",
+     "title": "節子のふるさとの布でつくるコサージュ",
+     "who": null,
+     "place": null,
+     "booking": "事前申込制（11/18締切）",
+     "price": null,
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+    },
+    {
+     "d": "2026-12-12",
+     "time": "13:30",
+     "kind": "ギャラリートーク",
+     "title": "学芸員によるギャラリートーク",
+     "who": null,
+     "place": null,
+     "booking": "当日先着",
+     "price": null,
+     "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+    }
+   ],
+   "geo": [
+    35.25967,
+    139.73801
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "hiratsuka-kudo",
+   "t": "生誕110年 工藤甲人展 北の大地といのちの詩",
+   "v": "平塚市美術館",
+   "city": "平塚市",
+   "pref": "神奈川",
+   "s": "2026-09-19",
+   "e": "2026-11-23",
+   "g": "jpn",
+   "one": "幻想的な日本画で知られる工藤甲人の生誕110年展。",
+   "url": "https://www.city.hiratsuka.kanagawa.jp/art-muse/",
+   "geo": [
+    35.33807,
+    139.34789
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "hakone-takahashi",
+   "t": "髙橋匡太「atmos」",
+   "v": "彫刻の森美術館",
+   "city": "箱根町",
+   "pref": "神奈川",
+   "s": "2026-11-28",
+   "e": "2027-01-11",
+   "g": "tec",
+   "one": "光のアーティスト髙橋匡太による、彫刻の森美術館でのプロジェクト。",
+   "url": "https://www.hakone-oam.or.jp/",
+   "geo": [
+    35.24428,
+    139.05208
+   ]
+  },
+  {
+   "price": "一般1,000円",
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "ichihara-kawaguchi",
+   "t": "河口龍夫 関係―無関係 湖畔にて",
+   "v": "市原湖畔美術館",
+   "city": "市原市",
+   "pref": "千葉",
+   "s": "2026-10-17",
+   "e": "2026-12-20",
+   "g": "con",
+   "one": "美術館の建築と湖畔の環境に触発された新作が中心。",
+   "url": "https://lsm-ichihara.jp/exhibition/tatsuokawaguchi/",
+   "geo": [
+    35.3495,
+    140.16081
+   ]
+  },
+  {
+   "price": "一般1,400円",
+   "booking": "不要（ワークショップのみ事前申込）",
+   "official": true,
+   "scale": "museum",
+   "id": "momas-uchima",
+   "t": "内間安瑆・俊子展 色を織り、記憶を紡ぐ",
+   "v": "埼玉県立近代美術館",
+   "city": "さいたま市",
+   "pref": "埼玉",
+   "s": "2026-10-10",
+   "e": "2027-01-17",
+   "g": "jpn",
+   "one": "木版画の内間安瑆とコラージュの内間俊子、夫妻の創作を紹介。",
+   "url": "https://pref.spec.ed.jp/momas/2026uchima",
+   "eventsCheckedAt": "2026-11-11",
+   "events": [
+    {
+     "d": "2026-11-23",
+     "time": "15:00–16:00",
+     "kind": "スライドトーク",
+     "title": "担当学芸員によるスライドレクチャー",
+     "who": null,
+     "place": "2階講堂",
+     "booking": "申込不要（先着）",
+     "price": "無料",
+     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "13:00–17:00",
+     "kind": "ワークショップ",
+     "title": "内間安瑆・俊子に学ぶ多版多色の木版画",
+     "who": "関優花",
+     "place": "3階創作室",
+     "booking": "受付終了（11/13締切）",
+     "price": "600円",
+     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+    },
+    {
+     "d": "2026-12-13",
+     "time": "15:00",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク（手話通訳付き）",
+     "who": null,
+     "place": "2階企画展示室",
+     "booking": "申込不要",
+     "price": "無料",
+     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+    },
+    {
+     "d": "2026-12-20",
+     "time": "15:00–16:30",
+     "kind": "講演会",
+     "title": "レクチャー「内間俊子とその時代」",
+     "who": null,
+     "place": "2階講堂",
+     "booking": "申込不要（先着）",
+     "price": "無料",
+     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+    },
+    {
+     "d": "2027-01-09",
+     "time": "14:00",
+     "kind": "講演会",
+     "title": "講演会",
+     "who": "岡﨑乾二郎",
+     "place": "2階講堂",
+     "booking": "申込不要（先着）",
+     "price": "無料",
+     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+    }
+   ],
+   "geo": [
+    35.8696,
+    139.64302
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": false,
+   "scale": "museum",
+   "id": "kawagoe-hisui",
+   "t": "生誕150年 杉浦非水と『非水百花譜』",
+   "v": "川越市立美術館",
+   "city": "川越市",
+   "pref": "埼玉",
+   "s": "2026-10-17",
+   "e": "2026-12-13",
+   "g": "des",
+   "one": "デザインの先駆者・非水の『非水百花譜』と新発見の原画を一挙展示。",
+   "url": "https://www.tokyoartbeat.com/events/-/Hisui-Sugiura-and-Hisui-Hyakka-fu/C705-C877/2026-10-17",
+   "geo": [
+    35.92571,
+    139.49083
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "urawa-echoes",
+   "t": "エコーズ・ビトゥイーン：日本・ドイツ・スイスのアーティストによるブック・アートという実践",
+   "v": "うらわ美術館",
+   "city": "さいたま市",
+   "pref": "埼玉",
+   "s": "2026-11-14",
+   "e": "2027-01-17",
+   "g": "des",
+   "one": "本の形をとる美術「ブック・アート」を3か国の作家で紹介。",
+   "url": "https://www.city.saitama.lg.jp/urawa-art-museum/exhibition/upcoming/p133472.html",
+   "geo": [
+    35.86064,
+    139.65262
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "kadokawa-essay",
+   "t": "わたしをすくう エッセイマンガの処方箋展",
+   "v": "角川武蔵野ミュージアム",
+   "city": "所沢市",
+   "pref": "埼玉",
+   "s": "2026-09-18",
+   "e": "2027-01-11",
+   "g": "pop",
+   "one": "日々をすくうエッセイマンガを集めた企画展。",
+   "url": "https://kadcul.com/event",
+   "geo": [
+    35.79769,
+    139.50787
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "kadokawa-999",
+   "t": "銀河鉄道999 THE GALAXY EXPERIENCE",
+   "v": "角川武蔵野ミュージアム",
+   "city": "所沢市",
+   "pref": "埼玉",
+   "s": "2026-04-25",
+   "e": "2026-11-23",
+   "g": "pop",
+   "one": "『銀河鉄道999』の世界を体感するグランドギャラリーの展示。",
+   "url": "https://kadcul.com/event",
+   "geo": [
+    35.79769,
+    139.50787
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "official": true,
+   "scale": "museum",
+   "id": "skip-thomas",
+   "t": "きかんしゃトーマスの世界展",
+   "v": "SKIPシティ 彩の国ビジュアルプラザ 映像ミュージアム",
+   "city": "川口市",
+   "pref": "埼玉",
+   "s": "2026-10-06",
+   "e": "2026-12-13",
+   "g": "pop",
+   "one": "映像ミュージアムの企画展。親子向け。",
+   "url": "https://www.skipcity.jp/vm/exhibition/",
+   "geo": [
+    35.8277,
+    139.72103
+   ]
+  },
+  {
+   "id": "chiba-tsukihoshi",
+   "t": "千葉開府900年記念特別展 月と星と―美術がつなぐとき",
+   "v": "千葉市美術館",
+   "city": "千葉市",
+   "pref": "千葉",
+   "s": "2026-09-16",
+   "e": "2026-11-23",
+   "g": "oth",
+   "one": "月と星をテーマに、時代やジャンルを越えて美術をつなぐ特別展。",
+   "url": "https://www.ccma-net.jp/exhibitions/special/26-9-16-11-23/",
+   "official": true,
+   "price": "一般1,500円",
+   "booking": "不要（当日券のみ）",
+   "scale": "museum",
+   "eventsCheckedAt": "2026-11-11",
+   "events": [],
+   "geo": [
+    35.60896,
+    140.12464
+   ]
+  },
+  {
+   "id": "chiba-tamura",
+   "t": "つくりかけラボ22 タムラサトル｜1トンになる",
+   "v": "千葉市美術館",
+   "city": "千葉市",
+   "pref": "千葉",
+   "s": "2026-10-17",
+   "e": "2027-01-31",
+   "g": "con",
+   "one": "千葉市美術館の連続企画「つくりかけラボ」第22回。",
+   "url": "https://www.ccma-net.jp/exhibitions/lab/26-10-17-27-1-31/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.60896,
+    140.12464
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "インターネットミュージアム 2026秋ピックアップ",
+   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall"
+  },
+  {
+   "name": "インターネットミュージアム 上野エリア 2026",
+   "url": "https://www.museum.or.jp/schedule/2026/area_tokyo_ueno"
+  },
+  {
+   "name": "インターネットミュージアム 東京23区西 2026",
+   "url": "https://www.museum.or.jp/schedule/2026/area_tokyo23west"
+  },
+  {
+   "name": "インターネットミュージアム 神奈川・千葉・埼玉 2026",
+   "url": "https://www.museum.or.jp/schedule/2026/area_kanagawa-chiba-saitama"
+  },
+  {
+   "name": "東京都美術館 公式",
+   "url": "https://www.tobikan.jp/exhibition/2026_orsay.html"
+  },
+  {
+   "name": "東京都現代美術館 プレスリリース",
+   "url": "https://www.mot-art-museum.jp/images/pr_Tada-Minami_JP.pdf"
+  },
+  {
+   "name": "Tokyo Art Beat",
+   "url": "https://www.tokyoartbeat.com/articles/-/autumn-night-museum-news-202608"
+  },
+  {
+   "name": "artscape 関東",
+   "url": "https://artscape.jp/exhibitions/?area=kantou"
+  },
+  {
+   "name": "Time Out Tokyo",
+   "url": "https://www.timeout.jp/tokyo/ja/news/mappa-expo-15th-yurakucho-091626"
+  },
+  {
+   "name": "横浜美術館 公式",
+   "url": "https://yokohama.art.museum/exhibition/"
+  },
+  {
+   "name": "森美術館 公式",
+   "url": "https://www.mori.art.museum/jp/exhibitions/"
+  },
+  {
+   "name": "国立西洋美術館 ターナー展 公式",
+   "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html"
+  },
+  {
+   "name": "大徳寺展 公式",
+   "url": "https://daitokuji2026.exhn.jp/"
+  },
+  {
+   "name": "少女漫画・インフィニティ 公式",
+   "url": "https://www.shojomanga.jp"
+  },
+  {
+   "name": "生きものたちの性 公式",
+   "url": "https://www.ikimono-sei.jp/"
+  },
+  {
+   "name": "Time Out Tokyo アニメ・漫画展 11-12月",
+   "url": "https://www.timeout.jp/tokyo/ja/アート/anime-manga-2026-nov-dec"
+  },
+  {
+   "name": "東京都写真美術館 デュエット展 プレスリリース",
+   "url": "https://topmuseum.jp/wp-content/uploads/2026/08/Duet_Asian_Contemporary_PressRelease-1.pdf"
+  },
+  {
+   "name": "神奈川県観光協会（富野由悠季展）",
+   "url": "https://www.kanagawa-kankou.or.jp/event/7831"
+  },
+  {
+   "name": "Tokyo Art Beat 東京都写真美術館2026年スケジュール",
+   "url": "https://www.tokyoartbeat.com/articles/-/top-museum-2026-schedule-news-202602"
+  },
+  {
+   "name": "PR TIMES（森アートアワード2026）",
+   "url": "https://prtimes.jp/main/html/rd/p/000000001.000183886.html"
+  },
+  {
+   "name": "TOY PEOPLE（遊☆戯☆王原画展）",
+   "url": "https://www.toy-people.com/?p=113768"
+  },
+  {
+   "name": "美術手帖（ヨシロットン展）",
+   "url": "https://bijutsutecho.com/magazine/news/exhibition/32584"
+  },
+  {
+   "name": "Tokyo Art Beat（コジマプロダクション展）",
+   "url": "https://www.tokyoartbeat.com/articles/-/kojima-productions-beyond-the-strand-news-202608"
+  },
+  {
+   "name": "Tokyo Art Beat（ティム・バートンのラビリンス）",
+   "url": "https://www.tokyoartbeat.com/articles/-/tim-burtons-labyrinth-news-202607"
+  },
+  {
+   "name": "ギンザ・グラフィック・ギャラリー 公式",
+   "url": "https://www.dnpfcp.jp/gallery/ggg/"
+  },
+  {
+   "name": "21_21 DESIGN SIGHT 方丈記に学ぶ 関連プログラム",
+   "url": "https://www.2121designsight.jp/program/hojoki/events.html"
+  },
+  {
+   "name": "Tokyo Art Beat（ナムジュン・パイク展）",
+   "url": "https://www.tokyoartbeat.com/articles/-/namjunepaik-jugemu-news-202606"
+  },
+  {
+   "name": "Tokyo Art Beat（null²ⁿ）",
+   "url": "https://www.tokyoartbeat.com/articles/-/yoichi-ochiai-null2n-news-202610"
+  },
+  {
+   "name": "チームラボボーダレス 公式",
+   "url": "https://www.teamlab.art/jp/e/borderless-azabudai/"
+  },
+  {
+   "name": "PR TIMES（ICC 2026年度スケジュール）",
+   "url": "https://prtimes.jp/main/html/rd/p/000001312.000098811.html"
+  },
+  {
+   "name": "共同通信PRワイヤー（チームラボプラネッツ）",
+   "url": "https://kyodonewsprwire.jp/release/202610168048"
+  },
+  {
+   "name": "Best Calendar（チームラボ 浜離宮）",
+   "url": "https://bestcalendar.jp/press/160916"
+  },
+  {
+   "name": "Time Out東京（11月の無料アート）",
+   "url": "https://www.timeout.jp/tokyo/ja/art/free-art-event-nov-2026"
+  },
+  {
+   "name": "Tokyo Art Beat（0円で楽しめる展覧会）",
+   "url": "https://www.tokyoartbeat.com/articles/-/0yen-museum-gallery-news-202610"
+  },
+  {
+   "name": "WHAT MUSEUM",
+   "url": "https://what.warehouseofart.org/exhibitions/"
+  },
+  {
+   "name": "ミヅマアートギャラリー",
+   "url": "https://mizuma-art.co.jp/"
+  },
+  {
+   "name": "弥生美術館・竹久夢二美術館",
+   "url": "https://www.yayoi-yumeji-museum.jp/"
+  },
+  {
+   "name": "PLAY! MUSEUM",
+   "url": "https://play2020.jp/museum/"
+  },
+  {
+   "name": "板橋区立美術館",
+   "url": "https://www.city.itabashi.tokyo.jp/artmuseum/"
+  },
+  {
+   "name": "皇居三の丸尚蔵館 皇室の至宝 公式",
+   "url": "https://shozokan.nich.go.jp/feature/grand-opening/beauty/"
+  },
+  {
+   "name": "美術手帖（円山応挙展）",
+   "url": "https://bijutsutecho.com/magazine/news/exhibition/33131"
+  },
+  {
+   "name": "東京都美術館 はじまりをひらく",
+   "url": "https://www.tobikan.jp/exhibition/2026_archives.html"
+  },
+  {
+   "name": "森美術館 ラーニング",
+   "url": "https://www.mori.art.museum/jp/learning/index.html"
+  },
+  {
+   "name": "横浜美術館 イベント",
+   "url": "https://yokohama.art.museum/event/"
+  },
+  {
+   "name": "国立新美術館 ルーヴル美術館展 公式",
+   "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/"
+  },
+  {
+   "name": "神奈川県立近代美術館",
+   "url": "https://www.moma.pref.kanagawa.jp/exhibition/"
+  },
+  {
+   "name": "横須賀美術館",
+   "url": "https://yokosuka-moa.jp/"
+  },
+  {
+   "name": "埼玉県立近代美術館",
+   "url": "https://pref.spec.ed.jp/momas/"
+  }
+ ]
+}

@@ -2029,6 +2029,297 @@
     35.72967,
     139.708
    ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "official": true,
+   "id": "ibk-nakanishi",
+   "t": "中西夏之 緩やかにみつめるためにいつまでも佇む、装置",
+   "v": "茨城県近代美術館",
+   "city": "水戸市",
+   "pref": "茨城",
+   "s": "2026-11-12",
+   "e": "2027-01-17",
+   "g": "con",
+   "one": "ハイレッド・センターの一員でもあった画家・中西夏之の絵画と装置的作品。",
+   "url": "https://www.modernart.museum.ibk.ed.jp/",
+   "geo": [
+    36.36786,
+    140.46532
+   ],
+   "events": [
+    {
+     "d": "2026-11-29",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "ワークショップ＆ディスカッション「円環と円盤 絵画を響かせる場について」",
+     "who": null,
+     "place": null,
+     "booking": null,
+     "price": null,
+     "url": "https://www.modernart.museum.ibk.ed.jp/"
+    },
+    {
+     "d": "2026-12-05",
+     "time": null,
+     "kind": "鑑賞講座",
+     "title": "担当学芸員による鑑賞講座",
+     "who": null,
+     "place": null,
+     "booking": null,
+     "price": null,
+     "url": "https://www.modernart.museum.ibk.ed.jp/"
+    },
+    {
+     "d": "2027-01-09",
+     "time": null,
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": null,
+     "place": null,
+     "booking": null,
+     "price": null,
+     "url": "https://www.modernart.museum.ibk.ed.jp/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11"
+  },
+  {
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "official": false,
+   "id": "mito-saikai",
+   "t": "収蔵作品展「再会―17人のアーティストによる伝言」",
+   "v": "水戸芸術館 現代美術ギャラリー",
+   "city": "水戸市",
+   "pref": "茨城",
+   "s": "2026-11-07",
+   "e": "2027-01-31",
+   "g": "con",
+   "one": "水戸芸術館現代美術センターの歩みを17人の収蔵作品でたどる。",
+   "url": "https://www.artagenda.jp/museum/detail/94",
+   "geo": [
+    36.38048,
+    140.46531
+   ]
+  },
+  {
+   "price": "一般950円",
+   "booking": null,
+   "scale": "museum",
+   "official": false,
+   "id": "kasama-headliners",
+   "t": "THE HEADLINERS 2026 キュン発力の時代",
+   "v": "茨城県陶芸美術館",
+   "city": "笠間市",
+   "pref": "茨城",
+   "s": "2026-10-10",
+   "e": "2026-12-13",
+   "g": "jpn",
+   "one": "全国から選ばれた14人の現代陶芸作家による、年に一度の“陶芸フェス”。",
+   "url": "https://prtimes.jp/main/html/rd/p/000000008.000152521.html",
+   "geo": [
+    36.37425,
+    140.262
+   ]
+  },
+  {
+   "price": "一般1,250円",
+   "booking": null,
+   "scale": "museum",
+   "official": true,
+   "id": "tochigi-matsumoto",
+   "t": "松本哲男展",
+   "v": "栃木県立美術館",
+   "city": "宇都宮市",
+   "pref": "栃木",
+   "s": "2026-10-24",
+   "e": "2026-12-27",
+   "g": "jpn",
+   "one": "栃木出身の日本画家・松本哲男の大画面の風景画をたどる回顧展。",
+   "url": "https://www.art.pref.tochigi.lg.jp/schedule/index.html",
+   "geo": [
+    36.56744,
+    139.86607
+   ]
+  },
+  {
+   "price": "一般1,200円",
+   "booking": null,
+   "scale": "museum",
+   "official": false,
+   "id": "umoa-takashima",
+   "t": "没後50年 髙島野十郎展",
+   "v": "宇都宮美術館",
+   "city": "宇都宮市",
+   "pref": "栃木",
+   "s": "2026-09-20",
+   "e": "2026-12-06",
+   "g": "jpn",
+   "one": "蝋燭や月を描き続けた孤高の洋画家・髙島野十郎の回顧展。栃木では約10年ぶり。",
+   "url": "https://www.tokyoartbeat.com/events/-/Takashima-Yajuro-50-Years-after-His-Passing/CD104022/2026-09-20",
+   "geo": [
+    36.60702,
+    139.87393
+   ]
+  },
+  {
+   "price": "一般500円",
+   "booking": null,
+   "scale": "museum",
+   "official": false,
+   "id": "kurumaya-ito",
+   "t": "伊藤誠 遅延幾何学―夢を見るための機械Ⅱ",
+   "v": "小山市立車屋美術館",
+   "city": "小山市",
+   "pref": "栃木",
+   "s": "2026-09-19",
+   "e": "2026-12-06",
+   "g": "con",
+   "one": "彫刻家・伊藤誠の初期から最新作まで50点あまり。「夢を見るための機械」を軸にした個展。",
+   "url": "https://artscape.jp/exhibitions/77065/",
+   "geo": [
+    36.26063,
+    139.76101
+   ],
+   "events": [
+    {
+     "d": "2026-11-28",
+     "time": null,
+     "kind": "ギャラリートーク",
+     "title": "伊藤誠と館長・生井亮司によるギャラリートーク",
+     "who": "伊藤誠、生井亮司",
+     "place": null,
+     "booking": null,
+     "price": "無料（要観覧券）",
+     "url": "https://artscape.jp/exhibitions/77065/"
+    },
+    {
+     "d": "2026-11-28",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "ワークショップ「上を向いて歩こう」",
+     "who": null,
+     "place": null,
+     "booking": "事前申込制",
+     "price": "500円",
+     "url": "https://artscape.jp/exhibitions/77065/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11"
+  },
+  {
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "official": true,
+   "id": "gunma-boudin",
+   "t": "ウジェーヌ・ブーダン展 印象派の父――光を求めて",
+   "v": "群馬県立近代美術館",
+   "city": "高崎市",
+   "pref": "群馬",
+   "s": "2026-11-28",
+   "e": "2027-01-31",
+   "g": "wst",
+   "one": "モネの師で「空の王者」と呼ばれたブーダンの海辺と空の絵画。",
+   "url": "https://mmag.pref.gunma.jp/exhibition",
+   "geo": [
+    36.29879,
+    139.07838
+   ]
+  },
+  {
+   "price": "一般850円",
+   "booking": null,
+   "scale": "museum",
+   "official": false,
+   "id": "tatebayashi-textile",
+   "t": "テキスタイル・アートを楽しむ ―現代の糸、布、繊維の芸術―",
+   "v": "群馬県立館林美術館",
+   "city": "館林市",
+   "pref": "群馬",
+   "s": "2026-10-10",
+   "e": "2026-12-13",
+   "g": "des",
+   "one": "糸・布・繊維を素材にした国内11人の作家の作品。",
+   "url": "https://www.tokyoartbeat.com/events/-/Enjoying-Textile-Art-Contemporary-Art-with-Thread-Fabric-Fiber-/3-CF71507/2026-10-10",
+   "geo": [
+    36.26471,
+    139.50572
+   ],
+   "events": [
+    {
+     "d": "2026-11-21",
+     "time": "14:00–15:30",
+     "kind": "アーティスト・トーク",
+     "title": "出品作家によるアーティスト・トーク",
+     "who": null,
+     "place": null,
+     "booking": null,
+     "price": "要観覧券",
+     "url": "https://artscape.jp/article/81135/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11"
+  },
+  {
+   "price": null,
+   "booking": null,
+   "scale": "space",
+   "official": false,
+   "id": "maebashi-biennale",
+   "t": "前橋国際芸術祭 2026",
+   "v": "アーツ前橋 ほか前橋市中心市街地",
+   "city": "前橋市",
+   "pref": "群馬",
+   "s": "2026-09-19",
+   "e": "2026-12-20",
+   "g": "con",
+   "one": "アーツ前橋を中心に、ホテルや空きビルなど街なか20か所以上を歩いて巡る初開催の芸術祭。",
+   "url": "https://www.tokyoartbeat.com/events/-/Maebashi-Biennale-2026/A95-EBA-95/2026-09-19",
+   "geo": [
+    36.39071,
+    139.07139
+   ]
+  },
+  {
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "official": false,
+   "id": "ota-kondo",
+   "t": "近藤聡乃 夢のタイトル",
+   "v": "太田市美術館・図書館",
+   "city": "太田市",
+   "pref": "群馬",
+   "s": "2026-11-21",
+   "e": "2027-01-24",
+   "g": "ill",
+   "one": "漫画家・アニメーション作家の近藤聡乃の個展。15年ぶりの新作アニメーションと膨大なドローイング。",
+   "url": "https://bijutsutecho.com/magazine/news/exhibition/32882",
+   "geo": [
+    36.29479,
+    139.37847
+   ]
+  },
+  {
+   "price": "一般300円",
+   "booking": null,
+   "scale": "museum",
+   "official": false,
+   "id": "takasaki-figure",
+   "t": "Human Figure 人を見つめ、かたちづくる",
+   "v": "高崎市美術館",
+   "city": "高崎市",
+   "pref": "群馬",
+   "s": "2026-10-10",
+   "e": "2026-12-13",
+   "g": "con",
+   "one": "国吉康雄から現代作家まで、人のかたちを見つめた絵画・彫刻。",
+   "url": "https://www.tokyoartbeat.com/events/-/Human-Figure/955-E7-A40/2026-10-10"
   }
  ],
  "sources": [
@@ -2231,6 +2522,22 @@
   {
    "name": "artscape TOKYO CUSTOM DRUM SET EXHIBITION",
    "url": "https://artscape.jp/exhibitions/82951/"
+  },
+  {
+   "name": "茨城県近代美術館 公式",
+   "url": "https://www.modernart.museum.ibk.ed.jp/"
+  },
+  {
+   "name": "栃木県立美術館 年間スケジュール",
+   "url": "https://www.art.pref.tochigi.lg.jp/schedule/index.html"
+  },
+  {
+   "name": "群馬県立近代美術館 展示",
+   "url": "https://mmag.pref.gunma.jp/exhibition"
+  },
+  {
+   "name": "インターネットミュージアム 北関東 2026",
+   "url": "https://www.museum.or.jp/schedule/2026/area_kitakanto"
   }
  ]
 }

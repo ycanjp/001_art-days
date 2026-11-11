@@ -24,7 +24,7 @@
   --bg:#E9E9EB; --tile:#F6F6F7; --white:#FFFFFF; --ink:#111113; --muted:#6B6B72; --faint:#A3A3AA; --line:#DEDEE2;
   --peach:#F0BE8E; --peach-soft:#FBE4CF; --peach-ink:#9A4F12; --green-soft:#D6F3CF; --green-ink:#2F6B22; --blue-soft:#E1E6FA; --blue-ink:#3346A8;
   --sea:#D9E1EA; --land:#FFFFFF; --land-ctx:#EFEFF1; --border:#C9CDD6;
-  --g-con:#3346A8; --g-pho:#5A6170; --g-jpn:#9A6B1E; --g-wst:#7448B8; --g-des:#3F7D20; --g-tec:#0E7C9A; --g-ill:#B5543A; --g-pop:#C2366B; --g-oth:#8A8F9C;
+  --g-con:#3346A8; --g-pho:#5A6170; --g-jpn:#9A6B1E; --g-wst:#7448B8; --g-des:#3F7D20; --g-tec:#0E7C9A; --g-ill:#B5543A; --g-pop:#C2366B; --g-oth:#8A8F9C; --g-mus:#1F7A5A;
   --f-body:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
   --f-num:"Inter",system-ui,sans-serif;
   --r:26px;
@@ -33,13 +33,13 @@
   --bg:#0C0C0E; --tile:#18181B; --white:#222226; --ink:#F2F2F4; --muted:#A1A1A9; --faint:#66666E; --line:#2C2C31;
   --peach:#E2A673; --peach-soft:#3B2617; --peach-ink:#F5BE8C; --green-soft:#1E3319; --green-ink:#9AD98A; --blue-soft:#1D2347; --blue-ink:#A9B5FF;
   --sea:#10151C; --land:#26262B; --land-ctx:#1C1C20; --border:#3A3A42;
-  --g-con:#8F9CFF; --g-pho:#A0AEC0; --g-jpn:#E0B060; --g-wst:#B79BF0; --g-des:#8FD16A; --g-tec:#4CC3DD; --g-ill:#F2937A; --g-pop:#F27FA8; --g-oth:#7D8493;
+  --g-con:#8F9CFF; --g-pho:#A0AEC0; --g-jpn:#E0B060; --g-wst:#B79BF0; --g-des:#8FD16A; --g-tec:#4CC3DD; --g-ill:#F2937A; --g-pop:#F27FA8; --g-oth:#7D8493; --g-mus:#5FD3A8;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0C0C0E; --tile:#18181B; --white:#222226; --ink:#F2F2F4; --muted:#A1A1A9; --faint:#66666E; --line:#2C2C31;
   --peach:#E2A673; --peach-soft:#3B2617; --peach-ink:#F5BE8C; --green-soft:#1E3319; --green-ink:#9AD98A; --blue-soft:#1D2347; --blue-ink:#A9B5FF;
   --sea:#10151C; --land:#26262B; --land-ctx:#1C1C20; --border:#3A3A42;
-  --g-con:#8F9CFF; --g-pho:#A0AEC0; --g-jpn:#E0B060; --g-wst:#B79BF0; --g-des:#8FD16A; --g-tec:#4CC3DD; --g-ill:#F2937A; --g-pop:#F27FA8; --g-oth:#7D8493;
+  --g-con:#8F9CFF; --g-pho:#A0AEC0; --g-jpn:#E0B060; --g-wst:#B79BF0; --g-des:#8FD16A; --g-tec:#4CC3DD; --g-ill:#F2937A; --g-pop:#F27FA8; --g-oth:#7D8493; --g-mus:#5FD3A8;
   color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -406,7 +406,7 @@ footer a{color:var(--muted)}
 
 <script>
 const GENRES={con:{l:"現代アート",c:"--g-con",k:"現"},pho:{l:"写真・映像",c:"--g-pho",k:"写"},jpn:{l:"日本美術・工芸",c:"--g-jpn",k:"和"},wst:{l:"西洋美術",c:"--g-wst",k:"洋"},
-  des:{l:"デザイン・建築",c:"--g-des",k:"デ"},tec:{l:"メディアアート・科学",c:"--g-tec",k:"技"},ill:{l:"イラスト・絵本",c:"--g-ill",k:"絵"},pop:{l:"アニメ・漫画・ゲーム",c:"--g-pop",k:"漫"},oth:{l:"その他",c:"--g-oth",k:"他"}};
+  des:{l:"デザイン・建築",c:"--g-des",k:"デ"},tec:{l:"メディアアート・科学",c:"--g-tec",k:"技"},ill:{l:"イラスト・絵本",c:"--g-ill",k:"絵"},pop:{l:"アニメ・漫画・ゲーム",c:"--g-pop",k:"漫"},mus:{l:"音楽・サウンド",c:"--g-mus",k:"音"},oth:{l:"その他",c:"--g-oth",k:"他"}};
 const GORDER=Object.keys(GENRES), OLD_GENRE={cls:"wst",med:"tec",ani:"pop"};
 const SCALE={museum:"美術館・博物館",space:"大型展示施設",gallery:"ギャラリー・小規模館"};
 const AREAS=["東京","神奈川","千葉","埼玉"], WD="日月火水木金土", DAY=864e5;

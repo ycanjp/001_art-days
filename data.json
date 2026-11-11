@@ -1001,27 +1001,6 @@
    ]
   },
   {
-   "official": true,
-   "price": null,
-   "booking": null,
-   "url": "https://www.teamlab.art/jp/e/borderless-azabudai/",
-   "id": "teamlab-borderless",
-   "t": "森ビル デジタルアート ミュージアム：エプソン チームラボボーダレス",
-   "v": "麻布台ヒルズ",
-   "city": "港区",
-   "pref": "東京",
-   "s": null,
-   "e": null,
-   "permanent": true,
-   "g": "tec",
-   "one": "境界のないアート群の常設ミュージアム。光の彫刻「Light Sculpture - Flow」の新シリーズも公開中。",
-   "scale": "space",
-   "geo": [
-    35.66147,
-    139.74083
-   ]
-  },
-  {
    "official": false,
    "price": null,
    "booking": null,
@@ -1059,26 +1038,6 @@
    "geo": [
     35.67978,
     139.80879
-   ]
-  },
-  {
-   "id": "teamlab-planets",
-   "t": "チームラボプラネッツ TOKYO DMM.com",
-   "v": "teamLab Planets TOKYO（豊洲）",
-   "city": "江東区",
-   "pref": "東京",
-   "s": null,
-   "e": "2027-12-31",
-   "g": "tec",
-   "one": "水に入り、身体ごと作品に没入する。新作《波の塊》を公開中",
-   "url": "https://www.teamlab.art/jp/e/planets/",
-   "official": true,
-   "price": null,
-   "booking": null,
-   "scale": "space",
-   "geo": [
-    35.64938,
-    139.78973
    ]
   },
   {
@@ -1965,6 +1924,111 @@
     35.60896,
     140.12464
    ]
+  },
+  {
+   "id": "tsg-astrup",
+   "t": "ニコライ・アストルップ 創造する庭",
+   "v": "東京ステーションギャラリー",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-11-21",
+   "e": "2027-01-31",
+   "g": "wst",
+   "one": "ノルウェーの画家アストルップの庭と風景の絵画・版画。東京駅丸の内駅舎内の美術館。",
+   "url": "https://www.ejrcf.or.jp/gallery/",
+   "official": true,
+   "price": "一般1,800円（前売1,600円、11/20まで）",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.68243,
+    139.76649
+   ]
+  },
+  {
+   "id": "shiodome-yoshida",
+   "t": "吉田璋也のデザイン― 新作民藝運動がめざした未来",
+   "v": "パナソニック汐留美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-15",
+   "e": "2026-12-20",
+   "g": "des",
+   "one": "鳥取の医師で新作民藝運動を率いた吉田璋也のデザイン約300点。旧診療所・住まいの一部再現も。",
+   "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
+   "official": true,
+   "price": "一般1,200円（オンライン前売1,000円、11/27まで）",
+   "booking": "11/28以降の土日祝は日時指定予約制（平日は予約不要）",
+   "scale": "museum",
+   "geo": [
+    35.66583,
+    139.76188
+   ],
+   "events": [
+    {
+     "d": "2026-11-15",
+     "time": "14:00–14:45",
+     "kind": "スライドトーク",
+     "title": "担当学芸員によるスライドトーク",
+     "who": null,
+     "place": null,
+     "booking": "予約不要・先着50名",
+     "price": "要観覧券",
+     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+    },
+    {
+     "d": "2026-12-12",
+     "time": "14:00–14:45",
+     "kind": "スライドトーク",
+     "title": "担当学芸員によるスライドトーク",
+     "who": null,
+     "place": null,
+     "booking": "予約不要・先着50名",
+     "price": "要観覧券",
+     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-11"
+  },
+  {
+   "id": "mon-feelthesound",
+   "t": "Feel the Sound展",
+   "v": "MoN Takanawa: The Museum of Narratives",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-11-20",
+   "e": "2027-03-22",
+   "g": "mus",
+   "one": "英国バービカン・センターと共同制作の没入型サウンド展。真鍋大度、マックス・クーパーらの作品と東京向けの新作。",
+   "url": "https://montakanawa.jp/programs/feelthesound2026/",
+   "official": true,
+   "price": "一般2,500円（先行2,300円、11/19まで）",
+   "booking": "オンラインでチケット購入（会期中いつでも入場可）",
+   "scale": "space",
+   "geo": [
+    35.63963,
+    139.74136
+   ]
+  },
+  {
+   "id": "geigeki-drum",
+   "t": "TOKYO CUSTOM DRUM SET EXHIBITION 一台のドラムセットを歩く",
+   "v": "東京芸術劇場",
+   "city": "豊島区",
+   "pref": "東京",
+   "s": "2026-11-07",
+   "e": "2026-11-15",
+   "g": "mus",
+   "one": "一台分のドラムセットを会場全体に広げた展示。歩くと音がつながり、一部は叩いて触れられる。",
+   "url": "https://artscape.jp/exhibitions/82951/",
+   "official": false,
+   "price": "無料",
+   "booking": null,
+   "scale": "space",
+   "geo": [
+    35.72967,
+    139.708
+   ]
   }
  ],
  "sources": [
@@ -2081,16 +2145,8 @@
    "url": "https://www.tokyoartbeat.com/articles/-/yoichi-ochiai-null2n-news-202610"
   },
   {
-   "name": "チームラボボーダレス 公式",
-   "url": "https://www.teamlab.art/jp/e/borderless-azabudai/"
-  },
-  {
    "name": "PR TIMES（ICC 2026年度スケジュール）",
    "url": "https://prtimes.jp/main/html/rd/p/000001312.000098811.html"
-  },
-  {
-   "name": "共同通信PRワイヤー（チームラボプラネッツ）",
-   "url": "https://kyodonewsprwire.jp/release/202610168048"
   },
   {
    "name": "Best Calendar（チームラボ 浜離宮）",
@@ -2159,6 +2215,22 @@
   {
    "name": "埼玉県立近代美術館",
    "url": "https://pref.spec.ed.jp/momas/"
+  },
+  {
+   "name": "東京ステーションギャラリー 公式",
+   "url": "https://www.ejrcf.or.jp/gallery/"
+  },
+  {
+   "name": "パナソニック汐留美術館 公式",
+   "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+  },
+  {
+   "name": "MoN Takanawa Feel the Sound 公式",
+   "url": "https://montakanawa.jp/programs/feelthesound2026/"
+  },
+  {
+   "name": "artscape TOKYO CUSTOM DRUM SET EXHIBITION",
+   "url": "https://artscape.jp/exhibitions/82951/"
   }
  ]
 }

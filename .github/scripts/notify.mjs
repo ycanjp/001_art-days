@@ -5,7 +5,7 @@ import { execSync } from "node:child_process";
 const { VAPID_PUBLIC_KEY: pub, VAPID_PRIVATE_KEY: priv, PUSH_SUBSCRIPTION: subRaw, TEST, DRY_RUN } = process.env;
 
 const cur = JSON.parse(fs.readFileSync("data.json", "utf8"));
-let prev = { exhibitions: [] };
+let prev = cur; // no earlier version: report nothing as new
 try {
   const shas = execSync("git log --format=%H -n 2 -- data.json", { encoding: "utf8" }).trim().split("\n");
   if (shas[1]) prev = JSON.parse(execSync(`git show ${shas[1]}:data.json`, { encoding: "utf8", maxBuffer: 1 << 26 }));

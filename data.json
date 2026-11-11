@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-11",
- "notice": "東京国立近代美術館「MOMAT秋びより」は11/15閉幕。横浜美術館「毛利悠子」「マリー・アントワネット・スタイル」、ワタリウム「ナムジュン・パイク」は11/23閉幕。",
+ "updatedAt": "2026-11-12",
+ "notice": "オルセー展（東京都美術館）は11/14開幕。金沢文庫の特別講演会（12/6）は11/19必着、横須賀美術館コサージュWSは11/18締切。",
  "picks": [
   {
    "id": "orsay",
    "why": "今週土曜11/14開幕。ミレー、モネ、ゴッホら約110点を開幕直後に。"
   },
   {
-   "id": "sannomaru-shitaku",
-   "why": "三の丸尚蔵館グランドオープン展。正倉院宝物が皇居内で初公開（事前予約制）。"
+   "id": "mariko-mori",
+   "why": "冬至パフォーマンス（12/22）の予約が今日11/12から。先着25名なので早めに。"
   },
   {
    "id": "mohri",
@@ -91,7 +91,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-10",
+   "eventsCheckedAt": "2026-11-12",
    "scale": "museum",
    "geo": [
     35.71555,
@@ -184,7 +184,7 @@
      "opens": "2027-01-07"
     }
    ],
-   "eventsCheckedAt": "2026-11-10",
+   "eventsCheckedAt": "2026-11-12",
    "scale": "museum",
    "geo": [
     35.71711,
@@ -263,15 +263,17 @@
    "e": "2027-01-24",
    "g": "wst",
    "one": "明治日本に西洋画法を伝えた画家の風景画。",
-   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
-   "official": false,
-   "price": null,
+   "url": "https://mimt.jp/ex_sp/fontanesi/",
+   "official": true,
+   "price": "一般2,300円",
    "booking": null,
    "scale": "museum",
    "geo": [
     35.67857,
     139.76339
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": []
   },
   {
    "id": "nitten",
@@ -361,14 +363,65 @@
    "e": "2027-01-17",
    "g": "pho",
    "one": "中国と日本の写真家6名による現代写真・映像。",
-   "url": "https://topmuseum.jp/wp-content/uploads/2026/08/Duet_Asian_Contemporary_PressRelease-1.pdf",
+   "url": "https://topmuseum.jp/exhibition/5421/",
    "official": true,
-   "price": null,
+   "price": "一般900円",
    "booking": null,
    "scale": "museum",
    "geo": [
     35.64154,
     139.7134
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": [
+    {
+     "d": "2026-10-03",
+     "time": "13:00–14:30",
+     "kind": "シンポジウム",
+     "title": "国際シンポジウム",
+     "who": "テン・チンユン、グウ・ゼン（映像）、伊藤貴弘",
+     "place": "1階ホール",
+     "booking": "当日10:00から整理券",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://topmuseum.jp/exhibition/5421/"
+    },
+    {
+     "d": "2026-11-20",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリー・トーク（手話通訳付き）",
+     "who": "担当学芸員",
+     "place": "2階展示室入口",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要本展チケット",
+     "url": "https://topmuseum.jp/exhibition/5421/"
+    },
+    {
+     "d": "2026-12-12",
+     "time": "14:00–15:00",
+     "kind": "トーク",
+     "title": "手話を交えたQ＆Aショー",
+     "who": "小笠原新也",
+     "place": "2階ロビー",
+     "booking": null,
+     "apply": null,
+     "price": "無料",
+     "url": "https://topmuseum.jp/exhibition/5421/"
+    },
+    {
+     "d": "2026-12-18",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリー・トーク（手話通訳付き）",
+     "who": "担当学芸員",
+     "place": "2階展示室入口",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要本展チケット",
+     "url": "https://topmuseum.jp/exhibition/5421/"
+    }
    ]
   },
   {
@@ -444,7 +497,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-10",
+   "eventsCheckedAt": "2026-11-12",
    "scale": "museum",
    "geo": [
     35.66741,
@@ -461,14 +514,77 @@
    "e": "2026-12-20",
    "g": "des",
    "one": "フィンランドのテキスタイルの模様を読み解く。",
-   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
-   "official": false,
-   "price": null,
-   "booking": null,
+   "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/",
+   "official": true,
+   "price": "一般1,400円",
+   "booking": "日時指定予約制",
    "scale": "museum",
    "geo": [
     35.63684,
     139.71928
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": [
+    {
+     "d": "2026-10-22",
+     "time": "14:30–15:00",
+     "kind": "トーク",
+     "title": "担当学芸員によるミニトーク",
+     "who": "担当学芸員",
+     "place": "新館ギャラリー2",
+     "booking": "事前申込制・抽選",
+     "apply": "required",
+     "price": "無料（当日の展覧会チケットが必要）",
+     "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+    },
+    {
+     "d": "2026-11-14",
+     "time": "13:30–16:00",
+     "kind": "哲学対話",
+     "title": "ともに考える、対話する–朝香宮邸に花咲く“模様”",
+     "who": "井尻貴子、尾崎絢子",
+     "place": "本館・新館ギャラリー2",
+     "booking": "事前申込制・抽選（定員20名）",
+     "apply": "required",
+     "price": "無料（当日の展覧会チケットが必要）",
+     "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+    },
+    {
+     "d": "2026-11-21",
+     "time": "13:00／14:00／15:00／16:00",
+     "kind": "ワークショップ",
+     "title": "ミニワークショップ「Happy Birthday to Me」",
+     "who": null,
+     "place": "本館・新館ギャラリー2",
+     "booking": "事前申込制・抽選（ワークショップ付きチケット、各回約10名）",
+     "apply": "required",
+     "price": "無料（ワークショップ付きチケットが必要）",
+     "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+    },
+    {
+     "d": "2026-11-22",
+     "time": "13:00／14:00／15:00／16:00",
+     "kind": "ワークショップ",
+     "title": "ミニワークショップ「Happy Birthday to Me」",
+     "who": null,
+     "place": "本館・新館ギャラリー2",
+     "booking": "事前申込制・抽選（ワークショップ付きチケット、各回約10名）",
+     "apply": "required",
+     "price": "無料（ワークショップ付きチケットが必要）",
+     "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+    },
+    {
+     "d": "2026-12-03",
+     "time": "14:30–15:00",
+     "kind": "トーク",
+     "title": "担当学芸員によるミニトーク（手話通訳・文字支援付き）",
+     "who": "担当学芸員",
+     "place": "新館ギャラリー2",
+     "booking": "事前申込制・抽選（定員50名）",
+     "apply": "required",
+     "price": "無料（当日の展覧会チケットが必要）",
+     "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+    }
    ]
   },
   {
@@ -623,14 +739,15 @@
      "title": "森万里子「冬至パフォーマンス」",
      "who": "森万里子、池田謙、音無史哉、森万奈",
      "place": "森美術館展示室内",
-     "booking": "事前予約制（11/12 10:00受付開始、先着30名）",
+     "booking": "事前予約制（11/12 10:00受付開始〜12/20、先着25名）",
      "price": "3,000円（展覧会チケット込み）",
      "url": "https://www.mori.art.museum/jp/learning/9108/index.html",
      "apply": "required",
-     "opens": "2026-11-12"
+     "opens": "2026-11-12",
+     "deadline": "2026-12-20"
     }
    ],
-   "eventsCheckedAt": "2026-11-11",
+   "eventsCheckedAt": "2026-11-12",
    "geo": [
     35.66043,
     139.72926
@@ -737,10 +854,10 @@
    ]
   },
   {
-   "official": false,
-   "price": null,
+   "official": true,
+   "price": "一般700円",
    "booking": null,
-   "url": "https://www.tokyoartbeat.com/articles/-/top-museum-2026-schedule-news-202602",
+   "url": "https://topmuseum.jp/exhibition/5423/",
    "id": "top-shinshin",
    "t": "日本の新進作家 vol.23「ふたたび くみたてる」",
    "v": "東京都写真美術館",
@@ -754,6 +871,70 @@
    "geo": [
     35.64154,
     139.7134
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": [
+    {
+     "d": "2026-11-13",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリー・トーク（手話通訳付き）",
+     "who": "担当学芸員",
+     "place": "3階展示室入口",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要本展チケット）",
+     "url": "https://topmuseum.jp/exhibition/5423/"
+    },
+    {
+     "d": "2026-11-19",
+     "time": "18:30–19:50",
+     "kind": "トーク",
+     "title": "図書室夜話",
+     "who": "苅部太郎",
+     "place": "4階図書室",
+     "booking": "事前申込制（11/12 13:00締切、定員7名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://topmuseum.jp/exhibition/5423/",
+     "deadline": "2026-11-12"
+    },
+    {
+     "d": "2026-12-11",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリー・トーク（手話通訳付き）",
+     "who": "担当学芸員",
+     "place": "3階展示室入口",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要本展チケット）",
+     "url": "https://topmuseum.jp/exhibition/5423/"
+    },
+    {
+     "d": "2026-12-13",
+     "time": "14:00–15:30",
+     "kind": "アーティストトーク",
+     "title": "橋本貘×辻川幸一郎",
+     "who": "橋本貘、辻川幸一郎",
+     "place": "1階ホール",
+     "booking": "当日10:00から整理券（先着190名）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://topmuseum.jp/exhibition/5423/"
+    },
+    {
+     "d": "2027-01-10",
+     "time": "14:00–15:30",
+     "kind": "アーティストトーク",
+     "title": "藤倉麻子×南後由和",
+     "who": "藤倉麻子、南後由和",
+     "place": "1階ホール",
+     "booking": "当日10:00から整理券（先着190名）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://topmuseum.jp/exhibition/5423/"
+    }
    ]
   },
   {
@@ -1472,6 +1653,69 @@
    "geo": [
     35.68652,
     139.75891
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "13:30–15:00",
+     "kind": "講演会",
+     "title": "記念講演会「正倉院の至宝－その歴史と価値」",
+     "who": "飯田剛彦（宮内庁正倉院事務所長）",
+     "place": "当館講堂",
+     "booking": "事前予約制（講演会チケット・観覧込み、先着90名）",
+     "apply": "required",
+     "price": null,
+     "url": "https://shozokan.nich.go.jp/feature/grand-opening/beauty/event.html"
+    },
+    {
+     "d": "2026-11-20",
+     "time": "18:30–19:00",
+     "kind": "スライドトーク",
+     "title": "スライドトーク",
+     "who": "当館研究員",
+     "place": "当館講堂",
+     "booking": "事前予約制（スライドトークチケット・観覧込み、先着90名）",
+     "apply": "required",
+     "price": null,
+     "url": "https://shozokan.nich.go.jp/feature/grand-opening/beauty/event.html"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "13:30–15:00",
+     "kind": "講演会",
+     "title": "記念講演会「美いづるところ－皇居三の丸尚蔵館のあゆみと名品」",
+     "who": "田中純一朗（当館主任研究官）",
+     "place": "当館講堂",
+     "booking": "事前予約制（講演会チケット・観覧込み、先着90名）",
+     "apply": "required",
+     "price": null,
+     "url": "https://shozokan.nich.go.jp/feature/grand-opening/beauty/event.html"
+    },
+    {
+     "d": "2026-12-11",
+     "time": "18:30–19:00",
+     "kind": "スライドトーク",
+     "title": "スライドトーク",
+     "who": "当館研究員",
+     "place": "当館講堂",
+     "booking": "事前予約制（先着90名）",
+     "apply": "required",
+     "price": null,
+     "url": "https://shozokan.nich.go.jp/feature/grand-opening/beauty/event.html"
+    },
+    {
+     "d": "2027-01-08",
+     "time": "18:30–19:00",
+     "kind": "スライドトーク",
+     "title": "スライドトーク",
+     "who": "当館研究員",
+     "place": "当館講堂",
+     "booking": "事前予約制（先着90名）",
+     "apply": "required",
+     "price": null,
+     "url": "https://shozokan.nich.go.jp/feature/grand-opening/beauty/event.html"
+    }
    ]
   },
   {
@@ -1589,7 +1833,7 @@
    "g": "jpn",
    "one": "代表作や初出品を含む約70点で三岸節子の画業をたどる。",
    "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
-   "eventsCheckedAt": "2026-11-11",
+   "eventsCheckedAt": "2026-11-12",
    "events": [
     {
      "d": "2026-11-14",
@@ -1948,12 +2192,27 @@
    "one": "千葉市美術館の連続企画「つくりかけラボ」第22回。",
    "url": "https://www.ccma-net.jp/exhibitions/lab/26-10-17-27-1-31/",
    "official": true,
-   "price": null,
+   "price": "無料",
    "booking": null,
    "scale": "museum",
    "geo": [
     35.60896,
     140.12464
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": [
+    {
+     "d": "2026-11-01",
+     "time": "11:00／14:00",
+     "kind": "ワークショップ",
+     "title": "タムラさんと一緒に「１トンになる」vol.1",
+     "who": "タムラサトル",
+     "place": "千葉市美術館 4階 子どもアトリエ",
+     "booking": null,
+     "apply": null,
+     "price": null,
+     "url": "https://www.ccma-net.jp/exhibitions/lab/26-10-17-27-1-31/"
+    }
    ]
   },
   {
@@ -1974,6 +2233,81 @@
    "geo": [
     35.68243,
     139.76649
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": [
+    {
+     "d": "2026-11-21",
+     "time": "14:00–17:30",
+     "kind": "シンポジウム",
+     "title": "開幕記念シンポジウム",
+     "who": "スサンナ・ペッテルソン、トーヴェ・ハウグスボ、橋口由依、森麻由子 ほか",
+     "place": "JPタワー ホール＆カンファレンス",
+     "booking": "事前申込制（10/17受付開始、定員150名・定員に達し次第終了）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://www.ejrcf.or.jp/gallery/event.html"
+    },
+    {
+     "d": "2026-12-06",
+     "time": "09:00–10:30",
+     "kind": "ワークショップ",
+     "title": "レンガ句会（俳句鑑賞ワークショップ）",
+     "who": "渡辺ひふみ、森麻由子、半澤紀恵",
+     "place": "東京ステーションギャラリー",
+     "booking": "事前申込制（定員10名）",
+     "apply": "required",
+     "price": "無料（要入館券）",
+     "url": "https://www.ejrcf.or.jp/gallery/event.html"
+    },
+    {
+     "d": "2026-12-10",
+     "time": "11:00",
+     "kind": "ギャラリートーク",
+     "title": "レンガ・タッチ＆トーク",
+     "who": "学芸員",
+     "place": "東京ステーションギャラリー",
+     "booking": "当日先着15名（10:00以降1F受付）",
+     "apply": "none",
+     "price": "無料（要入館券）",
+     "url": "https://www.ejrcf.or.jp/gallery/event.html"
+    },
+    {
+     "d": "2026-12-18",
+     "time": "09:30",
+     "kind": "ギャラリートーク",
+     "title": "朝の鑑賞会",
+     "who": "森麻由子",
+     "place": "東京ステーションギャラリー",
+     "booking": "事前申込制（定員30名）",
+     "apply": "required",
+     "price": "無料（要入館券）",
+     "url": "https://www.ejrcf.or.jp/gallery/event.html"
+    },
+    {
+     "d": "2027-01-21",
+     "time": "11:00",
+     "kind": "ギャラリートーク",
+     "title": "レンガ・タッチ＆トーク（手話通訳付き）",
+     "who": "学芸員",
+     "place": "東京ステーションギャラリー",
+     "booking": "事前申込制（空きがあれば当日可、定員10名）",
+     "apply": "required",
+     "price": "無料（要入館券）",
+     "url": "https://www.ejrcf.or.jp/gallery/event.html"
+    },
+    {
+     "d": "2027-01-22",
+     "time": "09:30",
+     "kind": "ギャラリートーク",
+     "title": "朝の鑑賞会（手話通訳付き）",
+     "who": "森麻由子",
+     "place": "東京ステーションギャラリー",
+     "booking": "事前申込制（定員30名）",
+     "apply": "required",
+     "price": "無料（要入館券）",
+     "url": "https://www.ejrcf.or.jp/gallery/event.html"
+    }
    ]
   },
   {
@@ -2121,7 +2455,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-11"
+   "eventsCheckedAt": "2026-11-12"
   },
   {
    "price": null,
@@ -2241,9 +2575,9 @@
      "title": "ワークショップ「上を向いて歩こう」",
      "who": null,
      "place": null,
-     "booking": "事前申込制",
+     "booking": "事前申込制・先着30名（申込フォームまたは電話）",
      "price": "500円",
-     "url": "https://artscape.jp/exhibitions/77065/",
+     "url": "https://www.city.oyama.tochigi.jp/kurumayamuseum/exhibition/page011706.html",
      "apply": "required"
     }
    ],
@@ -2358,6 +2692,185 @@
    "g": "con",
    "one": "国吉康雄から現代作家まで、人のかたちを見つめた絵画・彫刻。",
    "url": "https://www.tokyoartbeat.com/events/-/Human-Figure/955-E7-A40/2026-10-10"
+  },
+  {
+   "id": "kanazawa-tannei",
+   "t": "特別展 湛睿―国宝を繋いだ称名寺長老―",
+   "v": "神奈川県立金沢文庫",
+   "city": "横浜市金沢区",
+   "pref": "神奈川",
+   "s": "2026-11-20",
+   "e": "2027-01-17",
+   "g": "jpn",
+   "one": "称名寺三世長老・湛睿の足跡を称名寺聖教からたどる特別展。",
+   "url": "https://www.pen-kanagawa.ed.jp/kanazawabunko/tenrankai/ichiran/r8/20261120tanei.html",
+   "official": true,
+   "price": "一般400円",
+   "booking": "不要",
+   "scale": "museum",
+   "geo": [
+    35.3439291,
+    139.6286449
+   ],
+   "eventsCheckedAt": "2026-11-12",
+   "events": [
+    {
+     "d": "2026-11-28",
+     "time": "13:30–15:30",
+     "kind": "講演会",
+     "title": "連続講演会「聖教」を読む（1）",
+     "who": "櫻井唯（県立金沢文庫学芸員）",
+     "place": "金沢文庫 地下会議室",
+     "booking": "事前申込制・抽選（11/5締切済）",
+     "apply": "closed",
+     "price": "1,000円（5回通し5,000円）",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e6250594.html",
+     "deadline": "2026-11-05"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "13:30–15:30",
+     "kind": "講演会",
+     "title": "連続講演会「聖教」を読む（2）",
+     "who": "小川隆（駒澤大学教授）",
+     "place": "金沢文庫 地下会議室",
+     "booking": "事前申込制・抽選（11/5締切済）",
+     "apply": "closed",
+     "price": "1,000円",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e6250594.html",
+     "deadline": "2026-11-05"
+    },
+    {
+     "d": "2026-12-06",
+     "time": "13:30–15:30",
+     "kind": "講演会",
+     "title": "特別講演会「鎌倉時代戒律復興運動の諸相」",
+     "who": "大谷由香（広島大学准教授）",
+     "place": "金沢文庫 地下1階大会議室",
+     "booking": "事前申込制（11/19必着、定員70名）",
+     "apply": "required",
+     "price": "無料（当日の観覧券が必要）",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e4987614.html",
+     "deadline": "2026-11-19"
+    },
+    {
+     "d": "2026-12-12",
+     "time": "13:30–15:30",
+     "kind": "講演会",
+     "title": "連続講演会「聖教」を読む（3）",
+     "who": "大久保良峻（国際仏教学大学院大学教授）",
+     "place": "金沢文庫 地下会議室",
+     "booking": "事前申込制・抽選（11/5締切済）",
+     "apply": "closed",
+     "price": "1,000円",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e6250594.html",
+     "deadline": "2026-11-05"
+    },
+    {
+     "d": "2026-12-20",
+     "time": "13:30–15:30",
+     "kind": "講演会",
+     "title": "連続講演会「聖教」を読む（4）",
+     "who": "船山徹（京都大学人文科学研究所教授）",
+     "place": "金沢文庫 地下会議室",
+     "booking": "事前申込制・抽選（11/5締切済）",
+     "apply": "closed",
+     "price": "1,000円",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e6250594.html",
+     "deadline": "2026-11-05"
+    },
+    {
+     "d": "2026-12-26",
+     "time": "13:30–15:00",
+     "kind": "講演会",
+     "title": "月例講座「長老湛睿の寺院経営戦略」",
+     "who": "三輪眞嗣（県立金沢文庫学芸員）",
+     "place": "金沢文庫 地下1階大会議室",
+     "booking": "事前申込制（12/10必着、定員70名）",
+     "apply": "required",
+     "price": "無料（当日の観覧券が必要）",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e5360725.html",
+     "deadline": "2026-12-10"
+    },
+    {
+     "d": "2027-01-11",
+     "time": "13:30–15:30",
+     "kind": "講演会",
+     "title": "連続講演会「聖教」を読む（5）",
+     "who": "木村清孝（東京大学名誉教授）",
+     "place": "金沢文庫 地下会議室",
+     "booking": "事前申込制・抽選（11/5締切済）",
+     "apply": "closed",
+     "price": "1,000円",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e6250594.html",
+     "deadline": "2026-11-05"
+    },
+    {
+     "d": "2027-01-17",
+     "time": "13:30–15:00",
+     "kind": "講演会",
+     "title": "月例講座「中世の受戒儀礼と夢」",
+     "who": "櫻井唯（県立金沢文庫学芸員）",
+     "place": "金沢文庫 地下1階大会議室",
+     "booking": "事前申込制（12/24必着、定員70名）",
+     "apply": "required",
+     "price": "無料（当日の観覧券が必要）",
+     "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e9227115.html",
+     "deadline": "2026-12-24"
+    }
+   ]
+  },
+  {
+   "id": "hara-arc-moon",
+   "t": "Fly to the Moon: 月をめぐる5つの物語",
+   "v": "原美術館ARC",
+   "city": "渋川市",
+   "pref": "群馬",
+   "s": "2026-09-12",
+   "e": "2027-01-11",
+   "g": "con",
+   "one": "ラウシェンバーグから室町の猿猴図まで、「月」を巡る5つの物語。",
+   "url": "https://www.museum.or.jp/event/126244",
+   "official": false,
+   "price": "一般1,800円（前売1,500円）",
+   "booking": null,
+   "scale": "museum"
+  },
+  {
+   "id": "ashikaga-funabiki",
+   "t": "8人の写真家たち 船曳由美 小さきコレクション を核として",
+   "v": "足利市立美術館",
+   "city": "足利市",
+   "pref": "栃木",
+   "s": "2026-09-05",
+   "e": "2026-12-27",
+   "g": "pho",
+   "one": "土門拳、石元泰博ら8人の写真家の作品と編集者の寄贈品を紹介。",
+   "url": "https://www.watv.ne.jp/ashi-bi/2026-Funabiki.html",
+   "official": true,
+   "price": "一般1,000円",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    36.3340535,
+    139.4503402
+   ]
+  },
+  {
+   "id": "takasaki-tower-nihonga",
+   "t": "日本画の窓―旅する風景",
+   "v": "高崎市タワー美術館",
+   "city": "高崎市",
+   "pref": "群馬",
+   "s": "2026-10-17",
+   "e": "2026-12-20",
+   "g": "jpn",
+   "one": "国内外の旅先の風景を描いた日本画を紹介する企画展。",
+   "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html",
+   "official": true,
+   "price": "一般500円",
+   "booking": null,
+   "scale": "museum"
   }
  ],
  "sources": [
@@ -2576,6 +3089,30 @@
   {
    "name": "インターネットミュージアム 北関東 2026",
    "url": "https://www.museum.or.jp/schedule/2026/area_kitakanto"
+  },
+  {
+   "name": "神奈川県立金沢文庫 湛睿展",
+   "url": "https://www.pen-kanagawa.ed.jp/kanazawabunko/tenrankai/ichiran/r8/20261120tanei.html"
+  },
+  {
+   "name": "インターネットミュージアム（原美術館ARC Fly to the Moon）",
+   "url": "https://www.museum.or.jp/event/126244"
+  },
+  {
+   "name": "足利市立美術館 8人の写真家たち",
+   "url": "https://www.watv.ne.jp/ashi-bi/2026-Funabiki.html"
+  },
+  {
+   "name": "高崎市タワー美術館 日本画の窓",
+   "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html"
+  },
+  {
+   "name": "東京ステーションギャラリー イベント",
+   "url": "https://www.ejrcf.or.jp/gallery/event.html"
+  },
+  {
+   "name": "東京都庭園美術館 マリメッコ展",
+   "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
   }
  ]
 }

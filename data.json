@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-12",
- "notice": "オルセー展（東京都美術館）は11/14開幕。金沢文庫の特別講演会（12/6）は11/19必着、横須賀美術館コサージュWSは11/18締切。",
+ "updatedAt": "2026-11-13",
+ "notice": "オルセー展（東京都美術館）は明日11/14開幕。森万里子の冬至パフォーマンスは受付終了。日展は11/22まで、書のシンポジウム（11/14）は当日整理券。",
  "picks": [
   {
    "id": "orsay",
-   "why": "今週土曜11/14開幕。ミレー、モネ、ゴッホら約110点を開幕直後に。"
+   "why": "明日11/14開幕。ミレー、モネ、ゴッホら約110点を開幕直後に。"
   },
   {
-   "id": "mariko-mori",
-   "why": "冬至パフォーマンス（12/22）の予約が今日11/12から。先着25名なので早めに。"
+   "id": "pola-monet",
+   "why": "11/14はモネの誕生日。スーメイ・ツェのトークと学芸課長の特別講演が無料（入館券要）。"
   },
   {
-   "id": "mohri",
-   "why": "11/23閉幕・入場無料。ヴェネチア日本館の凱旋展を見逃さないうちに。"
+   "id": "paik",
+   "why": "11/23閉幕。没後20年のナムジュン・パイク回顧展、ワタリウム全館を使った最後の1週間半。"
   }
  ],
  "exhibitions": [
@@ -223,15 +223,17 @@
    "e": "2026-12-20",
    "g": "jpn",
    "one": "広重の構図の妙を3期・全作品入替で見る。11/25から名所江戸百景。",
-   "url": "https://www.tokyoartbeat.com/articles/-/hiroshige-new-perspective-on-edo-japan-report-202609",
-   "official": false,
+   "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=2759",
+   "official": true,
    "price": "一般1,500円",
-   "booking": null,
+   "booking": "不要",
    "scale": "museum",
    "geo": [
     35.71904,
     139.77597
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "id": "cincinnati",
@@ -245,8 +247,8 @@
    "one": "米シンシナティ美術館のコレクション展。",
    "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
    "official": false,
-   "price": null,
-   "booking": null,
+   "price": "一般2,400円",
+   "booking": "日時指定予約不要",
    "scale": "museum",
    "geo": [
     35.71285,
@@ -287,13 +289,76 @@
    "one": "日本画・洋画・彫刻・工芸・書の公募展。",
    "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
    "official": false,
-   "price": null,
+   "price": "一般1,500円（トワイライト16時以降700円）",
    "booking": null,
    "scale": "museum",
    "geo": [
     35.66534,
     139.72644
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-07",
+     "time": "13:00–14:30",
+     "kind": "講演会",
+     "title": "日本画 映像解説「自作を語る」ほか",
+     "who": null,
+     "place": "国立新美術館 3階講堂",
+     "booking": "当日整理券（開始30分前から配布）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://nitten.or.jp/diffusion/lecture/"
+    },
+    {
+     "d": "2026-11-07",
+     "time": "15:00–16:30",
+     "kind": "講演会",
+     "title": "彫刻「彫刻表現の系譜－歩みとこれから－」",
+     "who": "寺山三佳",
+     "place": "国立新美術館 3階講堂",
+     "booking": "当日整理券（開始30分前から配布）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://nitten.or.jp/diffusion/lecture/"
+    },
+    {
+     "d": "2026-11-14",
+     "time": "13:30–15:00",
+     "kind": "シンポジウム",
+     "title": "書 シンポジウム「日展の書」・作品解説",
+     "who": "中村伸夫 ほか",
+     "place": "国立新美術館 3階講堂",
+     "booking": "当日整理券（開始30分前から配布）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://nitten.or.jp/diffusion/lecture/"
+    },
+    {
+     "d": "2026-11-21",
+     "time": "13:00–14:30",
+     "kind": "講演会",
+     "title": "洋画 映像解説（今年度審査員）",
+     "who": "司会：石田宗之、寺久保文宣",
+     "place": "国立新美術館 3階講堂",
+     "booking": "当日整理券（開始30分前から配布）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://nitten.or.jp/diffusion/lecture/"
+    },
+    {
+     "d": "2026-11-21",
+     "time": "15:00–16:30",
+     "kind": "講演会",
+     "title": "工芸美術 映像解説「工芸美術の魅力」",
+     "who": null,
+     "place": "国立新美術館 3階講堂",
+     "booking": "当日整理券（開始30分前から配布）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://nitten.or.jp/diffusion/lecture/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "id": "momat",
@@ -478,11 +543,10 @@
      "title": "蓑庵衣替えワークショップ",
      "who": "正田智樹、竹中工務店（片山遥、亀田鈴香、小浦幸平）",
      "place": "21_21 DESIGN SIGHT ギャラリー3＋サンクンコート",
-     "booking": "事前申込制（11/12 12:00受付開始、定員20名程度・定員に達し次第終了）",
+     "booking": "事前申込制（受付中、定員20名程度・定員に達し次第終了）",
      "price": "無料（要入場料）",
      "url": "https://www.2121designsight.jp/program/hojoki/events/261129.html",
-     "apply": "required",
-     "opens": "2026-11-12"
+     "apply": "required"
     },
     {
      "d": "2026-12-26",
@@ -497,7 +561,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-13",
    "scale": "museum",
    "geo": [
     35.66741,
@@ -645,7 +709,9 @@
    "geo": [
     35.71711,
     139.77315
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "id": "mohri",
@@ -739,15 +805,14 @@
      "title": "森万里子「冬至パフォーマンス」",
      "who": "森万里子、池田謙、音無史哉、森万奈",
      "place": "森美術館展示室内",
-     "booking": "事前予約制（11/12 10:00受付開始〜12/20、先着25名）",
+     "booking": "受付終了（好評につき）",
      "price": "3,000円（展覧会チケット込み）",
      "url": "https://www.mori.art.museum/jp/learning/9108/index.html",
-     "apply": "required",
-     "opens": "2026-11-12",
+     "apply": "closed",
      "deadline": "2026-12-20"
     }
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-13",
    "geo": [
     35.66043,
     139.72926
@@ -763,15 +828,17 @@
    "e": "2027-02-08",
    "g": "pop",
    "one": "少女漫画の3巨匠の原画を一堂に。",
-   "url": "https://www.shojomanga.jp",
+   "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/",
    "official": true,
-   "price": null,
+   "price": "一般2,200円（前売2,000円）",
    "booking": null,
    "scale": "museum",
    "geo": [
     35.66534,
     139.72644
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "id": "haikyu",
@@ -811,7 +878,9 @@
    "geo": [
     35.7159,
     139.77669
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "official": false,
@@ -1221,8 +1290,8 @@
   },
   {
    "official": false,
-   "price": null,
-   "booking": null,
+   "price": "一般500円",
+   "booking": "当日券あり（オンライン購入も可）",
    "url": null,
    "id": "mot-col",
    "t": "MOTコレクション いつかの光を今みている",
@@ -1625,15 +1694,17 @@
    "e": "2027-01-24",
    "g": "jpn",
    "one": "初期の眼鏡絵から大乗寺障壁画の空間再現まで120点超。",
-   "url": "https://bijutsutecho.com/magazine/news/exhibition/33131",
-   "official": false,
+   "url": "https://okyo2026-27.jp/",
+   "official": true,
    "price": "一般2,100円（前売1,900円）",
-   "booking": null,
+   "booking": "事前予約不要",
    "scale": "museum",
    "geo": [
     35.69645,
     139.79608
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "id": "sannomaru-shitaku",
@@ -1736,7 +1807,9 @@
    "geo": [
     35.71711,
     139.77315
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "price": null,
@@ -1756,7 +1829,46 @@
    "geo": [
     35.25666,
     139.0212
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "11:00–12:00",
+     "kind": "トーク",
+     "title": "スーメイ・ツェ アーティスト・トーク（英語・日本語通訳付き）",
+     "who": "スーメイ・ツェ",
+     "place": "B1F 講堂",
+     "booking": "当日先着70名",
+     "apply": "none",
+     "price": "無料（入館券が必要）",
+     "url": "https://www.polamuseum.or.jp/event/26111402/"
+    },
+    {
+     "d": "2026-11-14",
+     "time": "14:00–14:50",
+     "kind": "講演会",
+     "title": "特別講演「ポーラ美術館のモネと『あたらしい目』」",
+     "who": "岩﨑余帆子（ポーラ美術館 学芸課長）",
+     "place": "B1F 講堂",
+     "booking": "当日先着70名",
+     "apply": "none",
+     "price": "無料（入館券が必要）",
+     "url": "https://www.polamuseum.or.jp/event/26111403/"
+    },
+    {
+     "d": "2026-11-14",
+     "time": null,
+     "kind": "その他",
+     "title": "モネのお誕生日会",
+     "who": "大塚陽介（シェフパティシエ）",
+     "place": "レストラン アレイ（1F）",
+     "booking": "事前申込制（Peatix、定員30名）",
+     "apply": "required",
+     "price": "3,000円",
+     "url": "https://www.polamuseum.or.jp/event/26111401/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-13"
   },
   {
    "price": null,
@@ -1833,7 +1945,7 @@
    "g": "jpn",
    "one": "代表作や初出品を含む約70点で三岸節子の画業をたどる。",
    "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-13",
    "events": [
     {
      "d": "2026-11-14",
@@ -3113,6 +3225,26 @@
   {
    "name": "東京都庭園美術館 マリメッコ展",
    "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+  },
+  {
+   "name": "日展 講演会・シンポジウム",
+   "url": "https://nitten.or.jp/diffusion/lecture/"
+  },
+  {
+   "name": "ポーラ美術館 イベント",
+   "url": "https://www.polamuseum.or.jp/exhibition/"
+  },
+  {
+   "name": "東京国立博物館 歌川広重展",
+   "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=2759"
+  },
+  {
+   "name": "円山応挙展 公式",
+   "url": "https://okyo2026-27.jp/"
+  },
+  {
+   "name": "国立新美術館 少女漫画・インフィニティ",
+   "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/"
   }
  ]
 }

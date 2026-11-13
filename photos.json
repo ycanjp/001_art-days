@@ -1,5 +1,5 @@
 {
- "note": "会場の外観写真。Wikimedia Commons の自由ライセンス画像のみ。新しい会場は Wikidata の画像(P18)が会場そのものと確認できた場合だけ追加する。",
+ "note": "会場の外観写真。Wikimedia Commons の自由ライセンス画像のみ。tools/photos.py で管理する。none は写真が見つからなかった会場と確認日（90日後に再確認）。",
  "venues": {
   "国立新美術館": {
    "m": "img/v/c1b5938c37.jpg",
@@ -473,5 +473,28 @@
    "page": "https://commons.wikimedia.org/wiki/File:Haramuseumarc.JPG",
    "name": "原美術館ARC"
   }
+ },
+ "none": {
+  "臨海エリア（台場・青海ほか）": "2026-11-13",
+  "YURAKUCHO MUSEUM": "2026-11-13",
+  "有楽町マルイ 8F イベントスペース": "2026-11-13",
+  "CREATIVE MUSEUM TOKYO": "2026-11-13",
+  "TOKYO NODE GALLERY A/B/C（虎ノ門ヒルズ ステーションタワー45階）": "2026-11-13",
+  "CREVIA BASE Tokyo": "2026-11-13",
+  "ギンザ・グラフィック・ギャラリー（ggg）": "2026-11-13",
+  "ミヅマアートギャラリー": "2026-11-13",
+  "SCAI THE BATHHOUSE": "2026-11-13",
+  "SCAI PIRAMIDE": "2026-11-13",
+  "KOTARO NUKAGA 天王洲（TERRADA Art Complex II）": "2026-11-13",
+  "フジフイルム スクエア": "2026-11-13",
+  "GALLERY A⁴（竹中工務店東京本店1F）": "2026-11-13",
+  "無人島プロダクション ほか（2会場）": "2026-11-13",
+  "資生堂ギャラリー": "2026-11-13",
+  "WHAT MUSEUM": "2026-11-13",
+  "PLAY! MUSEUM": "2026-11-13",
+  "PARK GALLERY": "2026-11-13",
+  "神奈川県立近代美術館 葉山": "2026-11-13",
+  "神奈川県立近代美術館 鎌倉別館": "2026-11-13",
+  "MoN Takanawa: The Museum of Narratives": "2026-11-13"
  }
 }

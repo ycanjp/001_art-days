@@ -1,0 +1,477 @@
+{
+ "note": "会場の外観写真。Wikimedia Commons の自由ライセンス画像のみ。新しい会場は Wikidata の画像(P18)が会場そのものと確認できた場合だけ追加する。",
+ "venues": {
+  "国立新美術館": {
+   "m": "img/v/c1b5938c37.jpg",
+   "s": "img/v/c1b5938c37-s.jpg",
+   "by": "Kakidai",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2018_National_Art_Center,_Tokyo_2.jpg",
+   "name": "国立新美術館"
+  },
+  "東京都美術館": {
+   "m": "img/v/92e68f1362.jpg",
+   "s": "img/v/92e68f1362-s.jpg",
+   "by": "663highland",
+   "lic": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_metropolitan_art_museum01_1920.jpg",
+   "name": "東京都美術館・東京都美術館 ギャラリーB"
+  },
+  "東京国立博物館": {
+   "m": "img/v/e8ed084989.jpg",
+   "s": "img/v/e8ed084989-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum,_Honkan_2010.jpg",
+   "name": "東京国立博物館"
+  },
+  "上野の森美術館": {
+   "m": "img/v/ace2d99d3f.jpg",
+   "s": "img/v/ace2d99d3f-s.jpg",
+   "by": "Dddeco",
+   "lic": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Ueno_Royal_Museum.JPG",
+   "name": "上野の森美術館"
+  },
+  "東京国立近代美術館": {
+   "m": "img/v/b4959bc89e.jpg",
+   "s": "img/v/b4959bc89e-s.jpg",
+   "by": "Kakidai",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Modern_Art_Tokyo.jpg",
+   "name": "東京国立近代美術館"
+  },
+  "東京都現代美術館": {
+   "m": "img/v/e8bb2eaca4.jpg",
+   "s": "img/v/e8bb2eaca4-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Contemporary_Art_Tokyo_2009.jpg",
+   "name": "東京都現代美術館"
+  },
+  "東京都写真美術館": {
+   "m": "img/v/139cb54aa1.jpg",
+   "s": "img/v/139cb54aa1-s.jpg",
+   "by": "Morio",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Museum_of_Photography_entrance_2011_January.jpg",
+   "name": "東京都写真美術館"
+  },
+  "埼玉県立近代美術館": {
+   "m": "img/v/dd69b4de62.jpg",
+   "s": "img/v/dd69b4de62-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Modern_Art_Saitama_2010.jpg",
+   "name": "埼玉県立近代美術館"
+  },
+  "東京都庭園美術館": {
+   "m": "img/v/3f8db84979.jpg",
+   "s": "img/v/3f8db84979-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Teien_Art_Museum.jpg",
+   "name": "東京都庭園美術館"
+  },
+  "千葉県立美術館": {
+   "m": "img/v/2f0b2d8943.jpg",
+   "s": "img/v/2f0b2d8943-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Chiba_Prefectural_Museum_of_Art_2010.jpg",
+   "name": "千葉県立美術館"
+  },
+  "横浜美術館": {
+   "m": "img/v/873bf3d960.jpg",
+   "s": "img/v/873bf3d960-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Yokohama_Museum_of_Art_2009.jpg",
+   "name": "横浜美術館"
+  },
+  "森アーツセンターギャラリー": {
+   "m": "img/v/753fcd5608.jpg",
+   "s": "img/v/753fcd5608-s.jpg",
+   "by": "Daderot",
+   "lic": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mori_Tower_-_Roppongi,_Tokyo,_Japan_-_DSC06760.JPG",
+   "name": "森アーツセンターギャラリー"
+  },
+  "国立科学博物館": {
+   "m": "img/v/3d007ed117.jpg",
+   "s": "img/v/3d007ed117-s.jpg",
+   "by": "663highland",
+   "lic": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:NMNC01s3200.jpg",
+   "name": "国立科学博物館"
+  },
+  "小田原城天守閣・小田原三の丸ホール": {
+   "m": "img/v/b0cec7787b.jpg",
+   "s": "img/v/b0cec7787b-s.jpg",
+   "by": "Akonnchiroll",
+   "lic": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Odawara-jo.jpg",
+   "name": "小田原城天守閣・小田原三の丸ホール"
+  },
+  "サンシャイン60展望台": {
+   "m": "img/v/beeddd1aea.jpg",
+   "s": "img/v/beeddd1aea-s.jpg",
+   "by": "Kakidai",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sunshine_60.JPG",
+   "name": "サンシャイン60展望台"
+  },
+  "麻布台ヒルズギャラリー": {
+   "m": "img/v/838e0f9126.jpg",
+   "s": "img/v/838e0f9126-s.jpg",
+   "by": "Sakura Torch",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_202307.jpg",
+   "name": "麻布台ヒルズギャラリー・Pace Gallery 東京"
+  },
+  "ワタリウム美術館": {
+   "m": "img/v/e43cdbd5d9.jpg",
+   "s": "img/v/e43cdbd5d9-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Watarium.jpg",
+   "name": "ワタリウム美術館"
+  },
+  "横浜ランドマークタワー ランドマークプラザ5階": {
+   "m": "img/v/3605593480.jpg",
+   "s": "img/v/3605593480-s.jpg",
+   "by": "Σ64",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Yokohama_Landmark_Tower_02_cropped.jpg",
+   "name": "横浜ランドマークタワー ランドマークプラザ5階"
+  },
+  "NTTインターコミュニケーション・センター［ICC］": {
+   "m": "img/v/0b428c6683.jpg",
+   "s": "img/v/0b428c6683-s.jpg",
+   "by": "Dave Pape",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:NTT_ICC_entrance.jpg",
+   "name": "NTTインターコミュニケーション・センター［ICC］"
+  },
+  "浜離宮恩賜庭園": {
+   "m": "img/v/d759f8c13c.jpg",
+   "s": "img/v/d759f8c13c-s.jpg",
+   "by": "Wikimedia Commons",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hamarikyu_Garden_as_seen_from_Shiodome.jpg",
+   "name": "浜離宮恩賜庭園"
+  },
+  "Pace Gallery 東京（麻布台ヒルズ ガーデンプラザA）": {
+   "m": "img/v/838e0f9126.jpg",
+   "s": "img/v/838e0f9126-s.jpg",
+   "by": "Sakura Torch",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_202307.jpg",
+   "name": "麻布台ヒルズギャラリー・Pace Gallery 東京"
+  },
+  "KOSAKU KANECHIKA 京橋": {
+   "m": "img/v/65db4674f6.jpg",
+   "s": "img/v/65db4674f6-s.jpg",
+   "by": "Mochizuki1018",
+   "lic": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:TODA_BUILDING.jpg",
+   "name": "KOSAKU KANECHIKA 京橋"
+  },
+  "板橋区立美術館": {
+   "m": "img/v/f70323db3e.jpg",
+   "s": "img/v/f70323db3e-s.jpg",
+   "by": "板橋区Open Photo",
+   "lic": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Itabashi_ku_ritsu_Bijutsukan_Gaikan_20200321.jpg",
+   "name": "板橋区立美術館"
+  },
+  "江戸東京博物館": {
+   "m": "img/v/f3504b17e0.jpg",
+   "s": "img/v/f3504b17e0-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum.jpg",
+   "name": "江戸東京博物館"
+  },
+  "東京都美術館 ギャラリーB": {
+   "m": "img/v/92e68f1362.jpg",
+   "s": "img/v/92e68f1362-s.jpg",
+   "by": "663highland",
+   "lic": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_metropolitan_art_museum01_1920.jpg",
+   "name": "東京都美術館・東京都美術館 ギャラリーB"
+  },
+  "ポーラ美術館": {
+   "m": "img/v/aceb8bdd17.jpg",
+   "s": "img/v/aceb8bdd17-s.jpg",
+   "by": "663highland",
+   "lic": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:191103_Pola_Museum_of_Art_Hakone_Japan02s3.jpg",
+   "name": "ポーラ美術館"
+  },
+  "平塚市美術館": {
+   "m": "img/v/76d91ce08d.jpg",
+   "s": "img/v/76d91ce08d-s.jpg",
+   "by": "Dddeco",
+   "lic": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Hiratsuka_MOA.JPG",
+   "name": "平塚市美術館"
+  },
+  "彫刻の森美術館": {
+   "m": "img/v/91a9aa784e.jpg",
+   "s": "img/v/91a9aa784e-s.jpg",
+   "by": "leon&mae",
+   "lic": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Hakone5.jpg",
+   "name": "彫刻の森美術館"
+  },
+  "市原湖畔美術館": {
+   "m": "img/v/ad2949fb19.jpg",
+   "s": "img/v/ad2949fb19-s.jpg",
+   "by": "Abasaa",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Ichihara_Lakeside_Museum.JPG",
+   "name": "市原湖畔美術館"
+  },
+  "川越市立美術館": {
+   "m": "img/v/086c022a55.jpg",
+   "s": "img/v/086c022a55-s.jpg",
+   "by": "Abasaa",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kawagoe_City_Art_Museum.JPG",
+   "name": "川越市立美術館"
+  },
+  "角川武蔵野ミュージアム": {
+   "m": "img/v/0143c768df.jpg",
+   "s": "img/v/0143c768df-s.jpg",
+   "by": "Kaijooo",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:TOKOROZAWA_SAKURA_TOWN.2020-03-03.jpg",
+   "name": "角川武蔵野ミュージアム"
+  },
+  "SKIPシティ 彩の国ビジュアルプラザ 映像ミュージアム": {
+   "m": "img/v/68c032744a.jpg",
+   "s": "img/v/68c032744a-s.jpg",
+   "by": "Ebiebi2",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:SKIP_city1.jpg",
+   "name": "SKIPシティ 彩の国ビジュアルプラザ 映像ミュージアム"
+  },
+  "千葉市美術館": {
+   "m": "img/v/f6485c0fd2.jpg",
+   "s": "img/v/f6485c0fd2-s.jpg",
+   "by": "のどごし隊長",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:KyuuKawasakiGinkouChibashiten.jpg",
+   "name": "千葉市美術館"
+  },
+  "東京ステーションギャラリー": {
+   "m": "img/v/cae97c750f.jpg",
+   "s": "img/v/cae97c750f-s.jpg",
+   "by": "Briefs4reskin",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_station_gallery.jpg",
+   "name": "東京ステーションギャラリー"
+  },
+  "東京芸術劇場": {
+   "m": "img/v/9d2b685274.jpg",
+   "s": "img/v/9d2b685274-s.jpg",
+   "by": "Wei-Te Wong",
+   "lic": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Wongwt_%E6%9D%B1%E4%BA%AC%E8%97%9D%E8%A1%93%E5%8A%87%E5%A0%B4_(17096697390).jpg",
+   "name": "東京芸術劇場"
+  },
+  "茨城県近代美術館": {
+   "m": "img/v/b1e6df408a.jpg",
+   "s": "img/v/b1e6df408a-s.jpg",
+   "by": "Abasaa",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Modern_Art_Ibaraki.JPG",
+   "name": "茨城県近代美術館"
+  },
+  "水戸芸術館 現代美術ギャラリー": {
+   "m": "img/v/892479886c.jpg",
+   "s": "img/v/892479886c-s.jpg",
+   "by": "Ymblanter",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mito_Art_Tower_2013.jpg",
+   "name": "水戸芸術館 現代美術ギャラリー"
+  },
+  "栃木県立美術館": {
+   "m": "img/v/1aac3f36cf.jpg",
+   "s": "img/v/1aac3f36cf-s.jpg",
+   "by": "Miyuki Meinaka",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tochigi_Prefectural_Museum_of_Fine_Arts_2020_1.jpg",
+   "name": "栃木県立美術館"
+  },
+  "宇都宮美術館": {
+   "m": "img/v/d95ea6fe8c.jpg",
+   "s": "img/v/d95ea6fe8c-s.jpg",
+   "by": "Jmho",
+   "lic": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Utsunomiya_museum.jpg",
+   "name": "宇都宮美術館"
+  },
+  "小山市立車屋美術館": {
+   "m": "img/v/380a806a0d.jpg",
+   "s": "img/v/380a806a0d-s.jpg",
+   "by": "Abasaa",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Kurumaya_Museum_of_Art.JPG",
+   "name": "小山市立車屋美術館"
+  },
+  "群馬県立近代美術館": {
+   "m": "img/v/f177044c19.jpg",
+   "s": "img/v/f177044c19-s.jpg",
+   "by": "663highland",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:261010_The_Museum_of_Modern_Art,_Gunma_Takasaki_Japan04s3.jpg",
+   "name": "群馬県立近代美術館"
+  },
+  "アーツ前橋 ほか前橋市中心市街地": {
+   "m": "img/v/90aae50cde.jpg",
+   "s": "img/v/90aae50cde-s.jpg",
+   "by": "Qurren",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Arts_Maebashi.jpg",
+   "name": "アーツ前橋 ほか前橋市中心市街地"
+  },
+  "太田市美術館・図書館": {
+   "m": "img/v/16a3c2a7c5.jpg",
+   "s": "img/v/16a3c2a7c5-s.jpg",
+   "by": "Asturio Cantabrio",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Art_Museum_%26_Library,_Ota_ac_(2).jpg",
+   "name": "太田市美術館・図書館"
+  },
+  "高崎市美術館": {
+   "m": "img/v/0704fa0147.jpg",
+   "s": "img/v/0704fa0147-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Takasaki_Museum_of_Art.jpg",
+   "name": "高崎市美術館"
+  },
+  "神奈川県立金沢文庫": {
+   "m": "img/v/3220d5688d.jpg",
+   "s": "img/v/3220d5688d-s.jpg",
+   "by": "ex-h20g-fan",
+   "lic": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E7%AB%8B%E9%87%91%E6%B2%A2%E6%96%87%E5%BA%AB_-_panoramio_(1).jpg",
+   "name": "神奈川県立金沢文庫"
+  },
+  "足利市立美術館": {
+   "m": "img/v/19d55658d8.jpg",
+   "s": "img/v/19d55658d8-s.jpg",
+   "by": "Miyuki Meinaka",
+   "lic": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Ashikaga_Museum_of_Art_01.jpg",
+   "name": "足利市立美術館"
+  },
+  "高崎市タワー美術館": {
+   "m": "img/v/f8a619987d.jpg",
+   "s": "img/v/f8a619987d-s.jpg",
+   "by": "Maru8",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Takasaki_Tower_21.JPG",
+   "name": "高崎市タワー美術館"
+  },
+  "国立西洋美術館": {
+   "m": "img/v/baa50a2d35.jpg",
+   "s": "img/v/baa50a2d35-s.jpg",
+   "by": "663highland",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:National_museum_of_western_art05s3200.jpg",
+   "name": "国立西洋美術館"
+  },
+  "三菱一号館美術館": {
+   "m": "img/v/b8e786a546.jpg",
+   "s": "img/v/b8e786a546-s.jpg",
+   "by": "Wish.F",
+   "lic": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Ichigokan_Museum.JPG",
+   "name": "三菱一号館美術館"
+  },
+  "21_21 DESIGN SIGHT": {
+   "m": "img/v/37cb78501b.jpg",
+   "s": "img/v/37cb78501b-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:21_21_DESIGN_SIGHT.jpg",
+   "name": "21_21 DESIGN SIGHT"
+  },
+  "森美術館": {
+   "m": "img/v/06c30be8ad.jpg",
+   "s": "img/v/06c30be8ad-s.jpg",
+   "by": "Wing1990hk",
+   "lic": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mori_Art_Museum_Entrance_2013.jpg",
+   "name": "森美術館"
+  },
+  "弥生美術館": {
+   "m": "img/v/e6cc39977e.jpg",
+   "s": "img/v/e6cc39977e-s.jpg",
+   "by": "みそがい",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Appearance-of-Yayoi-Yumeji-Museum.jpg",
+   "name": "弥生美術館"
+  },
+  "皇居三の丸尚蔵館": {
+   "m": "img/v/009d42281c.jpg",
+   "s": "img/v/009d42281c-s.jpg",
+   "by": "江戸村のとくぞう",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Sannomaru_Shozokan_190928a.jpg",
+   "name": "皇居三の丸尚蔵館"
+  },
+  "横須賀美術館": {
+   "m": "img/v/5ede55bcbf.jpg",
+   "s": "img/v/5ede55bcbf-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Yokosuka_Museum_of_Art_2009.jpg",
+   "name": "横須賀美術館"
+  },
+  "うらわ美術館": {
+   "m": "img/v/f6dab5ee59.jpg",
+   "s": "img/v/f6dab5ee59-s.jpg",
+   "by": "Nishikaratsu",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:UrawaCenturyCity201303.jpg",
+   "name": "うらわ美術館"
+  },
+  "パナソニック汐留美術館": {
+   "m": "img/v/638a025d61.jpg",
+   "s": "img/v/638a025d61-s.jpg",
+   "by": "Kure",
+   "lic": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Matsushita_Electric_Works_Building_20070317-02.jpg",
+   "name": "パナソニック汐留美術館"
+  },
+  "茨城県陶芸美術館": {
+   "m": "img/v/3ca6a8fe7f.jpg",
+   "s": "img/v/3ca6a8fe7f-s.jpg",
+   "by": "Abasaa",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Ibaraki_Ceramic_Art_Museum.JPG",
+   "name": "茨城県陶芸美術館"
+  },
+  "群馬県立館林美術館": {
+   "m": "img/v/3ba30c49fd.jpg",
+   "s": "img/v/3ba30c49fd-s.jpg",
+   "by": "Qurren",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Gunma_Museum_of_Art,_Tatebayashi_1.jpg",
+   "name": "群馬県立館林美術館"
+  },
+  "原美術館ARC": {
+   "m": "img/v/7bd87fe4c7.jpg",
+   "s": "img/v/7bd87fe4c7-s.jpg",
+   "by": "Sss g00",
+   "lic": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Haramuseumarc.JPG",
+   "name": "原美術館ARC"
+  }
+ }
+}

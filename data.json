@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-13",
- "notice": "オルセー展（東京都美術館）は明日11/14開幕。森万里子の冬至パフォーマンスは受付終了。日展は11/22まで、書のシンポジウム（11/14）は当日整理券。",
+ "updatedAt": "2026-11-14",
+ "notice": "MOMAT秋びより・葉山の駒井哲郎展・東京芸術劇場のドラムセット展は明日11/15まで。板橋区立美術館コッライーニ展の講演会は申込受付中（11/28白い本ワークショップは満席）。",
  "picks": [
   {
    "id": "orsay",
-   "why": "明日11/14開幕。ミレー、モネ、ゴッホら約110点を開幕直後に。"
+   "why": "今日11/14開幕。ミレー、モネ、ゴッホらオルセーの名品約110点。"
   },
   {
-   "id": "pola-monet",
-   "why": "11/14はモネの誕生日。スーメイ・ツェのトークと学芸課長の特別講演が無料（入館券要）。"
+   "id": "momat",
+   "why": "明日11/15閉幕。東京国立近代美術館の秋のコレクション展、見納め。"
   },
   {
-   "id": "paik",
-   "why": "11/23閉幕。没後20年のナムジュン・パイク回顧展、ワタリウム全館を使った最後の1週間半。"
+   "id": "itabashi-corraini",
+   "why": "11/21開幕。ピエトロ・コッライーニの講演会（無料・要申込）も初日に。"
   }
  ],
  "exhibitions": [
@@ -253,7 +253,9 @@
    "geo": [
     35.71285,
     139.77477
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-14",
+   "events": []
   },
   {
    "id": "fontanesi",
@@ -1577,12 +1579,14 @@
    "url": "https://www.yayoi-yumeji-museum.jp/",
    "official": true,
    "price": "一般1,200円（竹久夢二美術館と共通・現金のみ）",
-   "booking": null,
+   "booking": "予約不要",
    "scale": "gallery",
    "geo": [
     35.7149,
     139.76348
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-14",
+   "events": []
   },
   {
    "id": "play-kikuchi",
@@ -1642,6 +1646,118 @@
    "geo": [
     35.78423,
     139.64447
+   ],
+   "eventsCheckedAt": "2026-11-14",
+   "events": [
+    {
+     "d": "2026-11-21",
+     "time": "14:00–16:00",
+     "kind": "講演会",
+     "title": "本を組み立てる",
+     "who": "ピエトロ・コッライーニ（通訳：森住フミミ）",
+     "place": null,
+     "booking": "事前申込制（Webフォーム・11/7受付開始・定員60名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://logoform.jp/form/Rwxz/1792042"
+    },
+    {
+     "d": "2026-11-22",
+     "time": "10:00–16:00",
+     "kind": "ワークショップ",
+     "title": "イラストレーター向けワークショップ「秩序と無秩序の間で」（11/22・23の2日間）",
+     "who": "ピエトロ・コッライーニ",
+     "place": null,
+     "booking": "受付終了",
+     "apply": "closed",
+     "price": "10,000円",
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002097.html",
+     "deadline": "2026-10-28"
+    },
+    {
+     "d": "2026-11-28",
+     "time": "10:00–12:00",
+     "kind": "ワークショップ",
+     "title": "絵本講座｜白い本のワークショップ「触覚であそぼう」",
+     "who": "ベバ・レステッリ（通訳：藤田寿伸）",
+     "place": null,
+     "booking": "満席",
+     "apply": "closed",
+     "price": "1,600円",
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002108.html"
+    },
+    {
+     "d": "2026-11-28",
+     "time": "14:00–16:00",
+     "kind": "講演会",
+     "title": "ベバ・レステッリ氏講演会",
+     "who": "ベバ・レステッリ（通訳：藤田寿伸）",
+     "place": null,
+     "booking": "事前申込制（Webフォーム・定員60名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002108.html"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "14:00–15:30",
+     "kind": "ワークショップ",
+     "title": "ミニワークショップ「目玉たくさんオッキウートさん！」",
+     "who": "ファウスト・ジルベルティ",
+     "place": null,
+     "booking": "受付終了",
+     "apply": "closed",
+     "price": "500円",
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002097.html"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "10:00–12:00／14:00–16:00",
+     "kind": "ワークショップ",
+     "title": "こどもアトリエ「ステンシルで絵をかこう」",
+     "who": "三浦太郎",
+     "place": null,
+     "booking": "電話先着（11/14 9:00受付開始・各回12組）",
+     "apply": "required",
+     "price": "1組1,300円",
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4001637/4002105.html"
+    },
+    {
+     "d": "2026-12-12",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "ボローニャから始まった旅",
+     "who": "三浦太郎",
+     "place": null,
+     "booking": "事前申込制（Webフォーム・定員60名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://logoform.jp/form/Rwxz/1792062"
+    },
+    {
+     "d": "2026-12-13",
+     "time": "14:00–15:30",
+     "kind": "トーク",
+     "title": "ボローニャで、そして時にはマントヴァで",
+     "who": "松岡希代子（館長）、高木佳子（学芸員）、ゲスト：野田よしこ",
+     "place": null,
+     "booking": "事前申込制（Webフォーム・定員60名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://logoform.jp/form/Rwxz/1792075"
+    },
+    {
+     "d": "2026-12-26",
+     "time": "14:00–16:30",
+     "kind": "ワークショップ",
+     "title": "絵本講座｜オブジェとしての本づくり－イタリアの幼児教育と諸感覚－",
+     "who": "藤田寿伸",
+     "place": null,
+     "booking": "事前申込制（Webフォーム・定員24名）",
+     "apply": "required",
+     "price": "1,600円",
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002108.html"
+    }
    ]
   },
   {
@@ -1904,7 +2020,7 @@
    "e": "2027-02-28",
    "g": "con",
    "one": "ピンクや緑の抽象絵画で知られる松本陽子の企画展。",
-   "url": "https://www.moma.pref.kanagawa.jp/exhibition/",
+   "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/",
    "geo": [
     35.26507,
     139.5767
@@ -2623,10 +2739,61 @@
    "e": "2026-12-27",
    "g": "jpn",
    "one": "栃木出身の日本画家・松本哲男の大画面の風景画をたどる回顧展。",
-   "url": "https://www.art.pref.tochigi.lg.jp/schedule/index.html",
+   "url": "https://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html",
    "geo": [
     36.56744,
     139.86607
+   ],
+   "eventsCheckedAt": "2026-11-14",
+   "events": [
+    {
+     "d": "2026-10-24",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "松本郁子氏による特別ギャラリートーク",
+     "who": "松本郁子",
+     "place": "企画展示室",
+     "booking": "予約不要（要当日観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html"
+    },
+    {
+     "d": "2026-11-01",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": "担当学芸員",
+     "place": "展示室入口",
+     "booking": "予約不要（要当日観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html"
+    },
+    {
+     "d": "2026-11-28",
+     "time": "10:00–15:00",
+     "kind": "ワークショップ",
+     "title": "千年もつ日本画を描こう！",
+     "who": "中村寿生（日本画家・文星芸術大学教授）",
+     "place": "集会室",
+     "booking": "事前申込制（Web・10組）",
+     "apply": "required",
+     "price": "材料費1,000円＋観覧券提示",
+     "url": "https://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html"
+    },
+    {
+     "d": "2026-12-20",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": "担当学芸員",
+     "place": "展示室入口",
+     "booking": "予約不要（要当日観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html"
+    }
    ]
   },
   {
@@ -2647,6 +2814,33 @@
    "geo": [
     36.60702,
     139.87393
+   ],
+   "eventsCheckedAt": "2026-11-14",
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "没後50年 髙島野十郎展 ギャラリートーク",
+     "who": null,
+     "place": "講義室",
+     "booking": "申込不要（観覧券を購入のうえ講義室へ）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://u-moa.jp/"
+    },
+    {
+     "d": "2026-11-28",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "没後50年 髙島野十郎展 ギャラリートーク",
+     "who": null,
+     "place": "講義室",
+     "booking": "申込不要（観覧券を購入のうえ講義室へ）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://u-moa.jp/"
+    }
    ]
   },
   {
@@ -2696,7 +2890,7 @@
    "eventsCheckedAt": "2026-11-11"
   },
   {
-   "price": null,
+   "price": "一般1,200円／大高生600円／中学生以下無料",
    "booking": null,
    "scale": "museum",
    "official": true,
@@ -2709,10 +2903,85 @@
    "e": "2027-01-31",
    "g": "wst",
    "one": "モネの師で「空の王者」と呼ばれたブーダンの海辺と空の絵画。",
-   "url": "https://mmag.pref.gunma.jp/exhibition",
+   "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218",
    "geo": [
     36.29879,
     139.07838
+   ],
+   "eventsCheckedAt": "2026-11-14",
+   "events": [
+    {
+     "d": "2026-12-12",
+     "time": "14:00–15:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会［ギャラリートーク］",
+     "who": null,
+     "place": "1階展示室",
+     "booking": "申込不要（要観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+    },
+    {
+     "d": "2026-12-23",
+     "time": "14:00–15:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会［ギャラリートーク］",
+     "who": null,
+     "place": "1階展示室",
+     "booking": "申込不要（要観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+    },
+    {
+     "d": "2027-01-09",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "ウジェーヌ・ブーダン――風景画を変えた画家",
+     "who": "岡坂桜子（SOMPO美術館 主任学芸員）",
+     "place": "2階講堂",
+     "booking": "申込不要（先着200名・要観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+    },
+    {
+     "d": "2027-01-11",
+     "time": "14:00–15:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会［ギャラリートーク］",
+     "who": null,
+     "place": "1階展示室",
+     "booking": "申込不要（要観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+    },
+    {
+     "d": "2027-01-17",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "ブーダンと印象派",
+     "who": "村上博哉（武蔵野美術大学教授）",
+     "place": "2階講堂",
+     "booking": "申込不要（先着200名・要観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+    },
+    {
+     "d": "2027-01-27",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "学芸員による作品解説会［レクチャー］",
+     "who": "佐藤聖子（担当学芸員）",
+     "place": "2階講堂",
+     "booking": "申込不要（先着200名・要観覧券）",
+     "apply": "none",
+     "price": "観覧券が必要",
+     "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+    }
    ]
   },
   {
@@ -2983,6 +3252,42 @@
    "price": "一般500円",
    "booking": null,
    "scale": "museum"
+  },
+  {
+   "id": "ibk-tougei-europe",
+   "t": "国立美術館 コレクション・プラス 近代ヨーロッパの工芸とデザイン",
+   "v": "茨城県陶芸美術館",
+   "city": "笠間市",
+   "pref": "茨城",
+   "s": "2026-09-03",
+   "e": "2026-12-24",
+   "g": "des",
+   "one": "ガレ、ドレッサー、ホフマン、ルーシー・リーら19世紀末〜20世紀半ばの欧州工芸。11/17から後期",
+   "url": "https://www.tougei.museum.ibk.ed.jp/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    36.37425,
+    140.262
+   ]
+  },
+  {
+   "id": "taka-ishii-ruby",
+   "t": "スターリング・ルビー「OCEAN」",
+   "v": "タカ・イシイギャラリー 六本木・京橋",
+   "city": "港区・中央区",
+   "pref": "東京",
+   "s": "2026-11-04",
+   "e": "2026-12-12",
+   "g": "con",
+   "one": "米国の作家スターリング・ルビーの個展。六本木と京橋の2会場で開催",
+   "url": "https://www.takaishiigallery.com/jp/archives/38816/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "gallery"
   }
  ],
  "sources": [
@@ -3245,6 +3550,26 @@
   {
    "name": "国立新美術館 少女漫画・インフィニティ",
    "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/"
+  },
+  {
+   "name": "板橋区立美術館 コッライーニ展 関連イベント",
+   "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002097.html"
+  },
+  {
+   "name": "群馬県立近代美術館 ブーダン展",
+   "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+  },
+  {
+   "name": "栃木県立美術館 松本哲男展",
+   "url": "https://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html"
+  },
+  {
+   "name": "タカ・イシイギャラリー",
+   "url": "https://www.takaishiigallery.com/jp/exhibitions/"
+  },
+  {
+   "name": "茨城県陶芸美術館",
+   "url": "https://www.tougei.museum.ibk.ed.jp/"
   }
  ]
 }

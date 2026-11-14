@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-14",
- "notice": "MOMAT秋びより・葉山の駒井哲郎展・東京芸術劇場のドラムセット展は明日11/15まで。板橋区立美術館コッライーニ展の講演会は申込受付中（11/28白い本ワークショップは満席）。",
+ "updatedAt": "2026-11-15",
+ "notice": "MOMAT秋びより・葉山の駒井哲郎展・東京芸術劇場のドラムセット展は今日11/15まで。毛利悠子展・マリー・アントワネット展（横浜）、パイク展（ワタリウム）は11/23まで。",
  "picks": [
   {
-   "id": "orsay",
-   "why": "今日11/14開幕。ミレー、モネ、ゴッホらオルセーの名品約110点。"
-  },
-  {
    "id": "momat",
-   "why": "明日11/15閉幕。東京国立近代美術館の秋のコレクション展、見納め。"
+   "why": "今日11/15閉幕。東京国立近代美術館の秋のコレクション展、見納め。"
   },
   {
    "id": "itabashi-corraini",
-   "why": "11/21開幕。ピエトロ・コッライーニの講演会（無料・要申込）も初日に。"
+   "why": "11/21開幕。11/28のベバ・レステッリ講演会（無料・要申込）はまだ受付中。"
+  },
+  {
+   "id": "paik",
+   "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは残り1週間。"
   }
  ],
  "exhibitions": [
@@ -2007,7 +2007,7 @@
    ]
   },
   {
-   "price": null,
+   "price": "一般1,200円",
    "booking": null,
    "official": true,
    "scale": "museum",
@@ -2024,7 +2024,82 @@
    "geo": [
     35.26507,
     139.5767
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-28",
+     "time": "13:00–14:00",
+     "kind": "トーク",
+     "title": "クロス・アーティストトーク",
+     "who": "松本陽子、三沢厚彦",
+     "place": "葉山館 講堂",
+     "booking": "当日整理券（12:00から配布・定員60名）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
+    },
+    {
+     "d": "2026-12-12",
+     "time": "14:00–14:30",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": "担当学芸員",
+     "place": "葉山館 展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
+    },
+    {
+     "d": "2026-12-19",
+     "time": "14:00–15:00",
+     "kind": "上映会",
+     "title": "松本陽子インタビュー映像上映会",
+     "who": null,
+     "place": "葉山館 講堂",
+     "booking": "当日先着順（定員60名）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
+    },
+    {
+     "d": "2027-01-09",
+     "time": "14:00–14:30",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": "担当学芸員",
+     "place": "葉山館 展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
+    },
+    {
+     "d": "2027-01-23",
+     "time": "14:00–15:30",
+     "kind": "トーク",
+     "title": "ゲストトーク",
+     "who": "高島直之（美術評論家）",
+     "place": "葉山館 講堂",
+     "booking": "当日整理券（13:00から配布・定員60名）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
+    },
+    {
+     "d": "2027-02-20",
+     "time": "14:00–15:00",
+     "kind": "上映会",
+     "title": "松本陽子インタビュー映像上映会",
+     "who": null,
+     "place": "葉山館 講堂",
+     "booking": "当日先着順（定員60名）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-15"
   },
   {
    "price": null,
@@ -2200,7 +2275,22 @@
    "geo": [
     35.3495,
     140.16081
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "13:00–14:30",
+     "kind": "対談",
+     "title": "対談「現代芸術の使命」",
+     "who": "河口龍夫、大澤真幸",
+     "place": "多目的ホール",
+     "booking": "事前申込制（専用フォーム・定員50名・先着）",
+     "apply": "required",
+     "price": "1,000円（別途入館料）",
+     "url": "https://lsm-ichihara.jp/event/tatsuokawaguchi/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-15"
   },
   {
    "price": "一般1,400円",
@@ -2287,9 +2377,9 @@
    ]
   },
   {
-   "price": null,
-   "booking": null,
-   "official": false,
+   "price": "一般700円",
+   "booking": "不要",
+   "official": true,
    "scale": "museum",
    "id": "kawagoe-hisui",
    "t": "生誕150年 杉浦非水と『非水百花譜』",
@@ -2300,14 +2390,53 @@
    "e": "2026-12-13",
    "g": "des",
    "one": "デザインの先駆者・非水の『非水百花譜』と新発見の原画を一挙展示。",
-   "url": "https://www.tokyoartbeat.com/events/-/Hisui-Sugiura-and-Hisui-Hyakka-fu/C705-C877/2026-10-17",
+   "url": "https://www.city.kawagoe.saitama.jp/artmuseum/tenrankai/1013563/1020854.html",
    "geo": [
     35.92571,
     139.49083
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "9:30–16:00（4回）",
+     "kind": "ワークショップ",
+     "title": "自分の絵を千代紙にしよう",
+     "who": null,
+     "place": "アートホール",
+     "booking": "事前申込制（電子申請・各回16名・先着）",
+     "apply": "required",
+     "price": "200円",
+     "url": "https://www.city.kawagoe.saitama.jp/artmuseum/a-event/1022447/1022449.html"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "講演会「杉浦非水のデザイン」",
+     "who": "前村文博（宇都宮美術館学芸課係長）",
+     "place": "アートホール",
+     "booking": "事前申込制（電子申請・電話、定員60名・先着）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://www.city.kawagoe.saitama.jp/artmuseum/a-event/1022447/1022448.html"
+    },
+    {
+     "d": "2026-12-06",
+     "time": "9:30–16:00（4回）",
+     "kind": "ワークショップ",
+     "title": "自分の絵を千代紙にしよう",
+     "who": null,
+     "place": "アートホール",
+     "booking": "事前申込制（電子申請・各回16名・先着）",
+     "apply": "required",
+     "price": "200円",
+     "url": "https://www.city.kawagoe.saitama.jp/artmuseum/a-event/1022447/1022449.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-15"
   },
   {
-   "price": null,
+   "price": "一般1,000円",
    "booking": null,
    "official": true,
    "scale": "museum",
@@ -2320,11 +2449,76 @@
    "e": "2027-01-17",
    "g": "des",
    "one": "本の形をとる美術「ブック・アート」を3か国の作家で紹介。",
-   "url": "https://www.city.saitama.lg.jp/urawa-art-museum/exhibition/upcoming/p133472.html",
+   "url": "https://www.city.saitama.lg.jp/urawa-art-museum/exhibition/whatson/exhibition/p133472.html",
    "geo": [
     35.86064,
     139.65262
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-14",
+     "time": "13:00頃（約20分）",
+     "kind": "ライブ・ドローイング",
+     "title": "O JUNライブ・ドローイング",
+     "who": "O JUN",
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要観覧券",
+     "url": "https://www.city.saitama.lg.jp/urawa-art-museum/educational/p133473.html"
+    },
+    {
+     "d": "2026-11-14",
+     "time": "14:00–15:30",
+     "kind": "ギャラリートーク",
+     "title": "アーティスト・ギャラリー・トーク",
+     "who": "出品作家9名（通訳付き）",
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要観覧券",
+     "url": "https://www.city.saitama.lg.jp/urawa-art-museum/educational/p133473.html"
+    },
+    {
+     "d": "2026-11-20",
+     "time": "18:00–18:45",
+     "kind": "パフォーマンス",
+     "title": "ナイト・ミュージアム・パフォーマンス",
+     "who": "クリスティーネ・ファウステン",
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要観覧券",
+     "url": "https://www.city.saitama.lg.jp/urawa-art-museum/educational/p133473.html"
+    },
+    {
+     "d": "2026-11-22",
+     "time": "14:00–16:00",
+     "kind": "ワークショップ",
+     "title": "一緒に楽しい！お絵かき・工作教室",
+     "who": "平井晴香、中原正夫",
+     "place": "視聴覚室",
+     "booking": "受付終了（11/8締切・抽選）",
+     "apply": "closed",
+     "price": "無料",
+     "url": "https://www.city.saitama.lg.jp/urawa-art-museum/educational/p133473.html",
+     "deadline": "2026-11-08"
+    },
+    {
+     "d": "2026-12-26",
+     "time": "10:00／14:00（各2時間）",
+     "kind": "鑑賞会",
+     "title": "白鳥さんと過ごすアートの時間",
+     "who": "白鳥建二",
+     "place": "展示室・視聴覚室",
+     "booking": "事前申込制（定員5名・抽選、12/13締切）",
+     "apply": "required",
+     "price": "要観覧券",
+     "url": "https://www.city.saitama.lg.jp/urawa-art-museum/educational/p133473.html",
+     "deadline": "2026-12-13"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-15"
   },
   {
    "price": null,
@@ -2686,10 +2880,10 @@
    "eventsCheckedAt": "2026-11-12"
   },
   {
-   "price": null,
+   "price": "一般900円",
    "booking": null,
    "scale": "museum",
-   "official": false,
+   "official": true,
    "id": "mito-saikai",
    "t": "収蔵作品展「再会―17人のアーティストによる伝言」",
    "v": "水戸芸術館 現代美術ギャラリー",
@@ -2699,11 +2893,13 @@
    "e": "2027-01-31",
    "g": "con",
    "one": "水戸芸術館現代美術センターの歩みを17人の収蔵作品でたどる。",
-   "url": "https://www.artagenda.jp/museum/detail/94",
+   "url": "https://www.arttowermito.or.jp/gallery/lineup/article_5432.html",
    "geo": [
     36.38048,
     140.46531
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-15"
   },
   {
    "price": "一般950円",
@@ -3039,10 +3235,10 @@
    ]
   },
   {
-   "price": null,
+   "price": "一般500円",
    "booking": null,
    "scale": "museum",
-   "official": false,
+   "official": true,
    "id": "ota-kondo",
    "t": "近藤聡乃 夢のタイトル",
    "v": "太田市美術館・図書館",
@@ -3052,17 +3248,71 @@
    "e": "2027-01-24",
    "g": "ill",
    "one": "漫画家・アニメーション作家の近藤聡乃の個展。15年ぶりの新作アニメーションと膨大なドローイング。",
-   "url": "https://bijutsutecho.com/magazine/news/exhibition/32882",
+   "url": "https://www.artmuseumlibraryota.jp/post_artmuseum/193648.html",
    "geo": [
     36.29479,
     139.37847
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-21",
+     "time": "14:00–15:30",
+     "kind": "トーク",
+     "title": "アーティスト・トーク",
+     "who": "近藤聡乃",
+     "place": "3F 視聴覚ホール",
+     "booking": "受付終了（10/27締切・抽選）",
+     "apply": "closed",
+     "price": "無料（要観覧券）",
+     "url": "https://www.artmuseumlibraryota.jp/post_artmuseum/193648.html",
+     "deadline": "2026-10-27"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "13:30–14:30",
+     "kind": "鑑賞会",
+     "title": "あかちゃんと楽しむ美術館",
+     "who": null,
+     "place": "展示室",
+     "booking": "受付終了（11/6締切）",
+     "apply": "closed",
+     "price": "無料（保護者は要観覧券）",
+     "url": "https://www.artmuseumlibraryota.jp/post_artmuseum/193648.html",
+     "deadline": "2026-11-06"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "14:00–15:00",
+     "kind": "スライドトーク",
+     "title": "担当学芸員によるスライドトーク",
+     "who": "担当学芸員",
+     "place": "3F 視聴覚ホール",
+     "booking": "事前申込制（抽選・受付期間延長の案内あり）",
+     "apply": "required",
+     "price": "無料（要観覧券）",
+     "url": "https://www.artmuseumlibraryota.jp/post_artmuseum/193648.html"
+    },
+    {
+     "d": "2027-01-10",
+     "time": "11:00–11:40",
+     "kind": "ワークショップ",
+     "title": "こどもアートさんぽ",
+     "who": "館スタッフ",
+     "place": "展示室",
+     "booking": "事前申込制（小学生5名・抽選、12/18締切）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://www.artmuseumlibraryota.jp/post_artmuseum/193648.html",
+     "deadline": "2026-12-18"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-15"
   },
   {
    "price": "一般300円",
    "booking": null,
    "scale": "museum",
-   "official": false,
+   "official": true,
    "id": "takasaki-figure",
    "t": "Human Figure 人を見つめ、かたちづくる",
    "v": "高崎市美術館",
@@ -3072,7 +3322,58 @@
    "e": "2026-12-13",
    "g": "con",
    "one": "国吉康雄から現代作家まで、人のかたちを見つめた絵画・彫刻。",
-   "url": "https://www.tokyoartbeat.com/events/-/Human-Figure/955-E7-A40/2026-10-10"
+   "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html",
+   "events": [
+    {
+     "d": "2026-11-03",
+     "time": "14:00",
+     "kind": "トーク",
+     "title": "出品作家トーク",
+     "who": "水野暁",
+     "place": "高崎市南公民館",
+     "booking": "事前申込制（ロゴフォーム・50名先着）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
+    },
+    {
+     "d": "2026-11-14",
+     "time": "14:00",
+     "kind": "トーク",
+     "title": "出品作家トーク",
+     "who": "渡辺香奈",
+     "place": "高崎市南公民館",
+     "booking": "事前申込制（ロゴフォーム・50名先着）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
+    },
+    {
+     "d": "2026-11-23",
+     "time": "14:00",
+     "kind": "トーク",
+     "title": "出品作家トーク",
+     "who": "山本優美",
+     "place": "高崎市南公民館",
+     "booking": "事前申込制（ロゴフォーム・50名先着）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
+    },
+    {
+     "d": "2026-12-06",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員によるギャラリートーク",
+     "who": "学芸員",
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要観覧料",
+     "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-15"
   },
   {
    "id": "kanazawa-tannei",
@@ -3288,6 +3589,26 @@
    "price": null,
    "booking": null,
    "scale": "gallery"
+  },
+  {
+   "id": "morino-yamamoto",
+   "t": "山本大貴展 Simulacrum Girls",
+   "v": "森の美術館",
+   "city": "流山市",
+   "pref": "千葉",
+   "s": "2026-09-10",
+   "e": "2026-12-21",
+   "g": "con",
+   "one": "白日会の写実画家・山本大貴が、実在のモデルから生まれた「原型のない」女性像を描く個展。",
+   "url": "https://morino-bijutsukan.com",
+   "official": true,
+   "price": "大人600円（現金のみ）",
+   "booking": "事前予約制（公式HP・電話）",
+   "scale": "gallery",
+   "geo": [
+    35.87457,
+    139.91222
+   ]
   }
  ],
  "sources": [
@@ -3570,6 +3891,14 @@
   {
    "name": "茨城県陶芸美術館",
    "url": "https://www.tougei.museum.ibk.ed.jp/"
+  },
+  {
+   "name": "森の美術館",
+   "url": "https://morino-bijutsukan.com"
+  },
+  {
+   "name": "インターネットミュージアム",
+   "url": "https://www.museum.or.jp/event/126276"
   }
  ]
 }

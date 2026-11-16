@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-15",
- "notice": "MOMAT秋びより・葉山の駒井哲郎展・東京芸術劇場のドラムセット展は今日11/15まで。毛利悠子展・マリー・アントワネット展（横浜）、パイク展（ワタリウム）は11/23まで。",
+ "updatedAt": "2026-11-16",
+ "notice": "11/20〜23は高輪ゲートウェイのMoN TakanawaでMUTEK.JPと音の没入展示RESONANCEが同時開催。毛利悠子展・マリー・アントワネット展（横浜）、パイク展（ワタリウム）、千葉市美術館「月と星と」は11/23まで。",
  "picks": [
   {
-   "id": "momat",
-   "why": "今日11/15閉幕。東京国立近代美術館の秋のコレクション展、見納め。"
-  },
-  {
-   "id": "itabashi-corraini",
-   "why": "11/21開幕。11/28のベバ・レステッリ講演会（無料・要申込）はまだ受付中。"
+   "id": "eternal-resonance",
+   "why": "11/20〜23の4日間だけ。2・3Fは無料、声と立体音響の4F上映はPeatixで要予約。"
   },
   {
    "id": "paik",
-   "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは残り1週間。"
+   "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは今週が最後。"
+  },
+  {
+   "id": "itabashi-corraini",
+   "why": "11/21開幕。11/28のベバ・レステッリ講演会（無料・定員60）はまだ満席表示なし。"
   }
  ],
  "exhibitions": [
@@ -363,26 +363,6 @@
    "eventsCheckedAt": "2026-11-13"
   },
   {
-   "id": "momat",
-   "t": "MOMAT秋びより",
-   "v": "東京国立近代美術館",
-   "city": "千代田区",
-   "pref": "東京",
-   "s": "2026-09-29",
-   "e": "2026-11-15",
-   "g": "jpn",
-   "one": "所蔵作品で秋を楽しむコレクション展示。",
-   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
-   "official": false,
-   "price": null,
-   "booking": null,
-   "scale": "museum",
-   "geo": [
-    35.69047,
-    139.75451
-   ]
-  },
-  {
    "id": "tada",
    "t": "多田美波―光、凛と ゆれる",
    "v": "東京都現代美術館",
@@ -501,14 +481,41 @@
    "e": "2026-11-29",
    "g": "con",
    "one": "美術家・堀浩哉の実践をコレクションで辿る。",
-   "url": "https://www.museum.or.jp/schedule/2026/area_kanagawa-chiba-saitama",
-   "official": false,
-   "price": null,
+   "url": "https://pref.spec.ed.jp/momas/2026momas02",
+   "official": true,
+   "price": "一般200円",
    "booking": null,
    "scale": "museum",
    "geo": [
     35.8696,
     139.64302
+   ],
+   "eventsCheckedAt": "2026-11-16",
+   "events": [
+    {
+     "d": "2026-09-27",
+     "time": "15:00–15:30",
+     "kind": "ギャラリートーク",
+     "title": "コレクション・トーク《鑑賞を拒否する》",
+     "who": "平野到（学芸員）",
+     "place": "1階展示室",
+     "booking": null,
+     "apply": null,
+     "price": "MOMASコレクション観覧料",
+     "url": "https://pref.spec.ed.jp/momas/2026momas02"
+    },
+    {
+     "d": "2026-10-25",
+     "time": "15:00–16:30",
+     "kind": "トーク",
+     "title": "アーティスト・トーク",
+     "who": "堀浩哉（聞き手：平野到）",
+     "place": "2階講堂",
+     "booking": "当日先着順（定員80人）",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://pref.spec.ed.jp/momas/2026momas02"
+    }
    ]
   },
   {
@@ -886,7 +893,7 @@
   },
   {
    "official": false,
-   "price": null,
+   "price": "大人2,000円（小田原市民1,500円）",
    "booking": null,
    "url": "https://www.kanagawa-kankou.or.jp/event/7831",
    "id": "tomino",
@@ -894,7 +901,7 @@
    "v": "小田原城天守閣・小田原三の丸ホール",
    "city": "小田原市",
    "pref": "神奈川",
-   "s": "2026-11-23",
+   "s": "2026-11-06",
    "e": "2026-12-06",
    "g": "pop",
    "one": "『機動戦士ガンダム』の富野監督の原点を故郷・小田原でたどる。天守閣では11/6から先行展示。",
@@ -902,7 +909,9 @@
    "geo": [
     35.25105,
     139.15342
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-16",
+   "events": []
   },
   {
    "official": false,
@@ -943,7 +952,7 @@
     35.64154,
     139.7134
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-16",
    "events": [
     {
      "d": "2026-11-13",
@@ -964,11 +973,11 @@
      "title": "図書室夜話",
      "who": "苅部太郎",
      "place": "4階図書室",
-     "booking": "事前申込制（11/12 13:00締切、定員7名）",
+     "booking": "事前申込制（締切延長 11/17 13:00）",
      "apply": "required",
      "price": "無料",
      "url": "https://topmuseum.jp/exhibition/5423/",
-     "deadline": "2026-11-12"
+     "deadline": "2026-11-17"
     },
     {
      "d": "2026-12-11",
@@ -1600,12 +1609,51 @@
    "one": "墨と色で躍動する生きものを描く絵本作家の原画と、季節の部屋",
    "url": "https://play2020.jp/museum/",
    "official": true,
-   "price": null,
+   "price": "一般1,800円",
    "booking": "平日は当日券のみ、土日祝は日付指定券あり",
    "scale": "museum",
    "geo": [
     35.70341,
     139.41137
+   ],
+   "eventsCheckedAt": "2026-11-16",
+   "events": [
+    {
+     "d": "2026-10-17",
+     "time": "18:30–19:30",
+     "kind": "トーク",
+     "title": "PLAY! NIGHT きくちちきさんとおはなし会",
+     "who": "きくちちき、今村玲子",
+     "place": null,
+     "booking": "事前予約制（先着）",
+     "apply": "required",
+     "price": "一般2,800円（観覧料込）",
+     "url": "https://play2020.jp/article/kikuchichiki-playnight/"
+    },
+    {
+     "d": "2026-11-13",
+     "time": "19:00–20:00",
+     "kind": "演奏会",
+     "title": "PLAY! NIGHT 音の鑑賞会",
+     "who": "平井真美子（ピアノ）、きくちちき（朗読）",
+     "place": null,
+     "booking": "完売",
+     "apply": "closed",
+     "price": "中学生以上3,500円",
+     "url": "https://play2020.jp/article/kikuchichiki-playnight/"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "18:30–19:30",
+     "kind": "トーク",
+     "title": "PLAY! NIGHT 未来に残したい絵本",
+     "who": "きくちちき、斉藤秀之（ブックデザイナー）、草刈大介",
+     "place": null,
+     "booking": "完売",
+     "apply": "closed",
+     "price": "一般2,800円（観覧料込）",
+     "url": "https://play2020.jp/article/kikuchichiki-playnight/"
+    }
    ]
   },
   {
@@ -1647,7 +1695,7 @@
     35.78423,
     139.64447
    ],
-   "eventsCheckedAt": "2026-11-14",
+   "eventsCheckedAt": "2026-11-16",
    "events": [
     {
      "d": "2026-11-21",
@@ -1987,26 +2035,6 @@
    "eventsCheckedAt": "2026-11-13"
   },
   {
-   "price": null,
-   "booking": null,
-   "official": true,
-   "scale": "museum",
-   "id": "hayama-komai",
-   "t": "銅版画家・駒井哲郎",
-   "v": "神奈川県立近代美術館 葉山",
-   "city": "葉山町",
-   "pref": "神奈川",
-   "s": "2026-09-12",
-   "e": "2026-11-15",
-   "g": "jpn",
-   "one": "戦後日本の銅版画を切り拓いた駒井哲郎の企画展。",
-   "url": "https://www.moma.pref.kanagawa.jp/exhibition/",
-   "geo": [
-    35.26507,
-    139.5767
-   ]
-  },
-  {
    "price": "一般1,200円",
    "booking": null,
    "official": true,
@@ -2136,7 +2164,7 @@
    "g": "jpn",
    "one": "代表作や初出品を含む約70点で三岸節子の画業をたどる。",
    "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
-   "eventsCheckedAt": "2026-11-13",
+   "eventsCheckedAt": "2026-11-16",
    "events": [
     {
      "d": "2026-11-14",
@@ -2169,7 +2197,7 @@
      "title": "学芸員クロストーク「三岸節子の魅力」",
      "who": null,
      "place": null,
-     "booking": "事前申込制（申込受付中・締切延長、新しい締切日は要確認）",
+     "booking": "事前申込制（受付中・締切延長）",
      "price": null,
      "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
      "apply": "required"
@@ -2235,7 +2263,9 @@
    "geo": [
     35.33807,
     139.34789
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-16",
+   "events": []
   },
   {
    "price": null,
@@ -2433,7 +2463,7 @@
      "url": "https://www.city.kawagoe.saitama.jp/artmuseum/a-event/1022447/1022449.html"
     }
    ],
-   "eventsCheckedAt": "2026-11-15"
+   "eventsCheckedAt": "2026-11-16"
   },
   {
    "price": "一般1,000円",
@@ -2545,26 +2575,6 @@
    "booking": null,
    "official": true,
    "scale": "museum",
-   "id": "kadokawa-999",
-   "t": "銀河鉄道999 THE GALAXY EXPERIENCE",
-   "v": "角川武蔵野ミュージアム",
-   "city": "所沢市",
-   "pref": "埼玉",
-   "s": "2026-04-25",
-   "e": "2026-11-23",
-   "g": "pop",
-   "one": "『銀河鉄道999』の世界を体感するグランドギャラリーの展示。",
-   "url": "https://kadcul.com/event",
-   "geo": [
-    35.79769,
-    139.50787
-   ]
-  },
-  {
-   "price": null,
-   "booking": null,
-   "official": true,
-   "scale": "museum",
    "id": "skip-thomas",
    "t": "きかんしゃトーマスの世界展",
    "v": "SKIPシティ 彩の国ビジュアルプラザ 映像ミュージアム",
@@ -2656,7 +2666,7 @@
     35.68243,
     139.76649
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-16",
    "events": [
     {
      "d": "2026-11-21",
@@ -2797,27 +2807,9 @@
    "geo": [
     35.63963,
     139.74136
-   ]
-  },
-  {
-   "id": "geigeki-drum",
-   "t": "TOKYO CUSTOM DRUM SET EXHIBITION 一台のドラムセットを歩く",
-   "v": "東京芸術劇場",
-   "city": "豊島区",
-   "pref": "東京",
-   "s": "2026-11-07",
-   "e": "2026-11-15",
-   "g": "mus",
-   "one": "一台分のドラムセットを会場全体に広げた展示。歩くと音がつながり、一部は叩いて触れられる。",
-   "url": "https://artscape.jp/exhibitions/82951/",
-   "official": false,
-   "price": "無料",
-   "booking": null,
-   "scale": "space",
-   "geo": [
-    35.72967,
-    139.708
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-16",
+   "events": []
   },
   {
    "price": null,
@@ -2919,6 +2911,21 @@
    "geo": [
     36.37425,
     140.262
+   ],
+   "eventsCheckedAt": "2026-11-16",
+   "events": [
+    {
+     "d": "2026-11-22",
+     "time": "13:30–",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": null,
+     "place": "地下1階 企画展示室",
+     "booking": "予約不要",
+     "apply": "none",
+     "price": "無料（当日の企画展観覧券が必要）",
+     "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=605"
+    }
    ]
   },
   {
@@ -3609,6 +3616,84 @@
     35.87457,
     139.91222
    ]
+  },
+  {
+   "id": "suntory-hokekyo",
+   "t": "法華経の美術――つくるとは、願うこと",
+   "v": "サントリー美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-12-12",
+   "e": "2027-02-07",
+   "g": "jpn",
+   "one": "造塔・写経と奉納・造像の3テーマで法華経信仰の美術をたどる。前後期で展示替え",
+   "url": "https://www.suntory.co.jp/sma/exhibition/2026_4/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.66643,
+    139.73046
+   ]
+  },
+  {
+   "id": "mitsui-sesshozu",
+   "t": "国宝 雪松図と四季",
+   "v": "三井記念美術館",
+   "city": "中央区",
+   "pref": "東京",
+   "s": "2026-12-12",
+   "e": "2027-01-30",
+   "g": "jpn",
+   "one": "円山応挙の国宝《雪松図屏風》を中心に、四季を描いた館蔵品を紹介する恒例の冬展",
+   "url": "https://www.mitsui-museum.jp/exhibition/next.html",
+   "official": true,
+   "price": "一般1,200円",
+   "booking": "不要（混雑時は入場制限あり）",
+   "scale": "museum",
+   "geo": [
+    35.68684,
+    139.77307
+   ]
+  },
+  {
+   "id": "eternal-resonance",
+   "t": "ETERNAL Art Space Exhibition 2026 RESONANCE – Tradition Reimagined",
+   "v": "MoN Takanawa: The Museum of Narratives",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-11-20",
+   "e": "2026-11-23",
+   "g": "mus",
+   "one": "声だけで作る《Aura》や9.1chの立体音響、ヤマハのサウンドxRなど、音と映像の没入型展示",
+   "url": "https://exhibition.eternalart.space/",
+   "official": true,
+   "price": "2・3F無料／4F Tatami上映1,000円",
+   "booking": "2・3Fは予約不要、4FはPeatixで事前予約制",
+   "scale": "space",
+   "geo": [
+    35.63963,
+    139.74136
+   ],
+   "eventsCheckedAt": "2026-11-16",
+   "events": []
+  },
+  {
+   "id": "kikutake-suzuki",
+   "t": "鈴木ヒラク「Oceans―Organs」",
+   "v": "Yutaka Kikutake Gallery 六本木",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-10-24",
+   "e": "2026-12-12",
+   "g": "con",
+   "one": "線や記号を掘り起こすドローイングで知られる鈴木ヒラクの個展",
+   "url": "https://www.yutakakikutakegallery.com/",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "gallery"
   }
  ],
  "sources": [
@@ -3899,6 +3984,26 @@
   {
    "name": "インターネットミュージアム",
    "url": "https://www.museum.or.jp/event/126276"
+  },
+  {
+   "name": "サントリー美術館 法華経の美術（検索結果）",
+   "url": "https://www.suntory.co.jp/sma/exhibition/2026_4/"
+  },
+  {
+   "name": "三井記念美術館 次回展",
+   "url": "https://www.mitsui-museum.jp/exhibition/next.html"
+  },
+  {
+   "name": "ETERNAL Art Space RESONANCE 公式",
+   "url": "https://exhibition.eternalart.space/"
+  },
+  {
+   "name": "Yutaka Kikutake Gallery",
+   "url": "https://www.yutakakikutakegallery.com/"
+  },
+  {
+   "name": "Time Out Tokyo RESONANCE",
+   "url": "https://www.timeout.jp/tokyo/ja/news/eternal-art-space-exhibition-2026-resonance-tradition-reimagined-110526"
   }
  ]
 }

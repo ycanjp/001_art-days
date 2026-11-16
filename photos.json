@@ -472,6 +472,22 @@
    "lic": "CC BY-SA 4.0",
    "page": "https://commons.wikimedia.org/wiki/File:Haramuseumarc.JPG",
    "name": "原美術館ARC"
+  },
+  "サントリー美術館": {
+   "m": "img/v/0c2f817075.jpg",
+   "s": "img/v/0c2f817075-s.jpg",
+   "by": "Rs1421",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo-Midtown-Suntory-Museum-of-Art-01.jpg",
+   "name": "サントリー美術館"
+  },
+  "三井記念美術館": {
+   "m": "img/v/0a6773cf93.jpg",
+   "s": "img/v/0a6773cf93-s.jpg",
+   "by": "Wiiii",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Mitsui_Main_Building_2009.jpg",
+   "name": "三井記念美術館"
   }
  },
  "none": {
@@ -497,6 +513,7 @@
   "神奈川県立近代美術館 鎌倉別館": "2026-11-13",
   "MoN Takanawa: The Museum of Narratives": "2026-11-13",
   "タカ・イシイギャラリー 六本木・京橋": "2026-11-14",
-  "森の美術館": "2026-11-15"
+  "森の美術館": "2026-11-15",
+  "Yutaka Kikutake Gallery 六本木": "2026-11-16"
  }
 }

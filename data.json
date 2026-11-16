@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-16",
- "notice": "11/20〜23は高輪ゲートウェイのMoN TakanawaでMUTEK.JPと音の没入展示RESONANCEが同時開催。毛利悠子展・マリー・アントワネット展（横浜）、パイク展（ワタリウム）、千葉市美術館「月と星と」は11/23まで。",
+ "updatedAt": "2026-11-17",
+ "notice": "ggg「日本のアートディレクション展」のトーク申込は11/18 11時開始（先着）。金沢文庫・湛睿展の12/6特別講演会は11/19締切。毛利悠子展・パイク展・千葉市美術館「月と星と」は11/23まで。",
  "picks": [
   {
-   "id": "eternal-resonance",
-   "why": "11/20〜23の4日間だけ。2・3Fは無料、声と立体音響の4F上映はPeatixで要予約。"
+   "id": "ggg-417",
+   "why": "11/26公開制作・11/27ギャラリートーク（無料・先着）の申込が11/18（水）11時に始まる。"
   },
   {
    "id": "paik",
    "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは今週が最後。"
   },
   {
-   "id": "itabashi-corraini",
-   "why": "11/21開幕。11/28のベバ・レステッリ講演会（無料・定員60）はまだ満席表示なし。"
+   "id": "mon-plastikman",
+   "why": "11/23開始・入場無料。日本酒の発酵を音と映像にした夜だけのインスタレーション（18〜21時）。"
   }
  ],
  "exhibitions": [
@@ -1080,46 +1080,6 @@
    "official": false,
    "price": null,
    "booking": null,
-   "url": null,
-   "id": "black-lagoon",
-   "t": "BLACK LAGOON原画展",
-   "v": "サンシャイン60展望台",
-   "city": "豊島区",
-   "pref": "東京",
-   "s": "2026-11-13",
-   "e": "2026-12-06",
-   "g": "pop",
-   "one": "漫画原稿やカラー複製原画、作中の銃器プロップを展示。",
-   "scale": "space",
-   "geo": [
-    35.72944,
-    139.71807
-   ]
-  },
-  {
-   "official": false,
-   "price": null,
-   "booking": null,
-   "url": null,
-   "id": "hyonojoheki",
-   "t": "原作コミックス展示会「氷の城壁展」東京会場",
-   "v": "有楽町マルイ 8F イベントスペース",
-   "city": "千代田区",
-   "pref": "東京",
-   "s": "2026-11-28",
-   "e": "2026-12-13",
-   "g": "pop",
-   "one": "原作コミックスの展示会。",
-   "scale": "space",
-   "geo": [
-    35.67417,
-    139.76382
-   ]
-  },
-  {
-   "official": false,
-   "price": null,
-   "booking": null,
    "url": "https://www.toy-people.com/?p=113768",
    "id": "yugioh",
    "t": "高橋和希原画展 YU-GI-OH! ART WORKS",
@@ -1137,10 +1097,10 @@
    ]
   },
   {
-   "official": false,
-   "price": "一般 平日2,200円／土日祝2,500円",
+   "official": true,
+   "price": "一般2,200円（土日祝2,500円）",
    "booking": null,
-   "url": "https://bijutsutecho.com/magazine/news/exhibition/32584",
+   "url": "https://www.tokyonode.jp/events/yoshirotten/index.html",
    "id": "yoshirotten",
    "t": "ヨシロットン展 彼方との交信/BEYOND EARTH",
    "v": "TOKYO NODE GALLERY A/B/C（虎ノ門ヒルズ ステーションタワー45階）",
@@ -1154,13 +1114,15 @@
    "geo": [
     35.66754,
     139.74691
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-17",
+   "events": []
   },
   {
-   "official": false,
+   "official": true,
    "price": "前売2,600円／当日2,800円",
-   "booking": null,
-   "url": "https://www.tokyoartbeat.com/articles/-/kojima-productions-beyond-the-strand-news-202608",
+   "booking": "前売券は日時指定（ローチケ・Klook等）、当日券あり",
+   "url": "https://beyondthestrand.kojimaproductions.jp/ja/",
    "id": "kojima",
    "t": "KOJIMA PRODUCTIONS 10th ANNIVERSARY EXHIBITION BEYOND THE STRAND：創造と挑戦の航路",
    "v": "麻布台ヒルズギャラリー",
@@ -1174,7 +1136,9 @@
    "geo": [
     35.66084,
     139.74065
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-17",
+   "events": []
   },
   {
    "official": false,
@@ -1210,8 +1174,35 @@
    "s": "2026-10-30",
    "e": "2026-11-30",
    "one": "広告・パッケージなど、この1年の日本のアートディレクションを一覧する。",
-   "events": [],
-   "eventsCheckedAt": "2026-11-10",
+   "events": [
+    {
+     "d": "2026-11-26",
+     "time": "19:10–20:40",
+     "kind": "トーク",
+     "title": "公開制作＆ミニトーク",
+     "who": "佐藤修悦、佐々木俊（司会：永井裕明）",
+     "place": "ggg 1F",
+     "booking": "事前申込・先着20名（11/18 11:00受付開始）",
+     "apply": "required",
+     "opens": "2026-11-18",
+     "price": "無料",
+     "url": "https://www.dnpfcp.jp/CGI/gallery/news/detail.cgi?seq=0001015&type=1&t=1"
+    },
+    {
+     "d": "2026-11-27",
+     "time": "18:00–20:00",
+     "kind": "ギャラリートーク",
+     "title": "ギャラリートーク",
+     "who": "江波戸李生、吉川和也、柴谷麻以 ほか（司会：菊地敦己、國井美果）",
+     "place": "DNP銀座ビル 3F",
+     "booking": "事前申込・先着70名（11/18 11:00受付開始）",
+     "apply": "required",
+     "opens": "2026-11-18",
+     "price": "無料",
+     "url": "https://www.dnpfcp.jp/CGI/gallery/news/detail.cgi?seq=0001015&type=1&t=1"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-17",
    "scale": "gallery",
    "geo": [
     35.66968,
@@ -1317,7 +1308,9 @@
    "geo": [
     35.67978,
     139.80879
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-17",
+   "events": []
   },
   {
    "id": "teamlab-hamarikyu",
@@ -1351,13 +1344,15 @@
    "e": "2026-12-19",
    "g": "con",
    "one": "市ヶ谷の老舗現代美術ギャラリー。色彩豊かな絵画の個展",
-   "url": "https://mizuma-art.co.jp/",
+   "url": "https://mizuma-art.co.jp/exhibitions/2611_okuda_yuta/",
    "price": "無料",
    "scale": "gallery",
    "geo": [
     35.69442,
     139.73794
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-17",
+   "events": []
   },
   {
    "official": true,
@@ -2281,11 +2276,13 @@
    "e": "2027-01-11",
    "g": "tec",
    "one": "光のアーティスト髙橋匡太による、彫刻の森美術館でのプロジェクト。",
-   "url": "https://www.hakone-oam.or.jp/",
+   "url": "https://www.hakone-oam.or.jp/exhibitions/article.cgi?id=13182954",
    "geo": [
     35.24428,
     139.05208
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-17",
+   "events": []
   },
   {
    "price": "一般1,000円",
@@ -3694,6 +3691,63 @@
    "price": null,
    "booking": null,
    "scale": "gallery"
+  },
+  {
+   "id": "mon-plastikman",
+   "t": "PLASTIKMAN｜発酵ポリフォニー",
+   "s": "2026-11-23",
+   "e": "2026-12-27",
+   "g": "mus",
+   "one": "リッチー・ホゥティンとアリ・デミレルが日本酒の発酵を音と映像で描く夜のインスタレーション",
+   "url": "https://montakanawa.jp/programs/plastikman",
+   "price": "無料",
+   "booking": null,
+   "eventsCheckedAt": "2026-11-17",
+   "events": [
+    {
+     "d": "2026-11-23",
+     "time": "15:00–20:00",
+     "kind": "関連イベント",
+     "title": "sakejump による日本酒プログラム（限定コラボボトルは事前抽選）",
+     "who": null,
+     "place": "Tatami",
+     "booking": null,
+     "apply": null,
+     "price": null,
+     "url": "https://montakanawa.jp/programs/plastikman"
+    }
+   ],
+   "v": "MoN Takanawa: The Museum of Narratives",
+   "city": "港区",
+   "pref": "東京",
+   "scale": "space",
+   "geo": [
+    35.63963,
+    139.74136
+   ],
+   "official": true
+  },
+  {
+   "id": "mon-sakamoto-dialogue",
+   "t": "Ryuichi Sakamoto｜Dialogue",
+   "s": "2026-12-24",
+   "e": "2027-01-17",
+   "g": "mus",
+   "one": "坂本龍一の演奏データを角野隼斗×真鍋大度、古舘健×濱哲史が再構成する音と映像の公演型展示",
+   "url": "https://montakanawa.jp/programs/dialogue",
+   "price": "WORK 01 一般15,400円／WORK 02 一般4,800円",
+   "booking": "要チケット（一般発売11/21 12:00〜、e+ほか）",
+   "eventsCheckedAt": "2026-11-17",
+   "events": [],
+   "v": "MoN Takanawa: The Museum of Narratives",
+   "city": "港区",
+   "pref": "東京",
+   "scale": "space",
+   "geo": [
+    35.63963,
+    139.74136
+   ],
+   "official": true
   }
  ],
  "sources": [
@@ -4004,6 +4058,18 @@
   {
    "name": "Time Out Tokyo RESONANCE",
    "url": "https://www.timeout.jp/tokyo/ja/news/eternal-art-space-exhibition-2026-resonance-tradition-reimagined-110526"
+  },
+  {
+   "name": "MoN Takanawa プログラム",
+   "url": "https://montakanawa.jp/programs/"
+  },
+  {
+   "name": "ggg ニュース（アートディレクション展イベント）",
+   "url": "https://www.dnpfcp.jp/CGI/gallery/news/detail.cgi?seq=0001015&type=1&t=1"
+  },
+  {
+   "name": "TOKYO NODE ヨシロットン展",
+   "url": "https://www.tokyonode.jp/events/yoshirotten/index.html"
   }
  ]
 }

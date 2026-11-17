@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-17",
- "notice": "ggg「日本のアートディレクション展」のトーク申込は11/18 11時開始（先着）。金沢文庫・湛睿展の12/6特別講演会は11/19締切。毛利悠子展・パイク展・千葉市美術館「月と星と」は11/23まで。",
+ "updatedAt": "2026-11-18",
+ "notice": "金沢文庫・湛睿展の12/6特別講演会は11/19締切。ggg「日本のアートディレクション展」のトーク申込は受付中（先着）。ICCの冬の企画展は「Digital×北斎」（12/15〜）。毛利悠子展・パイク展・千葉市美術館「月と星と」は11/23まで。",
  "picks": [
   {
-   "id": "ggg-417",
-   "why": "11/26公開制作・11/27ギャラリートーク（無料・先着）の申込が11/18（水）11時に始まる。"
+   "id": "kanazawa-tannei",
+   "why": "11/20開幕。12/6特別講演会（定員70名）の申込は11/19（木）必着。"
   },
   {
    "id": "paik",
    "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは今週が最後。"
   },
   {
-   "id": "mon-plastikman",
-   "why": "11/23開始・入場無料。日本酒の発酵を音と映像にした夜だけのインスタレーション（18〜21時）。"
+   "id": "tsg-astrup",
+   "why": "11/21開幕。ノルウェーの画家ニコライ・アストルップの展覧会、開幕日に記念シンポジウムあり。"
   }
  ],
  "exhibitions": [
@@ -570,7 +570,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-13",
+   "eventsCheckedAt": "2026-11-18",
    "scale": "museum",
    "geo": [
     35.66741,
@@ -596,7 +596,7 @@
     35.63684,
     139.71928
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-18",
    "events": [
     {
      "d": "2026-10-22",
@@ -690,14 +690,78 @@
    "e": "2027-01-17",
    "g": "pop",
    "one": "千葉県マスコット「チーバくん」の展覧会。",
-   "url": "https://www.museum.or.jp/schedule/2026/area_kanagawa-chiba-saitama",
-   "official": false,
-   "price": null,
+   "url": "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/",
+   "official": true,
+   "price": "一般1,000円",
    "booking": null,
    "scale": "museum",
    "geo": [
     35.60122,
     140.10115
+   ],
+   "eventsCheckedAt": "2026-11-18",
+   "events": [
+    {
+     "time": "13:00–",
+     "who": "さかざきちはる（聞き手：ヒラノミサ）",
+     "place": "講堂",
+     "booking": "事前申込・抽選（受付終了）",
+     "apply": "closed",
+     "price": "無料（チーバくんSTOREで書籍等購入者対象）",
+     "d": "2026-11-22",
+     "kind": "トーク",
+     "title": "大チーバくん展トークイベント 第1回「展示作品解説とチーバくんの絵本」",
+     "url": "https://www.chiba-muse.or.jp/ART/event/events/event-12174/"
+    },
+    {
+     "time": "13:30–14:30",
+     "who": null,
+     "place": "第2アトリエ",
+     "booking": "事前申込・先着18名",
+     "apply": "required",
+     "price": "無料",
+     "d": "2026-11-23",
+     "kind": "ワークショップ",
+     "title": "うごくチーバくん「ゾーマトロープつくり」",
+     "url": "https://www.chiba-muse.or.jp/ART/event/events/12223/"
+    },
+    {
+     "time": "13:00–",
+     "who": "さかざきちはる（聞き手：学芸員）",
+     "place": "講堂",
+     "booking": "事前申込・抽選（11/27締切）",
+     "apply": "required",
+     "price": "無料（チーバくんSTOREで書籍等購入者対象）",
+     "d": "2026-12-12",
+     "kind": "トーク",
+     "title": "大チーバくん展トークイベント 第2回「展示作品解説と美術館のチーバくん」",
+     "deadline": "2026-11-27",
+     "url": "https://www.chiba-muse.or.jp/ART/event/events/event-12174/"
+    },
+    {
+     "time": "13:30–14:30",
+     "who": null,
+     "place": "第2アトリエ",
+     "booking": "事前申込・先着18名（申込方法準備中）",
+     "apply": "required",
+     "price": "無料",
+     "d": "2026-12-26",
+     "kind": "ワークショップ",
+     "title": "うごくチーバくん「ゾーマトロープつくり」",
+     "url": "https://www.chiba-muse.or.jp/ART/event/events/12223/"
+    },
+    {
+     "time": "13:00–",
+     "who": "さかざきちはる（聞き手：千葉県庁職員）",
+     "place": "講堂",
+     "booking": "事前申込・抽選（申込準備中）",
+     "apply": "required",
+     "price": "無料（チーバくんSTOREで書籍等購入者対象）",
+     "d": "2027-01-10",
+     "kind": "トーク",
+     "title": "大チーバくん展トークイベント 第3回「展示作品解説とチーバくんの20年」",
+     "url": "https://www.chiba-muse.or.jp/ART/event/events/event-12174/"
+    }
    ]
   },
   {
@@ -821,7 +885,7 @@
      "deadline": "2026-12-20"
     }
    ],
-   "eventsCheckedAt": "2026-11-13",
+   "eventsCheckedAt": "2026-11-18",
    "geo": [
     35.66043,
     139.72926
@@ -924,14 +988,16 @@
    "city": "港区",
    "pref": "東京",
    "s": "2026-10-31",
-   "e": null,
+   "e": "2027-03-28",
    "g": "con",
    "one": "森アートアワード2026グランプリ受賞記念の展示。閉幕日は要確認。",
    "scale": "museum",
    "geo": [
     35.66043,
     139.72926
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "official": true,
@@ -973,8 +1039,8 @@
      "title": "図書室夜話",
      "who": "苅部太郎",
      "place": "4階図書室",
-     "booking": "事前申込制（締切延長 11/17 13:00）",
-     "apply": "required",
+     "booking": "受付終了（11/17締切）",
+     "apply": "closed",
      "price": "無料",
      "url": "https://topmuseum.jp/exhibition/5423/",
      "deadline": "2026-11-17"
@@ -1182,9 +1248,8 @@
      "title": "公開制作＆ミニトーク",
      "who": "佐藤修悦、佐々木俊（司会：永井裕明）",
      "place": "ggg 1F",
-     "booking": "事前申込・先着20名（11/18 11:00受付開始）",
+     "booking": "事前申込・先着20名（受付中）",
      "apply": "required",
-     "opens": "2026-11-18",
      "price": "無料",
      "url": "https://www.dnpfcp.jp/CGI/gallery/news/detail.cgi?seq=0001015&type=1&t=1"
     },
@@ -1195,14 +1260,13 @@
      "title": "ギャラリートーク",
      "who": "江波戸李生、吉川和也、柴谷麻以 ほか（司会：菊地敦己、國井美果）",
      "place": "DNP銀座ビル 3F",
-     "booking": "事前申込・先着70名（11/18 11:00受付開始）",
+     "booking": "事前申込・先着70名（受付中）",
      "apply": "required",
-     "opens": "2026-11-18",
      "price": "無料",
      "url": "https://www.dnpfcp.jp/CGI/gallery/news/detail.cgi?seq=0001015&type=1&t=1"
     }
    ],
-   "eventsCheckedAt": "2026-11-17",
+   "eventsCheckedAt": "2026-11-18",
    "scale": "gallery",
    "geo": [
     35.66968,
@@ -1271,24 +1335,26 @@
    ]
   },
   {
-   "official": false,
-   "price": null,
+   "official": true,
+   "price": "一般1,200円／大学生1,000円／65歳以上・高校生以下無料",
    "booking": null,
-   "url": "https://prtimes.jp/main/html/rd/p/000001312.000098811.html",
+   "url": "https://www.ntt-east.co.jp/art/hokusai-freer/",
    "id": "icc-winter",
-   "t": "ICC 企画展（仮称・タイトル未発表）",
+   "t": "Digital×北斎 with チャールズ・ラング・フリーア 寄贈コレクション",
    "v": "NTTインターコミュニケーション・センター［ICC］",
    "city": "新宿区",
    "pref": "東京",
-   "s": "2026-12-05",
-   "e": "2027-03-07",
+   "s": "2026-12-15",
+   "e": "2027-03-28",
    "g": "tec",
-   "one": "東京オペラシティタワー4階のメディアアート拠点の冬の企画展。内容は2026年4月時点で未発表。",
+   "one": "スミソニアン国立アジア美術館の北斎肉筆画を高精細デジタル化して展示",
    "scale": "museum",
    "geo": [
     35.68289,
     139.68689
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "official": false,
@@ -1528,7 +1594,9 @@
    "geo": [
     35.66858,
     139.7619
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "id": "what-utau",
@@ -1690,7 +1758,7 @@
     35.78423,
     139.64447
    ],
-   "eventsCheckedAt": "2026-11-16",
+   "eventsCheckedAt": "2026-11-18",
    "events": [
     {
      "d": "2026-11-21",
@@ -1884,7 +1952,7 @@
     35.68652,
     139.75891
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-18",
    "events": [
     {
      "d": "2026-11-14",
@@ -2159,7 +2227,7 @@
    "g": "jpn",
    "one": "代表作や初出品を含む約70点で三岸節子の画業をたどる。",
    "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
-   "eventsCheckedAt": "2026-11-16",
+   "eventsCheckedAt": "2026-11-18",
    "events": [
     {
      "d": "2026-11-14",
@@ -2460,7 +2528,7 @@
      "url": "https://www.city.kawagoe.saitama.jp/artmuseum/a-event/1022447/1022449.html"
     }
    ],
-   "eventsCheckedAt": "2026-11-16"
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "price": "一般1,000円",
@@ -2548,7 +2616,7 @@
    "eventsCheckedAt": "2026-11-15"
   },
   {
-   "price": null,
+   "price": "一般1,400円（12/2以降はエントリー・パス2,000円）",
    "booking": null,
    "official": true,
    "scale": "museum",
@@ -2561,14 +2629,41 @@
    "e": "2027-01-11",
    "g": "pop",
    "one": "日々をすくうエッセイマンガを集めた企画展。",
-   "url": "https://kadcul.com/event",
+   "url": "https://kadcul.com/event/276",
    "geo": [
     35.79769,
     139.50787
+   ],
+   "eventsCheckedAt": "2026-11-18",
+   "events": [
+    {
+     "time": "14:00–15:30",
+     "who": "田房永子×川原和子",
+     "place": null,
+     "booking": "事前申込制（LivePocket・先着50名）",
+     "apply": "required",
+     "price": "無料（入場券別途）",
+     "d": "2026-11-07",
+     "kind": "トーク",
+     "title": "エッセイマンガが心をすくうとき",
+     "url": "https://kadcul.com/event/276"
+    },
+    {
+     "time": "14:00–15:30",
+     "who": "青沼貴子×竹内美帆",
+     "place": null,
+     "booking": "事前申込制（先着50名、11月初旬受付開始）",
+     "apply": "required",
+     "price": "無料（入場券別途）",
+     "d": "2026-12-13",
+     "kind": "トーク",
+     "title": "育児にも効く！エッセイマンガとは",
+     "url": "https://kadcul.com/event/276"
+    }
    ]
   },
   {
-   "price": null,
+   "price": "大人520円",
    "booking": null,
    "official": true,
    "scale": "museum",
@@ -2581,11 +2676,13 @@
    "e": "2026-12-13",
    "g": "pop",
    "one": "映像ミュージアムの企画展。親子向け。",
-   "url": "https://www.skipcity.jp/vm/exhibition/",
+   "url": "https://www.skipcity.jp/event/vm/thomas/",
    "geo": [
     35.8277,
     139.72103
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "id": "chiba-tsukihoshi",
@@ -2663,7 +2760,7 @@
     35.68243,
     139.76649
    ],
-   "eventsCheckedAt": "2026-11-16",
+   "eventsCheckedAt": "2026-11-18",
    "events": [
     {
      "d": "2026-11-21",
@@ -2866,7 +2963,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-12"
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "price": "一般900円",
@@ -3219,7 +3316,7 @@
    "eventsCheckedAt": "2026-11-11"
   },
   {
-   "price": null,
+   "price": "一部有料（パスポート一般3,000円／学生2,000円）",
    "booking": null,
    "scale": "space",
    "official": false,
@@ -3377,7 +3474,7 @@
      "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
     }
    ],
-   "eventsCheckedAt": "2026-11-15"
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "id": "kanazawa-tannei",
@@ -3652,7 +3749,9 @@
    "geo": [
     35.68684,
     139.77307
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-18"
   },
   {
    "id": "eternal-resonance",
@@ -4070,6 +4169,26 @@
   {
    "name": "TOKYO NODE ヨシロットン展",
    "url": "https://www.tokyonode.jp/events/yoshirotten/index.html"
+  },
+  {
+   "name": "NTT東日本 Digital×北斎 公式",
+   "url": "https://www.ntt-east.co.jp/art/hokusai-freer/"
+  },
+  {
+   "name": "千葉県立美術館 大チーバくん展",
+   "url": "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/"
+  },
+  {
+   "name": "角川武蔵野ミュージアム エッセイマンガの処方箋展",
+   "url": "https://kadcul.com/event/276"
+  },
+  {
+   "name": "SKIPシティ きかんしゃトーマスの世界展",
+   "url": "https://www.skipcity.jp/event/vm/thomas/"
+  },
+  {
+   "name": "PR TIMES（前橋国際芸術祭2026）",
+   "url": "https://koubo.jp/press-release/prtimes/c65348_r223"
   }
  ]
 }

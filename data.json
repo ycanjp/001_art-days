@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-18",
- "notice": "金沢文庫・湛睿展の12/6特別講演会は11/19締切。ggg「日本のアートディレクション展」のトーク申込は受付中（先着）。ICCの冬の企画展は「Digital×北斎」（12/15〜）。毛利悠子展・パイク展・千葉市美術館「月と星と」は11/23まで。",
+ "updatedAt": "2026-11-20",
+ "notice": "今週末で閉幕：日展（11/22）、毛利悠子展・マリー・アントワネット展・パイク展・工藤甲人展・千葉市美術館「月と星と」（11/23）。ggg「日本のアートディレクション展」のトーク（11/26・27）は先着順で申込受付中。森美術館の森万里子展トーク（12/21）は12/17締切。",
  "picks": [
   {
-   "id": "kanazawa-tannei",
-   "why": "11/20開幕。12/6特別講演会（定員70名）の申込は11/19（木）必着。"
+   "id": "tsg-astrup",
+   "why": "11/21開幕。ノルウェーの画家アストルップを紹介する展覧会。開幕日には記念シンポジウムもある。"
   },
   {
    "id": "paik",
-   "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは今週が最後。"
+   "why": "11/23閉幕。没後20年のナムジュン・パイク展。メディアアート好きは今週末が最後のチャンス。"
   },
   {
-   "id": "tsg-astrup",
-   "why": "11/21開幕。ノルウェーの画家ニコライ・アストルップの展覧会、開幕日に記念シンポジウムあり。"
+   "id": "mon-feelthesound",
+   "why": "11/20開幕。MoN Takanawaで、音を体で感じる体験型の展覧会。"
   }
  ],
  "exhibitions": [
@@ -672,8 +672,8 @@
    "one": "『チェンソーマン』『呪術廻戦』などMAPPA15年の集大成。",
    "url": "https://www.timeout.jp/tokyo/ja/news/mappa-expo-15th-yurakucho-091626",
    "official": false,
-   "price": null,
-   "booking": null,
+   "price": "一般 前売2,000円／当日2,200円",
+   "booking": "日時指定制（ローソンチケット）",
    "scale": "space",
    "geo": [
     35.67496,
@@ -925,13 +925,15 @@
    "one": "『ハイキュー!!』の原画展。会期中無休。",
    "url": "https://eplus.jp/haikyu-challengers-ex/",
    "official": false,
-   "price": null,
+   "price": "一般2,200円／高校生1,400円／小中学生900円",
    "booking": "日時指定制（イープラス販売、会場販売なし）",
    "scale": "space",
    "geo": [
     35.66029,
     139.72958
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-20"
   },
   {
    "id": "ikimono-sei",
@@ -1145,7 +1147,7 @@
   {
    "official": false,
    "price": null,
-   "booking": null,
+   "booking": "全日日時指定制（e+）",
    "url": "https://www.toy-people.com/?p=113768",
    "id": "yugioh",
    "t": "高橋和希原画展 YU-GI-OH! ART WORKS",
@@ -1478,7 +1480,9 @@
    "geo": [
     35.66245,
     139.74374
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-20"
   },
   {
    "official": true,
@@ -1608,7 +1612,7 @@
    "e": "2027-01-31",
    "g": "des",
    "one": "天王洲・寺田倉庫の現代美術と建築の美術館。建築表現の展示",
-   "url": "https://what.warehouseofart.org/exhibitions/",
+   "url": "https://what.warehouseofart.org/exhibitions/the_words_for_architecture",
    "official": true,
    "price": null,
    "booking": null,
@@ -1616,6 +1620,21 @@
    "geo": [
     35.62068,
     139.74856
+   ],
+   "eventsCheckedAt": "2026-11-20",
+   "events": [
+    {
+     "d": "2026-10-18",
+     "time": null,
+     "kind": "トーク",
+     "title": "オフィスアワー",
+     "who": null,
+     "place": null,
+     "booking": null,
+     "apply": null,
+     "price": null,
+     "url": "https://what.warehouseofart.org/events/office-hours"
+    }
    ]
   },
   {
@@ -1628,7 +1647,7 @@
    "e": "2026-12-20",
    "g": "des",
    "one": "建築家の模型を保管・公開する展示。設計の思考の跡をたどれる",
-   "url": "https://what.warehouseofart.org/exhibitions/",
+   "url": "https://what.warehouseofart.org/exhibitions/archi-depot",
    "official": true,
    "price": "一般900円",
    "booking": "日時指定チケットあり（予約必須かは要確認）",
@@ -1636,6 +1655,21 @@
    "geo": [
     35.62068,
     139.74856
+   ],
+   "eventsCheckedAt": "2026-11-20",
+   "events": [
+    {
+     "d": "2026-11-29",
+     "time": null,
+     "kind": "ギャラリートーク",
+     "title": "建築倉庫 ガイドツアー",
+     "who": "近藤以久恵（建築倉庫ディレクター）",
+     "place": null,
+     "booking": null,
+     "apply": null,
+     "price": null,
+     "url": "https://what.warehouseofart.org/events/archidepot_guidetour"
+    }
    ]
   },
   {
@@ -1729,7 +1763,7 @@
    "e": "2027-02-23",
    "g": "ill",
    "one": "ロングセラー絵本「こぐまちゃん」シリーズの展覧会",
-   "url": "https://play2020.jp/museum/",
+   "url": "https://play2020.jp/article/kogumachan/",
    "official": true,
    "price": null,
    "booking": null,
@@ -2193,7 +2227,7 @@
    "eventsCheckedAt": "2026-11-15"
   },
   {
-   "price": null,
+   "price": "一般250円",
    "booking": null,
    "official": true,
    "scale": "museum",
@@ -2206,10 +2240,37 @@
    "e": "2027-01-31",
    "g": "des",
    "one": "渡辺千尋旧蔵のポーランド・ポスターを紹介するコレクション展。",
-   "url": "https://www.moma.pref.kanagawa.jp/exhibition/",
+   "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-a-collection1/",
    "geo": [
     35.32751,
     139.55575
+   ],
+   "eventsCheckedAt": "2026-11-20",
+   "events": [
+    {
+     "d": "2026-10-17",
+     "time": "14:00–14:30",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": "担当学芸員",
+     "place": "鎌倉別館 展示室",
+     "booking": "申込不要（高校生以上は当日の観覧券が必要）",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-a-collection1/"
+    },
+    {
+     "d": "2026-10-22",
+     "time": "15:00–15:30",
+     "kind": "ギャラリートーク",
+     "title": "担当学芸員によるギャラリートーク",
+     "who": "担当学芸員",
+     "place": "鎌倉別館 展示室",
+     "booking": "申込不要（高校生以上は当日の観覧券が必要）",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-a-collection1/"
+    }
    ]
   },
   {
@@ -2284,10 +2345,10 @@
      "title": "節子のふるさとの布でつくるコサージュ",
      "who": null,
      "place": null,
-     "booking": "事前申込制（11/18締切）",
+     "booking": "受付終了（締切済み）",
      "price": null,
      "url": "https://yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
-     "apply": "required",
+     "apply": "closed",
      "deadline": "2026-11-18"
     },
     {
@@ -3530,8 +3591,8 @@
      "title": "特別講演会「鎌倉時代戒律復興運動の諸相」",
      "who": "大谷由香（広島大学准教授）",
      "place": "金沢文庫 地下1階大会議室",
-     "booking": "事前申込制（11/19必着、定員70名）",
-     "apply": "required",
+     "booking": "受付終了（締切済み）",
+     "apply": "closed",
      "price": "無料（当日の観覧券が必要）",
      "url": "https://www.pref.kanagawa.jp/docs/u6p/evt/e4987614.html",
      "deadline": "2026-11-19"
@@ -3653,7 +3714,82 @@
    "official": true,
    "price": "一般500円",
    "booking": null,
-   "scale": "museum"
+   "scale": "museum",
+   "eventsCheckedAt": "2026-11-20",
+   "events": [
+    {
+     "d": "2026-10-17",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会",
+     "who": "学芸員",
+     "place": null,
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html"
+    },
+    {
+     "d": "2026-10-30",
+     "time": "18:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会",
+     "who": "学芸員",
+     "place": null,
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html"
+    },
+    {
+     "d": "2026-11-08",
+     "time": "14:00",
+     "kind": "ワークショップ",
+     "title": "日本画の絵の具で描いてみよう",
+     "who": null,
+     "place": "4階 会議室",
+     "booking": "電話予約・先着15名（10/17 10:00受付開始）",
+     "apply": "required",
+     "price": "100円",
+     "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html"
+    },
+    {
+     "d": "2026-11-22",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会",
+     "who": "学芸員",
+     "place": null,
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会",
+     "who": "学芸員",
+     "place": null,
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html"
+    },
+    {
+     "d": "2026-12-19",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員による作品解説会",
+     "who": "学芸員",
+     "place": null,
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html"
+    }
+   ]
   },
   {
    "id": "ibk-tougei-europe",
@@ -3665,15 +3801,17 @@
    "e": "2026-12-24",
    "g": "des",
    "one": "ガレ、ドレッサー、ホフマン、ルーシー・リーら19世紀末〜20世紀半ばの欧州工芸。11/17から後期",
-   "url": "https://www.tougei.museum.ibk.ed.jp/",
+   "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=601",
    "official": true,
-   "price": null,
+   "price": "一般360円",
    "booking": null,
    "scale": "museum",
    "geo": [
     36.37425,
     140.262
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-20"
   },
   {
    "id": "taka-ishii-ruby",
@@ -3723,7 +3861,7 @@
    "one": "造塔・写経と奉納・造像の3テーマで法華経信仰の美術をたどる。前後期で展示替え",
    "url": "https://www.suntory.co.jp/sma/exhibition/2026_4/",
    "official": true,
-   "price": null,
+   "price": "一般1,800円",
    "booking": null,
    "scale": "museum",
    "geo": [
@@ -4189,6 +4327,30 @@
   {
    "name": "PR TIMES（前橋国際芸術祭2026）",
    "url": "https://koubo.jp/press-release/prtimes/c65348_r223"
+  },
+  {
+   "name": "WHAT MUSEUM 建築倉庫",
+   "url": "https://what.warehouseofart.org/exhibitions/archi-depot"
+  },
+  {
+   "name": "茨城県陶芸美術館 近代ヨーロッパの工芸とデザイン",
+   "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=601"
+  },
+  {
+   "name": "イープラス（ハイキュー!!展）",
+   "url": "https://eplus.jp/haikyu-challengers-ex/"
+  },
+  {
+   "name": "サントリー美術館 法華経の美術",
+   "url": "https://www.suntory.co.jp/sma/exhibition/2026_4/"
+  },
+  {
+   "name": "enjoytokyo（MAPPA EXPO）",
+   "url": "https://www.enjoytokyo.jp/event/2075421/"
+  },
+  {
+   "name": "Time Out Tokyo（遊☆戯☆王原画展）",
+   "url": "https://www.timeout.jp/tokyo/ja/アート/高橋和希原画展-yu-gi-oh-art-works"
   }
  ]
 }

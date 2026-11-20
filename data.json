@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-20",
- "notice": "今週末で閉幕：日展（11/22）、毛利悠子展・マリー・アントワネット展・パイク展・工藤甲人展・千葉市美術館「月と星と」（11/23）。ggg「日本のアートディレクション展」のトーク（11/26・27）は先着順で申込受付中。森美術館の森万里子展トーク（12/21）は12/17締切。",
+ "updatedAt": "2026-11-21",
+ "notice": "今週末で閉幕：日展（11/22）、毛利悠子展・マリー・アントワネット展・パイク展・工藤甲人展・千葉市美術館「月と星と」（11/23）。ggg「日本のアートディレクション展」11/26の公開制作は満席、11/27のトークは受付中。大チーバくん展12/12トークは11/27締切。ティム・バートンのラビリンスは11/25開幕（日時指定制）。",
  "picks": [
   {
    "id": "tsg-astrup",
-   "why": "11/21開幕。ノルウェーの画家アストルップを紹介する展覧会。開幕日には記念シンポジウムもある。"
+   "why": "11/21開幕。ノルウェーの画家アストルップの庭と風景をまとめて見られる展覧会。"
   },
   {
    "id": "paik",
    "why": "11/23閉幕。没後20年のナムジュン・パイク展。メディアアート好きは今週末が最後のチャンス。"
   },
   {
-   "id": "mon-feelthesound",
-   "why": "11/20開幕。MoN Takanawaで、音を体で感じる体験型の展覧会。"
+   "id": "ota-kondo",
+   "why": "11/21開幕。漫画家・アニメーション作家の近藤聡乃の個展を、太田市美術館・図書館で。"
   }
  ],
  "exhibitions": [
@@ -116,28 +116,30 @@
    "events": [
     {
      "d": "2026-09-09",
-     "time": null,
+     "time": "14:00–15:30",
      "kind": "講演会",
      "title": "「ルーヴル美術館展 ルネサンス」開催記念講演会",
-     "who": null,
-     "place": null,
-     "booking": null,
-     "price": null,
-     "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/"
+     "who": "オリアーヌ・ラヴィット（本展監修者、ルーヴル美術館 絵画部門 学芸員）",
+     "place": "3階講堂",
+     "booking": "当日10:00から整理券配布（定員250名）",
+     "price": "無料（要観覧券）",
+     "url": "https://www.nact.jp/event/2026/006588.html",
+     "apply": "none"
     },
     {
      "d": "2026-10-31",
-     "time": null,
+     "time": "14:00–15:30",
      "kind": "講演会",
      "title": "レオナルド・ダ・ヴィンチにしか描けなかった\"顔\"",
-     "who": null,
-     "place": null,
-     "booking": null,
-     "price": null,
-     "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/"
+     "who": "松浦弘明（多摩美術大学 教授）",
+     "place": "3階講堂",
+     "booking": "当日10:00から整理券配布（定員250名）",
+     "price": "無料（要観覧券）",
+     "url": "https://www.nact.jp/event/2026/006590.html",
+     "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-11",
+   "eventsCheckedAt": "2026-11-21",
    "geo": [
     35.66534,
     139.72644
@@ -207,7 +209,7 @@
    "booking": "不要（混雑時は入場待ちあり）",
    "scale": "museum",
    "events": [],
-   "eventsCheckedAt": "2026-11-11",
+   "eventsCheckedAt": "2026-11-21",
    "geo": [
     35.71904,
     139.77597
@@ -378,7 +380,7 @@
    "booking": null,
    "scale": "museum",
    "events": [],
-   "eventsCheckedAt": "2026-11-11",
+   "eventsCheckedAt": "2026-11-21",
    "geo": [
     35.67978,
     139.80879
@@ -653,10 +655,11 @@
      "title": "担当学芸員によるミニトーク（手話通訳・文字支援付き）",
      "who": "担当学芸員",
      "place": "新館ギャラリー2",
-     "booking": "事前申込制・抽選（定員50名）",
-     "apply": "required",
+     "booking": "募集終了（抽選・10/8締切）",
+     "apply": "closed",
      "price": "無料（当日の展覧会チケットが必要）",
-     "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+     "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/",
+     "deadline": "2026-10-08"
     }
    ]
   },
@@ -742,7 +745,7 @@
      "time": "13:30–14:30",
      "who": null,
      "place": "第2アトリエ",
-     "booking": "事前申込・先着18名（申込方法準備中）",
+     "booking": "事前申込・先着18名（申込受付前）",
      "apply": "required",
      "price": "無料",
      "d": "2026-12-26",
@@ -1209,10 +1212,10 @@
    "events": []
   },
   {
-   "official": false,
-   "price": null,
-   "booking": null,
-   "url": "https://www.tokyoartbeat.com/articles/-/tim-burtons-labyrinth-news-202607",
+   "official": true,
+   "price": "一般4,840円／学生3,850円／4〜12歳2,420円",
+   "booking": "日時指定制（オンラインチケット）",
+   "url": "https://tokyo.timburtonexhibition.com/",
    "id": "tim-burton",
    "t": "ティム・バートンのラビリンス",
    "v": "CREVIA BASE Tokyo",
@@ -1226,7 +1229,9 @@
    "geo": [
     35.65527,
     139.79278
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-21"
   },
   {
    "official": true,
@@ -1250,8 +1255,8 @@
      "title": "公開制作＆ミニトーク",
      "who": "佐藤修悦、佐々木俊（司会：永井裕明）",
      "place": "ggg 1F",
-     "booking": "事前申込・先着20名（受付中）",
-     "apply": "required",
+     "booking": "満席のため締切",
+     "apply": "closed",
      "price": "無料",
      "url": "https://www.dnpfcp.jp/CGI/gallery/news/detail.cgi?seq=0001015&type=1&t=1"
     },
@@ -2463,8 +2468,20 @@
    "g": "jpn",
    "one": "木版画の内間安瑆とコラージュの内間俊子、夫妻の創作を紹介。",
    "url": "https://pref.spec.ed.jp/momas/2026uchima",
-   "eventsCheckedAt": "2026-11-11",
+   "eventsCheckedAt": "2026-11-21",
    "events": [
+    {
+     "d": "2026-11-01",
+     "time": "15:00–15:30頃",
+     "kind": "演奏会",
+     "title": "ミュージアム・シアター 内間夫妻によせるピアノ演奏会",
+     "who": "山本香紫",
+     "place": "地階センターホール",
+     "booking": null,
+     "apply": null,
+     "price": "無料",
+     "url": "https://pref.spec.ed.jp/momas/2026uchima"
+    },
     {
      "d": "2026-11-23",
      "time": "15:00–16:00",
@@ -2507,7 +2524,7 @@
      "time": "15:00–16:30",
      "kind": "講演会",
      "title": "レクチャー「内間俊子とその時代」",
-     "who": null,
+     "who": "桑原規子、関直子、佐藤あゆか",
      "place": "2階講堂",
      "booking": "申込不要（先着）",
      "price": "無料",
@@ -2518,7 +2535,7 @@
      "d": "2027-01-09",
      "time": "14:00",
      "kind": "講演会",
-     "title": "講演会",
+     "title": "岡﨑乾二郎氏による講演会",
      "who": "岡﨑乾二郎",
      "place": "2階講堂",
      "booking": "申込不要（先着）",
@@ -2910,7 +2927,7 @@
    "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
    "official": true,
    "price": "一般1,200円（オンライン前売1,000円、11/27まで）",
-   "booking": "11/28以降の土日祝は日時指定予約制（平日は予約不要）",
+   "booking": "11/28〜12/20の土日祝は日時指定予約（平日は予約不要）",
    "scale": "museum",
    "geo": [
     35.66583,
@@ -2918,12 +2935,48 @@
    ],
    "events": [
     {
+     "d": "2026-10-24",
+     "time": "14:00–16:00",
+     "kind": "講演会",
+     "title": "記念講演会「吉田璋也―民藝をデザインするということ」",
+     "who": "木谷清人（鳥取民藝美術館常務理事）",
+     "place": "5階ホール",
+     "booking": "満席のため受付終了",
+     "apply": "closed",
+     "price": "無料（要観覧券）",
+     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+    },
+    {
+     "d": "2026-10-31",
+     "time": "14:00–14:45",
+     "kind": "スライドトーク",
+     "title": "担当学芸員によるスライドトーク",
+     "who": null,
+     "place": "5階ホール",
+     "booking": "予約不要・先着50名",
+     "apply": "none",
+     "price": "要観覧券",
+     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+    },
+    {
+     "d": "2026-11-03",
+     "time": "14:00–16:00",
+     "kind": "トーク",
+     "title": "トークショー「新作民藝―進行形のデザインプロジェクト」",
+     "who": "柳井友一（secca inc.）、石﨑泰之（岐阜県現代陶芸美術館館長）",
+     "place": "5階ホール",
+     "booking": "満席のため受付終了",
+     "apply": "closed",
+     "price": "無料（要観覧券）",
+     "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/"
+    },
+    {
      "d": "2026-11-15",
      "time": "14:00–14:45",
      "kind": "スライドトーク",
      "title": "担当学芸員によるスライドトーク",
      "who": null,
-     "place": null,
+     "place": "5階ホール",
      "booking": "予約不要・先着50名",
      "price": "要観覧券",
      "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
@@ -2935,14 +2988,14 @@
      "kind": "スライドトーク",
      "title": "担当学芸員によるスライドトーク",
      "who": null,
-     "place": null,
+     "place": "5階ホール",
      "booking": "予約不要・先着50名",
      "price": "要観覧券",
      "url": "https://panasonic.co.jp/ew/museum/exhibition/26/261015/",
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-11"
+   "eventsCheckedAt": "2026-11-21"
   },
   {
    "id": "mon-feelthesound",
@@ -3363,22 +3416,83 @@
    ],
    "events": [
     {
+     "d": "2026-11-08",
+     "time": "14:00–15:30",
+     "kind": "アーティスト・トーク",
+     "title": "アーティスト・トーク",
+     "who": "椿操、岡本直枝、牛尾卓巳",
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要観覧券",
+     "url": "https://gmat.pref.gunma.jp/event/ev/20261010/"
+    },
+    {
+     "d": "2026-11-11",
+     "time": "14:00（約40分）",
+     "kind": "ギャラリートーク",
+     "title": "学芸員によるギャラリートーク",
+     "who": null,
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要観覧券",
+     "url": "https://gmat.pref.gunma.jp/event/ev/20261111/"
+    },
+    {
+     "d": "2026-11-14",
+     "time": "13:30–15:30",
+     "kind": "ワークショップ",
+     "title": "たてび☆びじゅつ部 ふわふわ色わたアート",
+     "who": null,
+     "place": "別館ワークショップ室",
+     "booking": "直接会場へ",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://gmat.pref.gunma.jp/event/ev/20261114/"
+    },
+    {
      "d": "2026-11-21",
      "time": "14:00–15:30",
      "kind": "アーティスト・トーク",
-     "title": "出品作家によるアーティスト・トーク",
-     "who": null,
-     "place": null,
-     "booking": null,
+     "title": "アーティスト・トーク",
+     "who": "小川倫代、宮坂省吾、貝塚惇観",
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
      "price": "要観覧券",
-     "url": "https://artscape.jp/article/81135/"
+     "url": "https://gmat.pref.gunma.jp/event/ev/20261010/"
+    },
+    {
+     "d": "2026-11-28",
+     "time": "13:00–15:30",
+     "kind": "こども向けイベント",
+     "title": "たてび☆キッズウォーク（中学生以下）",
+     "who": null,
+     "place": "エントランスホール受付",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://gmat.pref.gunma.jp/event/ev/20261024/"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "14:00（約40分）",
+     "kind": "ギャラリートーク",
+     "title": "学芸員によるギャラリートーク",
+     "who": null,
+     "place": "展示室",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "要観覧券",
+     "url": "https://gmat.pref.gunma.jp/event/ev/20261111/"
     }
    ],
-   "eventsCheckedAt": "2026-11-11"
+   "eventsCheckedAt": "2026-11-21"
   },
   {
    "price": "一部有料（パスポート一般3,000円／学生2,000円）",
-   "booking": null,
+   "booking": "不要（パスポートは当日購入可）",
    "scale": "space",
    "official": false,
    "id": "maebashi-biennale",
@@ -3394,7 +3508,72 @@
    "geo": [
     36.39071,
     139.07139
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-23",
+     "time": "10:30–16:00",
+     "kind": "ワークショップ",
+     "title": "ワークショップ・ラボ① 前橋の席替えをしてみる",
+     "who": "トモトシ美術館",
+     "place": "街なか（アーツ前橋スタジオ集合）",
+     "booking": "事前申込制（Webフォーム、定員約15名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://artsmaebashi.jp/localart_post/2026-other-workshop-labo/"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "13:30–16:00頃",
+     "kind": "ワークショップ",
+     "title": "ワークショップ・ラボ② からだをほどくエクササイズ",
+     "who": "ホワイトレオターズ（吉開菜央）",
+     "place": "前橋プラザ元気21（アーツ前橋スタジオ集合）",
+     "booking": "事前申込制（Webフォーム、各回20名、12/3まで）",
+     "apply": "required",
+     "deadline": "2026-12-03",
+     "price": "無料",
+     "url": "https://artsmaebashi.jp/localart_post/2026-other-workshop-labo/"
+    },
+    {
+     "d": "2026-12-06",
+     "time": "10:30–13:00頃",
+     "kind": "ワークショップ",
+     "title": "ワークショップ・ラボ② からだをほどくエクササイズ",
+     "who": "ホワイトレオターズ（吉開菜央）",
+     "place": "前橋プラザ元気21（アーツ前橋スタジオ集合）",
+     "booking": "事前申込制（Webフォーム、各回20名、12/3まで）",
+     "apply": "required",
+     "deadline": "2026-12-03",
+     "price": "無料",
+     "url": "https://artsmaebashi.jp/localart_post/2026-other-workshop-labo/"
+    },
+    {
+     "d": "2026-12-12",
+     "time": "14:00–14:40",
+     "kind": "対話型鑑賞",
+     "title": "おしゃべりアートデイズ",
+     "who": "アーツナビゲーター",
+     "place": "アーツ前橋 1階総合受付前",
+     "booking": "事前申込制（前日までに電話またはフォーム、各回約5名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://artsmaebashi.jp/learning_post/2026-artdays/"
+    },
+    {
+     "d": "2026-12-26",
+     "time": "10:00–15:00",
+     "kind": "ワークショップ",
+     "title": "ワークショップ・ラボ③ かざる風景を撮る",
+     "who": "根本絵梨子",
+     "place": "赤城山周辺",
+     "booking": "受付終了（定員に達したため・11/19）",
+     "apply": "closed",
+     "price": "無料",
+     "url": "https://artsmaebashi.jp/localart_post/2026-other-workshop-labo/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-21"
   },
   {
    "price": "一般500円",
@@ -4351,6 +4530,22 @@
   {
    "name": "Time Out Tokyo（遊☆戯☆王原画展）",
    "url": "https://www.timeout.jp/tokyo/ja/アート/高橋和希原画展-yu-gi-oh-art-works"
+  },
+  {
+   "name": "ティム・バートンのラビリンス 公式",
+   "url": "https://tokyo.timburtonexhibition.com/"
+  },
+  {
+   "name": "アーツ前橋 ワークショップ・ラボ",
+   "url": "https://artsmaebashi.jp/localart_post/2026-other-workshop-labo/"
+  },
+  {
+   "name": "群馬県立館林美術館 テキスタイル・アート展",
+   "url": "https://gmat.pref.gunma.jp/exhibition/ex/textileart/"
+  },
+  {
+   "name": "埼玉県立近代美術館 内間安瑆・俊子展",
+   "url": "https://pref.spec.ed.jp/momas/2026uchima"
   }
  ]
 }

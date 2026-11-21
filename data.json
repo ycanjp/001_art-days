@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-21",
- "notice": "今週末で閉幕：日展（11/22）、毛利悠子展・マリー・アントワネット展・パイク展・工藤甲人展・千葉市美術館「月と星と」（11/23）。ggg「日本のアートディレクション展」11/26の公開制作は満席、11/27のトークは受付中。大チーバくん展12/12トークは11/27締切。ティム・バートンのラビリンスは11/25開幕（日時指定制）。",
+ "updatedAt": "2026-11-22",
+ "notice": "本日11/22で日展が閉幕。明日11/23閉幕：毛利悠子展・マリー・アントワネット展・パイク展・工藤甲人展・千葉市美術館「月と星と」。ターナー展オンライン講演会（12/12）は11/26 12:00受付開始。大チーバくん展12/12トークは11/27締切。11/25にチームラボ 浜離宮とティム・バートンのラビリンスが開幕。",
  "picks": [
   {
-   "id": "tsg-astrup",
-   "why": "11/21開幕。ノルウェーの画家アストルップの庭と風景をまとめて見られる展覧会。"
-  },
-  {
    "id": "paik",
-   "why": "11/23閉幕。没後20年のナムジュン・パイク展。メディアアート好きは今週末が最後のチャンス。"
+   "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは明日が最終日。"
   },
   {
-   "id": "ota-kondo",
-   "why": "11/21開幕。漫画家・アニメーション作家の近藤聡乃の個展を、太田市美術館・図書館で。"
+   "id": "teamlab-hamarikyu",
+   "why": "11/25開幕。浜離宮恩賜庭園の夜をチームラボが光で包む期間限定展示（日時指定制）。"
+  },
+  {
+   "id": "nukaga-glacier",
+   "why": "11/28に石塚元太良×今福龍太の上映会＆トーク（予約不要）。天王洲のギャラリーで氷河の写真を。"
   }
  ],
  "exhibitions": [
@@ -56,27 +56,31 @@
     },
     {
      "d": "2026-12-12",
-     "time": null,
+     "time": "14:00–15:30",
      "kind": "オンライン講演会",
      "title": "J. M. W. ターナー――風景の「崇高」を求めて",
      "who": "荒川裕子",
      "place": "オンライン",
-     "booking": "事前申込",
-     "price": null,
-     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
-     "apply": "required"
+     "booking": "事前申込・先着500名（11/26 12:00受付開始・前日10:00締切）",
+     "price": "無料",
+     "url": "https://www.nmwa.go.jp/jp/experience-learn/detail/event_158.html",
+     "apply": "required",
+     "opens": "2026-11-26",
+     "deadline": "2026-12-11"
     },
     {
      "d": "2027-01-23",
-     "time": null,
+     "time": "17:00–18:30",
      "kind": "オンライン講演会",
      "title": "ターナー、描く行為としての思考――錯時的な抽象化、色彩の論理、カタストロフ",
      "who": "新藤淳",
      "place": "オンライン",
-     "booking": "事前申込",
-     "price": null,
-     "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
-     "apply": "required"
+     "booking": "事前申込・先着500名（2027/1/7 12:00受付開始・前日10:00締切）",
+     "price": "無料",
+     "url": "https://www.nmwa.go.jp/jp/experience-learn/detail/event_159.html",
+     "apply": "required",
+     "opens": "2027-01-07",
+     "deadline": "2027-01-22"
     },
     {
      "d": "2027-02-05",
@@ -91,7 +95,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-22",
    "scale": "museum",
    "geo": [
     35.71555,
@@ -186,7 +190,7 @@
      "opens": "2027-01-07"
     }
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-22",
    "scale": "museum",
    "geo": [
     35.71711,
@@ -572,7 +576,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "scale": "museum",
    "geo": [
     35.66741,
@@ -598,7 +602,7 @@
     35.63684,
     139.71928
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "d": "2026-10-22",
@@ -681,7 +685,9 @@
    "geo": [
     35.67496,
     139.7644
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "id": "chiba-kun",
@@ -702,7 +708,7 @@
     35.60122,
     140.10115
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "time": "13:00–",
@@ -888,7 +894,7 @@
      "deadline": "2026-12-20"
     }
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "geo": [
     35.66043,
     139.72926
@@ -1273,7 +1279,7 @@
      "url": "https://www.dnpfcp.jp/CGI/gallery/news/detail.cgi?seq=0001015&type=1&t=1"
     }
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "scale": "gallery",
    "geo": [
     35.66968,
@@ -1282,9 +1288,9 @@
   },
   {
    "official": true,
-   "price": null,
+   "price": "無料",
    "booking": null,
-   "url": "https://www.dnpfcp.jp/gallery/ggg/",
+   "url": "https://www.dnpfcp.jp/CGI/gallery/schedule/detail.cgi?l=1&t=1&seq=00000863",
    "v": "ギンザ・グラフィック・ギャラリー（ggg）",
    "city": "中央区",
    "pref": "東京",
@@ -1298,7 +1304,9 @@
    "geo": [
     35.66968,
     139.76256
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "official": false,
@@ -1507,7 +1515,9 @@
    "geo": [
     35.67827,
     139.77169
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "official": true,
@@ -1527,7 +1537,22 @@
    "geo": [
     35.62067,
     139.74561
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-28",
+     "time": "16:00–17:30",
+     "kind": "上映会",
+     "title": "『Glacier Diary』上映会 × トークイベント",
+     "who": "石塚元太良、今福龍太",
+     "place": "KOTARO NUKAGA（天王洲）",
+     "booking": "予約不要",
+     "apply": "none",
+     "price": null,
+     "url": "https://kotaronukaga.com/news/15271/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "official": true,
@@ -1770,13 +1795,40 @@
    "one": "ロングセラー絵本「こぐまちゃん」シリーズの展覧会",
    "url": "https://play2020.jp/article/kogumachan/",
    "official": true,
-   "price": null,
-   "booking": null,
+   "price": "一般1,800円",
+   "booking": "日時指定予約制（オンライン購入のみ）",
    "scale": "museum",
    "geo": [
     35.70341,
     139.41137
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-12-25",
+     "time": "10:40–（約10分）",
+     "kind": "グリーティング",
+     "title": "グリーティングイベント「こぐまちゃんに会える！」",
+     "who": null,
+     "place": "PLAY! MUSEUM 展示室内",
+     "booking": "予約不要（当日10:00または10:30の入場券が必要）",
+     "apply": "none",
+     "price": "無料（入場料別）",
+     "url": "https://play2020.jp/article/kogumachan-greeting/"
+    },
+    {
+     "d": "2027-01-30",
+     "time": "10:40–（約10分）",
+     "kind": "グリーティング",
+     "title": "グリーティングイベント「こぐまちゃんに会える！」",
+     "who": null,
+     "place": "PLAY! MUSEUM 展示室内",
+     "booking": "予約不要（当日10:00または10:30の入場券が必要）",
+     "apply": "none",
+     "price": "無料（入場料別）",
+     "url": "https://play2020.jp/article/kogumachan-greeting/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "id": "itabashi-corraini",
@@ -1797,7 +1849,7 @@
     35.78423,
     139.64447
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "d": "2026-11-21",
@@ -1903,8 +1955,8 @@
      "title": "絵本講座｜オブジェとしての本づくり－イタリアの幼児教育と諸感覚－",
      "who": "藤田寿伸",
      "place": null,
-     "booking": "事前申込制（Webフォーム・定員24名）",
-     "apply": "required",
+     "booking": "満席",
+     "apply": "closed",
      "price": "1,600円",
      "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002108.html"
     }
@@ -1991,7 +2043,7 @@
     35.68652,
     139.75891
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "d": "2026-11-14",
@@ -2606,7 +2658,7 @@
      "url": "https://www.city.kawagoe.saitama.jp/artmuseum/a-event/1022447/1022449.html"
     }
    ],
-   "eventsCheckedAt": "2026-11-18"
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "price": "一般1,000円",
@@ -2691,7 +2743,7 @@
      "deadline": "2026-12-13"
     }
    ],
-   "eventsCheckedAt": "2026-11-15"
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "price": "一般1,400円（12/2以降はエントリー・パス2,000円）",
@@ -2712,7 +2764,7 @@
     35.79769,
     139.50787
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "time": "14:00–15:30",
@@ -2838,7 +2890,7 @@
     35.68243,
     139.76649
    ],
-   "eventsCheckedAt": "2026-11-18",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "d": "2026-11-21",
@@ -3046,10 +3098,10 @@
      "title": "ワークショップ＆ディスカッション「円環と円盤 絵画を響かせる場について」",
      "who": null,
      "place": null,
-     "booking": "WEB申込（10/20受付開始、定員15名程度・定員に達し次第締切）",
+     "booking": "申込締切（定員に達しました）",
      "price": "50円（保険料）・ディスカッションは要企画展チケット",
      "url": "https://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=594",
-     "apply": "required",
+     "apply": "closed",
      "opens": "2026-10-20"
     },
     {
@@ -3077,7 +3129,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-18"
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "price": "一般900円",
@@ -3155,7 +3207,7 @@
     36.56744,
     139.86607
    ],
-   "eventsCheckedAt": "2026-11-14",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "d": "2026-10-24",
@@ -3298,7 +3350,7 @@
      "apply": "required"
     }
    ],
-   "eventsCheckedAt": "2026-11-11"
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "price": "一般1,200円／大高生600円／中学生以下無料",
@@ -3573,7 +3625,7 @@
      "url": "https://artsmaebashi.jp/localart_post/2026-other-workshop-labo/"
     }
    ],
-   "eventsCheckedAt": "2026-11-21"
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "price": "一般500円",
@@ -3647,7 +3699,7 @@
      "deadline": "2026-12-18"
     }
    ],
-   "eventsCheckedAt": "2026-11-15"
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "price": "一般300円",
@@ -3714,7 +3766,7 @@
      "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
     }
    ],
-   "eventsCheckedAt": "2026-11-18"
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "id": "kanazawa-tannei",
@@ -3735,7 +3787,7 @@
     35.3439291,
     139.6286449
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-22",
    "events": [
     {
      "d": "2026-11-28",
@@ -4006,7 +4058,9 @@
    "official": true,
    "price": null,
    "booking": null,
-   "scale": "gallery"
+   "scale": "gallery",
+   "events": [],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "id": "morino-yamamoto",
@@ -4026,7 +4080,23 @@
    "geo": [
     35.87457,
     139.91222
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-15",
+     "time": "13:00–",
+     "kind": "ギャラリートーク",
+     "title": "ギャラリートーク＆サイン会",
+     "who": "山本大貴",
+     "place": "森の美術館",
+     "booking": "要予約（定員60名・10/15受付開始）",
+     "apply": "required",
+     "opens": "2026-10-15",
+     "price": "入館料のみ",
+     "url": "https://morino-bijutsukan.com"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "id": "suntory-hokekyo",
@@ -4106,7 +4176,22 @@
    "official": true,
    "price": null,
    "booking": null,
-   "scale": "gallery"
+   "scale": "gallery",
+   "events": [
+    {
+     "d": "2026-11-26",
+     "time": "18:30–20:00",
+     "kind": "トーク",
+     "title": "Talk Event「Hiraku Suzuki × Yoko Nose」",
+     "who": "鈴木ヒラク、Yoko Nose",
+     "place": null,
+     "booking": "要予約",
+     "apply": "required",
+     "price": null,
+     "url": "https://www.yutakakikutakegallery.com/exhibitions/oceans%e2%80%95organs/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-22"
   },
   {
    "id": "mon-plastikman",
@@ -4546,6 +4631,22 @@
   {
    "name": "埼玉県立近代美術館 内間安瑆・俊子展",
    "url": "https://pref.spec.ed.jp/momas/2026uchima"
+  },
+  {
+   "name": "国立西洋美術館 ターナー展講演会",
+   "url": "https://www.nmwa.go.jp/jp/experience-learn/detail/event_158.html"
+  },
+  {
+   "name": "PLAY! MUSEUM こぐまちゃん展 グリーティング",
+   "url": "https://play2020.jp/article/kogumachan-greeting/"
+  },
+  {
+   "name": "KOTARO NUKAGA ニュース",
+   "url": "https://kotaronukaga.com/news/15271/"
+  },
+  {
+   "name": "KOSAKU KANECHIKA",
+   "url": "https://kosakukanechika.com/exhibition/heel_less_shoes/"
   }
  ]
 }

@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-22",
- "notice": "本日11/22で日展が閉幕。明日11/23閉幕：毛利悠子展・マリー・アントワネット展・パイク展・工藤甲人展・千葉市美術館「月と星と」。ターナー展オンライン講演会（12/12）は11/26 12:00受付開始。大チーバくん展12/12トークは11/27締切。11/25にチームラボ 浜離宮とティム・バートンのラビリンスが開幕。",
+ "updatedAt": "2026-11-23",
+ "notice": "本日11/23閉幕：毛利悠子展・マリー・アントワネット展・ナムジュン・パイク展・工藤甲人展・千葉市美術館「月と星と」。根津美術館「彫る漆」（12/5開幕）の講演会・レクチャーは11/24 13:00申込開始。11/25にチームラボ 浜離宮とティム・バートンのラビリンスが開幕。ターナー展オンライン講演会は11/26 12:00受付開始。",
  "picks": [
   {
    "id": "paik",
-   "why": "11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは明日が最終日。"
+   "why": "本日11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは今日が最終日。"
   },
   {
    "id": "teamlab-hamarikyu",
    "why": "11/25開幕。浜離宮恩賜庭園の夜をチームラボが光で包む期間限定展示（日時指定制）。"
   },
   {
-   "id": "nukaga-glacier",
-   "why": "11/28に石塚元太良×今福龍太の上映会＆トーク（予約不要）。天王洲のギャラリーで氷河の写真を。"
+   "id": "nezu-horu-urushi",
+   "why": "12/5開幕。彫漆・鎌倉彫など「彫る漆」を特集、関連講演会は11/24 13:00から先着申込。"
   }
  ],
  "exhibitions": [
@@ -239,7 +239,7 @@
     139.77597
    ],
    "events": [],
-   "eventsCheckedAt": "2026-11-13"
+   "eventsCheckedAt": "2026-11-23"
   },
   {
    "id": "cincinnati",
@@ -260,7 +260,7 @@
     35.71285,
     139.77477
    ],
-   "eventsCheckedAt": "2026-11-14",
+   "eventsCheckedAt": "2026-11-23",
    "events": []
   },
   {
@@ -276,97 +276,14 @@
    "url": "https://mimt.jp/ex_sp/fontanesi/",
    "official": true,
    "price": "一般2,300円",
-   "booking": null,
+   "booking": "当日券あり（日時指定の記載なし）",
    "scale": "museum",
    "geo": [
     35.67857,
     139.76339
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-23",
    "events": []
-  },
-  {
-   "id": "nitten",
-   "t": "第119回 日本美術展覧会（日展）",
-   "v": "国立新美術館",
-   "city": "港区",
-   "pref": "東京",
-   "s": "2026-10-30",
-   "e": "2026-11-22",
-   "g": "jpn",
-   "one": "日本画・洋画・彫刻・工芸・書の公募展。",
-   "url": "https://www.museum.or.jp/special/pickup-exhibition-2026fall",
-   "official": false,
-   "price": "一般1,500円（トワイライト16時以降700円）",
-   "booking": null,
-   "scale": "museum",
-   "geo": [
-    35.66534,
-    139.72644
-   ],
-   "events": [
-    {
-     "d": "2026-11-07",
-     "time": "13:00–14:30",
-     "kind": "講演会",
-     "title": "日本画 映像解説「自作を語る」ほか",
-     "who": null,
-     "place": "国立新美術館 3階講堂",
-     "booking": "当日整理券（開始30分前から配布）",
-     "apply": "none",
-     "price": "無料",
-     "url": "https://nitten.or.jp/diffusion/lecture/"
-    },
-    {
-     "d": "2026-11-07",
-     "time": "15:00–16:30",
-     "kind": "講演会",
-     "title": "彫刻「彫刻表現の系譜－歩みとこれから－」",
-     "who": "寺山三佳",
-     "place": "国立新美術館 3階講堂",
-     "booking": "当日整理券（開始30分前から配布）",
-     "apply": "none",
-     "price": "無料",
-     "url": "https://nitten.or.jp/diffusion/lecture/"
-    },
-    {
-     "d": "2026-11-14",
-     "time": "13:30–15:00",
-     "kind": "シンポジウム",
-     "title": "書 シンポジウム「日展の書」・作品解説",
-     "who": "中村伸夫 ほか",
-     "place": "国立新美術館 3階講堂",
-     "booking": "当日整理券（開始30分前から配布）",
-     "apply": "none",
-     "price": "無料",
-     "url": "https://nitten.or.jp/diffusion/lecture/"
-    },
-    {
-     "d": "2026-11-21",
-     "time": "13:00–14:30",
-     "kind": "講演会",
-     "title": "洋画 映像解説（今年度審査員）",
-     "who": "司会：石田宗之、寺久保文宣",
-     "place": "国立新美術館 3階講堂",
-     "booking": "当日整理券（開始30分前から配布）",
-     "apply": "none",
-     "price": "無料",
-     "url": "https://nitten.or.jp/diffusion/lecture/"
-    },
-    {
-     "d": "2026-11-21",
-     "time": "15:00–16:30",
-     "kind": "講演会",
-     "title": "工芸美術 映像解説「工芸美術の魅力」",
-     "who": null,
-     "place": "国立新美術館 3階講堂",
-     "booking": "当日整理券（開始30分前から配布）",
-     "apply": "none",
-     "price": "無料",
-     "url": "https://nitten.or.jp/diffusion/lecture/"
-    }
-   ],
-   "eventsCheckedAt": "2026-11-13"
   },
   {
    "id": "tada",
@@ -419,13 +336,13 @@
    "url": "https://topmuseum.jp/exhibition/5421/",
    "official": true,
    "price": "一般900円",
-   "booking": null,
+   "booking": "オンラインで日時指定券を購入可",
    "scale": "museum",
    "geo": [
     35.64154,
     139.7134
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-23",
    "events": [
     {
      "d": "2026-10-03",
@@ -452,16 +369,42 @@
      "url": "https://topmuseum.jp/exhibition/5421/"
     },
     {
+     "d": "2026-11-23",
+     "time": "10:30–13:30",
+     "kind": "ワークショップ",
+     "title": "見るときどき見えない、のち話す、しだいに見える",
+     "who": "視覚障害者とつくる美術鑑賞ワークショップ",
+     "place": "東京都写真美術館",
+     "booking": "募集終了（事前申込・抽選、各回7名）",
+     "apply": "closed",
+     "deadline": "2026-11-10",
+     "price": "500円＋当日有効の本展チケット",
+     "url": "https://topmuseum.jp/workshop/13512/"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "10:30–13:30",
+     "kind": "ワークショップ",
+     "title": "見るときどき見えない、のち話す、しだいに見える（手話通訳付き）",
+     "who": "視覚障害者とつくる美術鑑賞ワークショップ",
+     "place": "東京都写真美術館",
+     "booking": "募集終了（事前申込・抽選、各回7名）",
+     "apply": "closed",
+     "deadline": "2026-11-17",
+     "price": "500円＋当日有効の本展チケット",
+     "url": "https://topmuseum.jp/workshop/13512/"
+    },
+    {
      "d": "2026-12-12",
      "time": "14:00–15:00",
      "kind": "トーク",
      "title": "手話を交えたQ＆Aショー",
      "who": "小笠原新也",
      "place": "2階ロビー",
-     "booking": null,
-     "apply": null,
+     "booking": "事前申込不要（当日13:30開場、定員50名）",
+     "apply": "none",
      "price": "無料",
-     "url": "https://topmuseum.jp/exhibition/5421/"
+     "url": "https://topmuseum.jp/workshop/13375/"
     },
     {
      "d": "2026-12-18",
@@ -793,7 +736,7 @@
     139.77315
    ],
    "events": [],
-   "eventsCheckedAt": "2026-11-13"
+   "eventsCheckedAt": "2026-11-23"
   },
   {
    "id": "mohri",
@@ -913,14 +856,40 @@
    "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/",
    "official": true,
    "price": "一般2,200円（前売2,000円）",
-   "booking": null,
+   "booking": "前売・当日券（当日窓口あり）",
    "scale": "museum",
    "geo": [
     35.66534,
     139.72644
    ],
-   "events": [],
-   "eventsCheckedAt": "2026-11-13"
+   "events": [
+    {
+     "d": "2026-12-18",
+     "time": "9:00–16:30（プログラムにより異なる）",
+     "kind": "ワークショップ",
+     "title": "家族で！みんなで！インフィニティウィークエンド（12/18–20）",
+     "who": null,
+     "place": "企画展示室2E・1階ロビー・3階研修室",
+     "booking": "事前申込不要（託児のみ要予約）",
+     "apply": "none",
+     "price": "参加無料（鑑賞アワーは要観覧券）",
+     "url": "https://www.nact.jp/event/2026/006641.html"
+    },
+    {
+     "d": "2027-01-08",
+     "time": "13:30–15:45／17:15–19:30",
+     "kind": "ワークショップ",
+     "title": "視覚障害者とつくる美術鑑賞ワークショップ",
+     "who": "視覚障害者とつくる美術鑑賞ワークショップ",
+     "place": "企画展示室2Eほか",
+     "booking": "事前申込制（申込フォーム、各回16名・抽選、12/9締切）",
+     "apply": "required",
+     "deadline": "2026-12-09",
+     "price": "無料（要本展チケット）",
+     "url": "https://www.nact.jp/event/2027/006648.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-23"
   },
   {
    "id": "haikyu",
@@ -2021,8 +1990,35 @@
     35.69645,
     139.79608
    ],
-   "events": [],
-   "eventsCheckedAt": "2026-11-13"
+   "events": [
+    {
+     "d": "2026-12-06",
+     "time": null,
+     "kind": "講演会",
+     "title": "関連講座「空間革命絵師　円山応挙」",
+     "who": "樋口一貴（十文字学園女子大学 教授）",
+     "place": "大ホール",
+     "booking": "要事前申込・抽選（11/17締切、受付終了）",
+     "apply": "closed",
+     "deadline": "2026-11-17",
+     "price": "1,000円",
+     "url": "https://okyo2026-27.jp/events.html"
+    },
+    {
+     "d": "2026-12-12",
+     "time": null,
+     "kind": "講演会",
+     "title": "関連講座「応挙芸術の全貌に迫る―展覧会の見どころ―」",
+     "who": "朴美姫（江戸東京博物館 学芸員）",
+     "place": "大ホール",
+     "booking": "要事前申込・抽選（11/20締切、受付終了）",
+     "apply": "closed",
+     "deadline": "2026-11-20",
+     "price": "1,000円",
+     "url": "https://okyo2026-27.jp/events.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-23"
   },
   {
    "id": "sannomaru-shitaku",
@@ -4141,6 +4137,68 @@
    "eventsCheckedAt": "2026-11-18"
   },
   {
+   "id": "nezu-horu-urushi",
+   "t": "企画展「彫る漆」",
+   "v": "根津美術館",
+   "city": "港区",
+   "pref": "東京",
+   "s": "2026-12-05",
+   "e": "2027-01-17",
+   "g": "jpn",
+   "one": "彫漆・鎌倉彫・沈金・蒟醤など「彫る」漆工の技法を館蔵品で紹介。",
+   "url": "https://www.nezu-muse.or.jp/jp/exhibitions/upcoming/",
+   "official": true,
+   "price": "一般1,400円（当日券は+200円）",
+   "booking": "オンライン日時指定予約",
+   "scale": "museum",
+   "geo": [
+    35.6622429,
+    139.7172555
+   ],
+   "eventsCheckedAt": "2026-11-23",
+   "events": [
+    {
+     "d": "2026-12-18",
+     "time": "11:30–12:15",
+     "kind": "スライドトーク",
+     "title": "スライドレクチャー 第1回",
+     "who": "担当学芸員",
+     "place": "講堂",
+     "booking": "オンライン事前申込・先着100名（11/24 13:00受付開始）",
+     "apply": "required",
+     "opens": "2026-11-24",
+     "price": "無料（要入館料・日時指定予約）",
+     "url": "https://www.nezu-muse.or.jp/jp/events/"
+    },
+    {
+     "d": "2026-12-19",
+     "time": "14:00–15:30",
+     "kind": "講演会",
+     "title": "講演会「つくり手が語る、彫る漆の技と見どころ」",
+     "who": "松本達弥（東京藝術大学 非常勤講師）",
+     "place": "講堂",
+     "booking": "オンライン事前申込・先着100名（11/24 13:00受付開始）",
+     "apply": "required",
+     "opens": "2026-11-24",
+     "price": "無料（要入館料・日時指定予約）",
+     "url": "https://www.nezu-muse.or.jp/jp/events/"
+    },
+    {
+     "d": "2027-01-08",
+     "time": "11:30–12:15",
+     "kind": "スライドトーク",
+     "title": "スライドレクチャー 第2回",
+     "who": "担当学芸員",
+     "place": "講堂",
+     "booking": "オンライン事前申込・先着100名（11/24 13:00受付開始）",
+     "apply": "required",
+     "opens": "2026-11-24",
+     "price": "無料（要入館料・日時指定予約）",
+     "url": "https://www.nezu-muse.or.jp/jp/events/"
+    }
+   ]
+  },
+  {
    "id": "eternal-resonance",
    "t": "ETERNAL Art Space Exhibition 2026 RESONANCE – Tradition Reimagined",
    "v": "MoN Takanawa: The Museum of Narratives",
@@ -4647,6 +4705,10 @@
   {
    "name": "KOSAKU KANECHIKA",
    "url": "https://kosakukanechika.com/exhibition/heel_less_shoes/"
+  },
+  {
+   "name": "根津美術館 公式",
+   "url": "https://www.nezu-muse.or.jp/"
   }
  ]
 }

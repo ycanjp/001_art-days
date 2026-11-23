@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-23",
- "notice": "本日11/23閉幕：毛利悠子展・マリー・アントワネット展・ナムジュン・パイク展・工藤甲人展・千葉市美術館「月と星と」。根津美術館「彫る漆」（12/5開幕）の講演会・レクチャーは11/24 13:00申込開始。11/25にチームラボ 浜離宮とティム・バートンのラビリンスが開幕。ターナー展オンライン講演会は11/26 12:00受付開始。",
+ "updatedAt": "2026-11-24",
+ "notice": "11/23で毛利悠子展・マリー・アントワネット展・ナムジュン・パイク展などが閉幕。11/25にチームラボ 浜離宮とティム・バートンのラビリンスが開幕。ターナー展オンライン講演会は11/26 12:00受付開始、大チーバくん展トーク（12/12）の抽選申込は11/27まで。",
  "picks": [
   {
-   "id": "paik",
-   "why": "本日11/23閉幕。没後20年のナムジュン・パイク展、メディアアート好きは今日が最終日。"
-  },
-  {
    "id": "teamlab-hamarikyu",
-   "why": "11/25開幕。浜離宮恩賜庭園の夜をチームラボが光で包む期間限定展示（日時指定制）。"
+   "why": "明日11/25開幕。浜離宮恩賜庭園の夜をチームラボが光で包む期間限定展示。"
   },
   {
-   "id": "nezu-horu-urushi",
-   "why": "12/5開幕。彫漆・鎌倉彫など「彫る漆」を特集、関連講演会は11/24 13:00から先着申込。"
+   "id": "momat-yumeji",
+   "why": "11/25から後期展示。美人画からデザインまで、竹久夢二の仕事を一望できる大回顧展。"
+  },
+  {
+   "id": "okada-kira",
+   "why": "12/6閉幕。金銀と雲母がきらめく日本美術を箱根で見られるのはあと2週間。"
   }
  ],
  "exhibitions": [
@@ -739,62 +739,6 @@
    "eventsCheckedAt": "2026-11-23"
   },
   {
-   "id": "mohri",
-   "t": "毛利悠子 Recompose 第60回ヴェネチア・ビエンナーレ日本館帰国展",
-   "v": "横浜美術館",
-   "city": "横浜市",
-   "pref": "神奈川",
-   "s": "2026-07-24",
-   "e": "2026-11-23",
-   "g": "con",
-   "one": "音と動きで空間を組み替えるインスタレーション。ヴェネチアからの凱旋展。",
-   "url": "https://yokohama.art.museum/exhibition/202607_mohriyuko/",
-   "official": true,
-   "price": "無料",
-   "booking": null,
-   "scale": "museum",
-   "events": [],
-   "eventsCheckedAt": "2026-11-11",
-   "geo": [
-    35.4571,
-    139.63053
-   ]
-  },
-  {
-   "id": "marie",
-   "t": "マリー・アントワネット・スタイル",
-   "v": "横浜美術館",
-   "city": "横浜市",
-   "pref": "神奈川",
-   "s": "2026-08-01",
-   "e": "2026-11-23",
-   "g": "des",
-   "one": "王妃の装いと室内装飾が現代のデザインに与えた影響をたどる。",
-   "url": "https://yokohama.art.museum/exhibition/202608_marie2026/",
-   "official": true,
-   "price": "一般2,500円（前売2,300円）",
-   "booking": null,
-   "scale": "museum",
-   "events": [
-    {
-     "d": "2026-11-08",
-     "time": null,
-     "kind": "ワークショップ",
-     "title": "わたしたちのマリー・アントワネット・スタイル",
-     "who": null,
-     "place": null,
-     "booking": "受付終了",
-     "price": null,
-     "url": "https://yokohama.art.museum/event/20261108_shiato_ourmas/"
-    }
-   ],
-   "eventsCheckedAt": "2026-11-11",
-   "geo": [
-    35.4571,
-    139.63053
-   ]
-  },
-  {
    "id": "mariko-mori",
    "t": "森万里子：燦燦",
    "v": "森美術館",
@@ -1279,26 +1223,6 @@
   },
   {
    "official": false,
-   "price": "大人1,500円／学生・高校生・70歳以上1,300円／小中学生500円",
-   "booking": null,
-   "url": "https://www.tokyoartbeat.com/articles/-/namjunepaik-jugemu-news-202606",
-   "id": "paik",
-   "t": "没後20年 ナムジュン・パイク｜じゅげむ展",
-   "v": "ワタリウム美術館",
-   "city": "渋谷区",
-   "pref": "東京",
-   "s": "2026-07-19",
-   "e": "2026-11-23",
-   "g": "tec",
-   "one": "ビデオ・アートの先駆者の没後20年展。2〜4階の全フロアを「森・縁・心」の3空間で構成。",
-   "scale": "museum",
-   "geo": [
-    35.67074,
-    139.71334
-   ]
-  },
-  {
-   "official": false,
    "price": "大人 平日11,900円／土日祝12,500円（報道による）",
    "booking": null,
    "url": "https://www.tokyoartbeat.com/articles/-/yoichi-ochiai-null2n-news-202610",
@@ -1690,7 +1614,7 @@
     35.7149,
     139.76348
    ],
-   "eventsCheckedAt": "2026-11-14",
+   "eventsCheckedAt": "2026-11-24",
    "events": []
   },
   {
@@ -1818,7 +1742,7 @@
     35.78423,
     139.64447
    ],
-   "eventsCheckedAt": "2026-11-22",
+   "eventsCheckedAt": "2026-11-24",
    "events": [
     {
      "d": "2026-11-21",
@@ -2122,8 +2046,45 @@
     35.71711,
     139.77315
    ],
-   "events": [],
-   "eventsCheckedAt": "2026-11-13"
+   "events": [
+    {
+     "d": "2026-11-27",
+     "time": "18:00–18:30",
+     "kind": "ギャラリートーク",
+     "title": "展覧会担当学芸員による解説",
+     "who": "小林明子",
+     "place": "佐藤慶太郎記念 アートラウンジ",
+     "booking": "予約不要",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://www.tobikan.jp/exhibition/2026_archives.html#event"
+    },
+    {
+     "d": "2026-12-04",
+     "time": "18:00–18:30",
+     "kind": "ギャラリートーク",
+     "title": "展覧会担当学芸員による解説",
+     "who": "中江花菜",
+     "place": "佐藤慶太郎記念 アートラウンジ",
+     "booking": "予約不要",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://www.tobikan.jp/exhibition/2026_archives.html#event"
+    },
+    {
+     "d": "2026-12-11",
+     "time": "18:00–18:30",
+     "kind": "ギャラリートーク",
+     "title": "展覧会担当学芸員による解説",
+     "who": "西川美穂子",
+     "place": "佐藤慶太郎記念 アートラウンジ",
+     "booking": "予約不要",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://www.tobikan.jp/exhibition/2026_archives.html#event"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-24"
   },
   {
    "price": null,
@@ -2182,7 +2143,7 @@
      "url": "https://www.polamuseum.or.jp/event/26111401/"
     }
    ],
-   "eventsCheckedAt": "2026-11-13"
+   "eventsCheckedAt": "2026-11-24"
   },
   {
    "price": "一般1,200円",
@@ -2277,7 +2238,7 @@
      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
     }
    ],
-   "eventsCheckedAt": "2026-11-15"
+   "eventsCheckedAt": "2026-11-24"
   },
   {
    "price": "一般250円",
@@ -2421,28 +2382,6 @@
     35.25967,
     139.73801
    ]
-  },
-  {
-   "price": null,
-   "booking": null,
-   "official": true,
-   "scale": "museum",
-   "id": "hiratsuka-kudo",
-   "t": "生誕110年 工藤甲人展 北の大地といのちの詩",
-   "v": "平塚市美術館",
-   "city": "平塚市",
-   "pref": "神奈川",
-   "s": "2026-09-19",
-   "e": "2026-11-23",
-   "g": "jpn",
-   "one": "幻想的な日本画で知られる工藤甲人の生誕110年展。",
-   "url": "https://www.city.hiratsuka.kanagawa.jp/art-muse/",
-   "geo": [
-    35.33807,
-    139.34789
-   ],
-   "eventsCheckedAt": "2026-11-16",
-   "events": []
   },
   {
    "price": null,
@@ -2811,28 +2750,6 @@
    "eventsCheckedAt": "2026-11-18"
   },
   {
-   "id": "chiba-tsukihoshi",
-   "t": "千葉開府900年記念特別展 月と星と―美術がつなぐとき",
-   "v": "千葉市美術館",
-   "city": "千葉市",
-   "pref": "千葉",
-   "s": "2026-09-16",
-   "e": "2026-11-23",
-   "g": "oth",
-   "one": "月と星をテーマに、時代やジャンルを越えて美術をつなぐ特別展。",
-   "url": "https://www.ccma-net.jp/exhibitions/special/26-9-16-11-23/",
-   "official": true,
-   "price": "一般1,500円",
-   "booking": "不要（当日券のみ）",
-   "scale": "museum",
-   "eventsCheckedAt": "2026-11-11",
-   "events": [],
-   "geo": [
-    35.60896,
-    140.12464
-   ]
-  },
-  {
    "id": "chiba-tamura",
    "t": "つくりかけラボ22 タムラサトル｜1トンになる",
    "v": "千葉市美術館",
@@ -2851,7 +2768,7 @@
     35.60896,
     140.12464
    ],
-   "eventsCheckedAt": "2026-11-12",
+   "eventsCheckedAt": "2026-11-24",
    "events": [
     {
      "d": "2026-11-01",
@@ -2864,6 +2781,19 @@
      "apply": null,
      "price": null,
      "url": "https://www.ccma-net.jp/exhibitions/lab/26-10-17-27-1-31/"
+    },
+    {
+     "d": "2026-11-29",
+     "time": "13:00–15:00",
+     "kind": "ワークショップ",
+     "title": "カラーブロックで何グラム？",
+     "who": "タムラサトル",
+     "place": "4階 市民アトリエ2",
+     "booking": "事前申込制（定員15名・11/28まで延長）",
+     "apply": "required",
+     "deadline": "2026-11-28",
+     "price": "無料",
+     "url": "https://www.ccma-net.jp/learn/events/lab/20261129howmanygrams/"
     }
    ]
   },
@@ -3147,7 +3077,7 @@
     140.46531
    ],
    "events": [],
-   "eventsCheckedAt": "2026-11-15"
+   "eventsCheckedAt": "2026-11-24"
   },
   {
    "price": "一般950円",
@@ -3274,7 +3204,7 @@
     36.60702,
     139.87393
    ],
-   "eventsCheckedAt": "2026-11-14",
+   "eventsCheckedAt": "2026-11-24",
    "events": [
     {
      "d": "2026-11-14",
@@ -3367,7 +3297,7 @@
     36.29879,
     139.07838
    ],
-   "eventsCheckedAt": "2026-11-14",
+   "eventsCheckedAt": "2026-11-24",
    "events": [
     {
      "d": "2026-12-12",
@@ -3621,7 +3551,7 @@
      "url": "https://artsmaebashi.jp/localart_post/2026-other-workshop-labo/"
     }
    ],
-   "eventsCheckedAt": "2026-11-22"
+   "eventsCheckedAt": "2026-11-24"
   },
   {
    "price": "一般500円",
@@ -4199,28 +4129,6 @@
    ]
   },
   {
-   "id": "eternal-resonance",
-   "t": "ETERNAL Art Space Exhibition 2026 RESONANCE – Tradition Reimagined",
-   "v": "MoN Takanawa: The Museum of Narratives",
-   "city": "港区",
-   "pref": "東京",
-   "s": "2026-11-20",
-   "e": "2026-11-23",
-   "g": "mus",
-   "one": "声だけで作る《Aura》や9.1chの立体音響、ヤマハのサウンドxRなど、音と映像の没入型展示",
-   "url": "https://exhibition.eternalart.space/",
-   "official": true,
-   "price": "2・3F無料／4F Tatami上映1,000円",
-   "booking": "2・3Fは予約不要、4FはPeatixで事前予約制",
-   "scale": "space",
-   "geo": [
-    35.63963,
-    139.74136
-   ],
-   "eventsCheckedAt": "2026-11-16",
-   "events": []
-  },
-  {
    "id": "kikutake-suzuki",
    "t": "鈴木ヒラク「Oceans―Organs」",
    "v": "Yutaka Kikutake Gallery 六本木",
@@ -4307,6 +4215,66 @@
     139.74136
    ],
    "official": true
+  },
+  {
+   "id": "momat-yumeji",
+   "t": "竹久夢二 時代を創る表現者",
+   "v": "東京国立近代美術館",
+   "city": "千代田区",
+   "pref": "東京",
+   "s": "2026-10-23",
+   "e": "2027-01-11",
+   "g": "ill",
+   "one": "美人画から雑誌・装幀デザインまで、表現者・竹久夢二の全体像に迫る大回顧展。",
+   "url": "https://www.momat.go.jp/exhibitions/570",
+   "official": true,
+   "price": "一般2,100円",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.69047,
+    139.75451
+   ]
+  },
+  {
+   "id": "ota-shiranai",
+   "t": "あなたの知らない浮世絵師たち",
+   "v": "太田記念美術館",
+   "city": "渋谷区",
+   "pref": "東京",
+   "s": "2026-12-12",
+   "e": "2027-01-17",
+   "g": "jpn",
+   "one": "有名絵師の陰に隠れた知られざる浮世絵師たちの名品を紹介。",
+   "url": "https://www.ukiyoe-ota-muse.jp/anatanoshiranai/",
+   "official": true,
+   "price": "一般1,000円",
+   "booking": "不要（日時指定予約なし）",
+   "scale": "museum",
+   "geo": [
+    35.66941,
+    139.7049
+   ]
+  },
+  {
+   "id": "okada-kira",
+   "t": "金銀雲母きら ―かがやきの日本美術―",
+   "v": "岡田美術館",
+   "city": "箱根町",
+   "pref": "神奈川",
+   "s": "2026-06-14",
+   "e": "2026-12-06",
+   "g": "jpn",
+   "one": "金・銀・雲母がきらめく屏風や工芸など、輝きの日本美術を集める。",
+   "url": "https://www.okada-museum.com/exhibition/",
+   "official": true,
+   "price": "一般2,800円（入館料）",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.23832,
+    139.0463
+   ]
   }
  ],
  "sources": [
@@ -4709,6 +4677,18 @@
   {
    "name": "根津美術館 公式",
    "url": "https://www.nezu-muse.or.jp/"
+  },
+  {
+   "name": "東京国立近代美術館",
+   "url": "https://www.momat.go.jp/"
+  },
+  {
+   "name": "太田記念美術館",
+   "url": "https://www.ukiyoe-ota-muse.jp/"
+  },
+  {
+   "name": "岡田美術館",
+   "url": "https://www.okada-museum.com/"
   }
  ]
 }

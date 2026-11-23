@@ -276,8 +276,21 @@ h1,h2,h3,p{margin:0}
 .legend i{display:inline-block;width:18px;height:8px;border-radius:999px;margin-right:6px;vertical-align:middle}
 
 /* ---------- talks ---------- */
-.trow{display:grid;grid-template-columns:52px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid var(--line);cursor:pointer;align-items:start}
+.trow{display:grid;grid-template-columns:52px minmax(0,1fr) 36px;gap:12px;padding:12px 0;border-top:1px solid var(--line);cursor:pointer;align-items:start}
 .trow:first-child{border-top:0}
+.evstar{width:36px;height:36px;border-radius:50%;border:0;background:var(--white);cursor:pointer;font-size:15px;color:var(--faint);padding:0;align-self:center}
+.evstar[aria-pressed="true"]{color:var(--peach-ink)}
+.ev .evstar{background:var(--tile)}
+.sv-ex{display:grid;grid-template-columns:44px minmax(0,1fr) 36px;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line);cursor:pointer}
+.sv-ex:first-child{border-top:0}
+.sv-ex b{display:block;font-size:13px;font-weight:700;line-height:1.4}
+.sv-ex small{display:block;font-size:11px;color:var(--muted)}
+.sv-gone{opacity:.6}
+.saved details>div{display:grid}
+.saved .seg b{font-family:var(--f-num);font-weight:500;margin-left:4px}
+.nav .nb{font-family:var(--f-num);font-size:11px;margin-left:6px;opacity:.75}
+.nav .nb:empty{display:none}
+@media (min-width:760px){.saved{grid-column:1/-1}}
 .dbox{background:var(--white);border-radius:14px;height:52px;display:grid;place-content:center;text-align:center;line-height:1.1}
 .dbox b{font-family:var(--f-num);font-weight:400;font-size:18px}
 .dbox small{font-size:10px;color:var(--muted)}
@@ -324,7 +337,7 @@ h1,h2,h3,p{margin:0}
 .tbd{color:var(--peach-ink)}
 .evs{display:grid;gap:8px}
 .evs h4{margin:0;font-size:15px;font-weight:500}
-.ev{background:var(--white);border-radius:16px;padding:12px;display:grid;grid-template-columns:52px minmax(0,1fr);gap:12px;align-items:start}
+.ev{background:var(--white);border-radius:16px;padding:12px;display:grid;grid-template-columns:52px minmax(0,1fr) 36px;gap:12px;align-items:start}
 .ev .dbox{background:var(--tile)}
 .ev .what{display:grid;gap:3px}
 .ev .k{font-size:10px;background:var(--ink);color:var(--bg);border-radius:999px;padding:1px 8px;justify-self:start}
@@ -357,7 +370,7 @@ footer a{color:var(--muted)}
   <div class="top">
     <div class="brand"><span class="logo"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 17 9 3h3l-7 14Z" fill="currentColor"/><path d="M11 17l3.5-7L18 17Z" fill="currentColor"/></svg></span>首都圏アート暦</div>
     <nav class="nav" aria-label="セクション">
-      <a href="#top" aria-current="true">ダッシュボード</a><a href="#list">展覧会</a><a href="#area">地図</a><a href="#chart">会期</a><a href="#talks">イベント</a>
+      <a href="#top" aria-current="true">ダッシュボード</a><a href="#saved">保存<span class="nb" id="nav-saved-n"></span></a><a href="#list">展覧会</a><a href="#area">地図</a><a href="#chart">会期</a><a href="#talks">イベント</a>
     </nav>
     <div class="icons">
       <button class="ic" id="btn-search" aria-label="検索"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg></button>
@@ -385,6 +398,12 @@ footer a{color:var(--muted)}
     <section class="tile picks">
       <div class="tile-h"><h2>今週のおすすめ</h2><a class="go" href="#list" aria-label="一覧へ"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12 12 4M6 4h6v6"/></svg></a></div>
       <div class="pcards" id="pcards"></div>
+    </section>
+
+    <section class="tile saved" id="saved">
+      <div class="tile-h"><h2>保存したもの</h2><span class="count">この端末に保存</span></div>
+      <div class="seg" role="group" aria-label="種類"><button data-svtab="ev">イベント<b>0</b></button><button data-svtab="ex">展覧会<b>0</b></button></div>
+      <div id="svlist"></div>
     </section>
 
     <section class="tile list" id="list">
@@ -472,6 +491,15 @@ let favs=new Set();
 try{favs=new Set(JSON.parse(localStorage.getItem("artdays-favs")||"[]"));}catch(e){}
 try{const s=localStorage.getItem("artdays-sort");if(["end","start","genre"].includes(s))state.sort=s;}catch(e){}
 const saveFavs=()=>{try{localStorage.setItem("artdays-favs",JSON.stringify([...favs]));}catch(e){}};
+/* saved items keep a copy of their details, so they stay readable after the show ends and leaves data.json */
+let evSaved={},favSnap={},EVK=new Map();const svState={tab:"ev"};
+try{const j=JSON.parse(localStorage.getItem("artdays-saved")||"{}");evSaved=j.ev||{};favSnap=j.ex||{};}catch(e){}
+try{const t=localStorage.getItem("artdays-svtab");if(t==="ex"||t==="ev")svState.tab=t;}catch(e){}
+const saveSaved=()=>{try{localStorage.setItem("artdays-saved",JSON.stringify({ex:favSnap,ev:evSaved}));}catch(e){}};
+const evKey=(x,e)=>`${x.id}|${e.d}|${e.title}`;
+const snapEx=x=>({t:x.t,v:x.v,city:x.city,s:x.s,e:x.e,g:x.g,url:x.url,permanent:!!x.permanent});
+const snapEv=(x,e)=>({id:x.id,xt:x.t,v:x.v,d:e.d,time:e.time||null,kind:e.kind||null,title:e.title,url:e.url||x.url||null});
+const evStar=(x,e)=>{const k=evKey(x,e),on=!!evSaved[k];return`<button class="evstar" data-evfav="${esc(k)}" aria-pressed="${on}" aria-label="${on?"保存を外す":"保存する"}">${on?"★":"☆"}</button>`;};
 
 /* ---------- hero + KPIs ---------- */
 function drawTop(){
@@ -510,7 +538,7 @@ function drawTop(){
       <div class="tags"><span>${esc(x.pref)}</span><span>${esc(x.price?x.price.split(/[／\/、]/)[0]:"料金要確認")}</span><span>${esc(x.booking||"予約要確認")}</span></div>
     </article>`;}).join("");
 
-  drawTalks();
+  drawTalks();drawSaved();
 
   document.getElementById("sources").innerHTML=(DATA.sources||[]).map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></li>`).join("");
   document.getElementById("updated").textContent=`${DATA.updatedAt||"?"} 時点のWeb検索結果から作成。会期・料金・予約は各館の公式サイトで確認してください。`;
@@ -704,18 +732,18 @@ function drawTalks(){
   document.querySelectorAll("[data-tf]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.tf===talkState.f));
   document.getElementById("trows").innerHTML=(rows.length?rows.slice(0,10).map(({x,e})=>`<div class="trow${applyState(e).k==="closed"?" off":""}" data-id="${esc(x.id)}" role="button" tabindex="0">
       <span class="dbox"><b>${md(e.d)}</b><small>${wd(e.d)}${e.time?` ${esc(e.time.split(/[–-]/)[0])}`:""}</small></span>
-      <span class="what"><span class="kr"><span class="k">${esc(e.kind||"イベント")}</span>${apChip(e)}</span><span class="t">${esc(e.title)}</span><span class="m">${esc(x.t)}</span></span></div>`).join("")
+      <span class="what"><span class="kr"><span class="k">${esc(e.kind||"イベント")}</span>${apChip(e)}</span><span class="t">${esc(e.title)}</span><span class="m">${esc(x.t)}</span></span>${evStar(x,e)}</div>`).join("")
     :`<p class="empty">${talkState.f==="free"?"3週間以内に申込不要のイベントは見つかっていません":talkState.f==="req"?"3週間以内に申込が必要なイベントは見つかっていません":"3週間以内の関連イベントは見つかっていません"}</p>`)
     +(rows.length>10?`<p class="count">ほか${rows.length-10}件</p>`:"")
     +(nClosed?`<button class="morebtn" data-tclosed>${talkState.closed?"受付終了を隠す":`受付終了の${nClosed}件も表示`}</button>`:"");
 }
-function evHTML(e,past){
+function evHTML(e,past,x){
   const m=[e.time,e.place].filter(Boolean).map(esc).join("　"), m2=[e.booking,e.price].filter(Boolean).map(esc).join("・");
   return `<div class="ev${past?" past":""}"><span class="dbox"><b>${md(e.d)}</b><small>${wd(e.d)}曜</small></span>
     <span class="what"><span class="kr"><span class="k">${esc(e.kind||"イベント")}</span>${past?"":apChip(e)}</span><span class="t">${esc(e.title)}</span>
     ${e.who?`<span class="m">登壇：${esc(e.who)}</span>`:""}${m?`<span class="m">${m}</span>`:""}
     <span class="m">${m2||'<span class="tbd">申込方法・料金は要確認</span>'}</span>
-    ${e.url&&!past?`<a href="${esc(e.url)}" target="_blank" rel="noopener">詳細を見る</a>`:""}</span></div>`;
+    ${e.url&&!past?`<a href="${esc(e.url)}" target="_blank" rel="noopener">詳細を見る</a>`:""}</span>${x&&!past?evStar(x,e):"<span></span>"}</div>`;
 }
 function openSheet(id){
   const x=byId(id);if(!x)return;if(scrim.hidden)lastFocus=document.activeElement;
@@ -723,7 +751,7 @@ function openSheet(id){
   const up=upcoming(x), past=(x.events||[]).filter(e=>e.d&&D(e.d)<TODAY);
   let ev=!Array.isArray(x.events)?`<p class="ev-empty">関連イベントはまだ調べていません。毎朝の更新で順に確認します。</p>`
     :!up.length?`<p class="ev-empty">今後の関連イベントは公式サイトに載っていません${x.eventsCheckedAt?`（${md(x.eventsCheckedAt)} 確認）`:""}。</p>`
-    :up.map(e=>evHTML(e,false)).join("");
+    :up.map(e=>evHTML(e,false,x)).join("");
   if(past.length) ev+=`<details><summary>終了したイベント ${past.length}件</summary><div class="evs">${past.map(e=>evHTML(e,true)).join("")}</div></details>`;
   const per=x.permanent&&!x.e?`${x.s?full(x.s)+" から":""}常設`:`${full(x.s)||'<span class="tbd">要確認</span>'} – ${full(x.e)||'<span class="tbd">要確認</span>'}`;
   sheet.innerHTML=`<span class="grab" aria-hidden="true"></span>
@@ -802,18 +830,51 @@ function wireNotify(){
   if(ts)ts.onclick=async()=>{try{const r=await navigator.serviceWorker.ready;await r.showNotification("アート暦（テスト）",{body:"通知はこのように届きます。",icon:"icon-180.png",tag:"test"});msg("テスト通知を出しました。");}catch(e){msg("表示できませんでした："+(e&&e.message||e));}};
 }
 function closeSheet(){scrim.hidden=true;document.documentElement.style.overflow="";if(lastFocus&&lastFocus.focus)lastFocus.focus({preventScroll:true});}
-function toggleFav(id){favs.has(id)?favs.delete(id):favs.add(id);saveFavs();render();drawTop();}
+function toggleFav(id){if(favs.has(id)){favs.delete(id);delete favSnap[id];}else{favs.add(id);const x=byId(id);if(x)favSnap[id]=snapEx(x);}saveFavs();saveSaved();render();drawTop();}
+function toggleEv(k){
+  const r=EVK.get(k);if(evSaved[k])delete evSaved[k];else if(r)evSaved[k]={...snapEv(r.x,r.e),at:new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Tokyo"}).format(new Date())};
+  saveSaved();const on=!!evSaved[k];
+  document.querySelectorAll("[data-evfav]").forEach(b=>{if(b.dataset.evfav!==k)return;b.setAttribute("aria-pressed",on);b.textContent=on?"★":"☆";b.setAttribute("aria-label",on?"保存を外す":"保存する");});
+  drawSaved();
+}
+function drawSaved(){
+  const el=document.getElementById("svlist");if(!el)return;
+  const exItems=[...favs].filter(id=>byId(id)||favSnap[id]).map(id=>{const x=byId(id);return{id,live:!!x&&status(x).k!=="past",open:!!x,x:x||favSnap[id]};});
+  const exOn=exItems.filter(r=>r.live).sort((a,b)=>endD(a.x)-endD(b.x)), exOff=exItems.filter(r=>!r.live);
+  const evItems=Object.entries(evSaved).map(([k,s])=>({k,s,r:EVK.get(k)}));
+  const evOn=evItems.filter(i=>i.s.d&&D(i.s.d)>=TODAY).sort((a,b)=>D(a.s.d)-D(b.s.d)), evOff=evItems.filter(i=>!(i.s.d&&D(i.s.d)>=TODAY)).sort((a,b)=>D(b.s.d)-D(a.s.d));
+  document.getElementById("nav-saved-n").textContent=(exOn.length+evOn.length)||"";
+  document.querySelectorAll("[data-svtab]").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.svtab===svState.tab);b.querySelector("b").textContent=b.dataset.svtab==="ex"?exOn.length:evOn.length;});
+  const exRow=r=>{const x=r.x,s=r.live?status(x):null;
+    return `<div class="sv-ex${r.live?"":" sv-gone"}"${r.open?` data-id="${esc(r.id)}" role="button" tabindex="0"`:""}>${thumb(x)}
+      <span style="min-width:0"><b>${esc(x.t)}</b><small>${esc(x.v)}・${period(x)}${s?`・${ST_LABEL[s.k]}${s.n!=null?`（${remain(x)}）`:""}`:"・終了"}</small>${!r.open&&x.url?`<small><a href="${esc(x.url)}" target="_blank" rel="noopener">公式サイト</a></small>`:""}</span>
+      <button class="evstar" data-fav="${esc(r.id)}" aria-pressed="true" aria-label="保存を外す">★</button></div>`;};
+  const evRow=(i,gone)=>{const s=i.s,x=i.r&&i.r.x;
+    return `<div class="trow${gone?" off":""}"${x?` data-id="${esc(x.id)}" role="button" tabindex="0"`:""}>
+      <span class="dbox"><b>${md(s.d)}</b><small>${wd(s.d)}${s.time?` ${esc(String(s.time).split(/[–-]/)[0])}`:""}</small></span>
+      <span class="what"><span class="kr"><span class="k">${esc(s.kind||"イベント")}</span>${!gone&&i.r?apChip(i.r.e):""}</span><span class="t">${esc(s.title)}</span><span class="m">${esc(s.xt)}・${esc(s.v)}</span>${!x&&s.url?`<a class="m" href="${esc(s.url)}" target="_blank" rel="noopener">詳細を見る</a>`:""}</span>
+      <button class="evstar" data-evfav="${esc(i.k)}" aria-pressed="true" aria-label="保存を外す">★</button></div>`;};
+  const empty=t=>`<p class="empty">${t}</p>`;
+  el.innerHTML=svState.tab==="ev"
+    ?(evOn.length?evOn.map(i=>evRow(i,false)).join(""):empty("トーク・イベントの ☆ をタップすると、ここに集まります。"))
+      +(evOff.length?`<details><summary>終わったイベント ${evOff.length}件</summary><div>${evOff.map(i=>evRow(i,true)).join("")}</div></details>`:"")
+    :(exOn.length?exOn.map(exRow).join(""):empty("展覧会の ☆（行きたい）をタップすると、ここに集まります。"))
+      +(exOff.length?`<details><summary>終わった展覧会 ${exOff.length}件</summary><div>${exOff.map(exRow).join("")}</div></details>`:"");
+}
 
 /* ---------- events ---------- */
 scrim.addEventListener("click",e=>{if(e.target===scrim)closeSheet();});
+sheet.addEventListener("click",e=>{const b=e.target.closest("[data-evfav]");if(b)toggleEv(b.dataset.evfav);});
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape"&&!scrim.hidden)closeSheet();
-  if((e.key==="Enter"||e.key===" ")&&e.target.matches(".pc,.tr,.tl-row,.trow")){e.preventDefault();openSheet(e.target.dataset.id);}
+  if((e.key==="Enter"||e.key===" ")&&e.target.matches(".pc,.tr,.tl-row,.trow,.sv-ex")){e.preventDefault();openSheet(e.target.dataset.id);}
 });
 document.addEventListener("click",e=>{
   if(sheet.contains(e.target))return;
   const t=e.target;
   const f=t.closest("[data-fav]");if(f){e.stopPropagation();toggleFav(f.dataset.fav);return;}
+  const ef=t.closest("[data-evfav]");if(ef){e.stopPropagation();toggleEv(ef.dataset.evfav);return;}
+  const sv=t.closest("[data-svtab]");if(sv){svState.tab=sv.dataset.svtab;try{localStorage.setItem("artdays-svtab",svState.tab);}catch(_){}drawSaved();return;}
   const pv=t.closest("[data-view]");if(pv){setView(pv.dataset.view);return;}
   const zb=t.closest("[data-zoom]");if(zb){zoomBtn(zb.dataset.zoom);return;}
   const pn=t.closest("[data-venue]");if(pn){selVenue=selVenue===pn.dataset.venue?null:pn.dataset.venue;drawMap();return;}
@@ -847,6 +908,9 @@ async function load(){
     const seen=new Map();Object.values(PH).forEach(p=>seen.set(p.page,p));const box=document.getElementById("phcr");
     if(seen.size){box.querySelector("ul").innerHTML=[...seen.values()].map(p=>`<li>${esc(p.name)}：<a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(p.by)}</a>（${esc(p.lic)}）</li>`).join("");box.hidden=false;}}}catch(_){}
   EX=(DATA.exhibitions||[]).filter(x=>x&&x.id&&x.t);EX.forEach(x=>{if(!GENRES[x.g])x.g=OLD_GENRE[x.g]||"oth";});
+  EX.forEach(x=>(x.events||[]).forEach(e=>{if(e&&e.d&&e.title)EVK.set(evKey(x,e),{x,e});}));
+  favs.forEach(id=>{const x=byId(id);if(x)favSnap[id]=snapEx(x);});
+  Object.keys(evSaved).forEach(k=>{const r=EVK.get(k);if(r)evSaved[k]={...evSaved[k],...snapEv(r.x,r.e)};});saveSaved();
   PICKS=(DATA.picks||[]).filter(p=>byId(p.id));
   TODAY=D(new Intl.DateTimeFormat("sv-SE",{timeZone:"Asia/Tokyo"}).format(new Date()));
   R0=new Date(TODAY.getFullYear(),TODAY.getMonth()-1,1);R1=new Date(R0.getFullYear(),R0.getMonth()+6,1);SPAN=R1-R0;

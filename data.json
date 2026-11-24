@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-24",
- "notice": "11/23で毛利悠子展・マリー・アントワネット展・ナムジュン・パイク展などが閉幕。11/25にチームラボ 浜離宮とティム・バートンのラビリンスが開幕。ターナー展オンライン講演会は11/26 12:00受付開始、大チーバくん展トーク（12/12）の抽選申込は11/27まで。",
+ "updatedAt": "2026-11-25",
+ "notice": "今日（11/25）チームラボ 浜離宮とティム・バートンのラビリンスが開幕、竹久夢二展は後期展示へ。野町和嘉「サハラ」は明日11/26閉幕。ターナー展オンライン講演会は11/26 12:00受付開始、大チーバくん展トーク（12/12）の抽選申込は11/27まで。",
  "picks": [
   {
    "id": "teamlab-hamarikyu",
-   "why": "明日11/25開幕。浜離宮恩賜庭園の夜をチームラボが光で包む期間限定展示。"
+   "why": "今日開幕。浜離宮恩賜庭園の夜をチームラボが光で包む12/24までの期間限定展示。"
   },
   {
-   "id": "momat-yumeji",
-   "why": "11/25から後期展示。美人画からデザインまで、竹久夢二の仕事を一望できる大回顧展。"
+   "id": "moveum-monet",
+   "why": "山下ふ頭の巨大シアターで、モネと浮世絵の関係を45分の没入映像で体感できる。"
   },
   {
    "id": "okada-kira",
-   "why": "12/6閉幕。金銀と雲母がきらめく日本美術を箱根で見られるのはあと2週間。"
+   "why": "12/6閉幕。金銀と雲母がきらめく日本美術、11/27には最後の学芸員ギャラリートークも。"
   }
  ],
  "exhibitions": [
@@ -1465,7 +1465,34 @@
    "geo": [
     35.66584,
     139.73092
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-25",
+     "time": "14:00",
+     "kind": "ギャラリートーク",
+     "title": "野町和嘉氏 ギャラリートーク",
+     "who": "野町和嘉、佐伯剛（編集人）",
+     "place": "富士フイルムフォトサロン 東京 写真展会場内",
+     "booking": "予約不要・定員なし",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://fujifilmsquare.jp/exhibition/261030_01.html"
+    },
+    {
+     "d": "2026-11-25",
+     "time": "17:00",
+     "kind": "ギャラリートーク",
+     "title": "野町和嘉氏 ギャラリートーク",
+     "who": "野町和嘉",
+     "place": "富士フイルムフォトサロン 東京 写真展会場内",
+     "booking": "予約不要・定員なし",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://fujifilmsquare.jp/exhibition/261030_01.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-25"
   },
   {
    "id": "a4-shen",
@@ -2438,7 +2465,7 @@
      "url": "https://lsm-ichihara.jp/event/tatsuokawaguchi/"
     }
    ],
-   "eventsCheckedAt": "2026-11-15"
+   "eventsCheckedAt": "2026-11-25"
   },
   {
    "price": "一般1,400円",
@@ -4234,7 +4261,22 @@
    "geo": [
     35.69047,
     139.75451
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-07",
+     "time": "14:00–15:30",
+     "kind": "トーク",
+     "title": "スペシャルトークイベント「夢二の描くデザインと佇まい」",
+     "who": "皆川明（minä perhonen）、聞き手：横山由季子",
+     "place": "地下1階講堂",
+     "booking": "事前申込制（先着140名）・受付終了",
+     "apply": "closed",
+     "price": "無料",
+     "url": "https://www.momat.go.jp/events/20261107"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-25"
   },
   {
    "id": "ota-shiranai",
@@ -4254,7 +4296,46 @@
    "geo": [
     35.66941,
     139.7049
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-12-12",
+     "time": "10:50–11:20",
+     "kind": "スライドトーク",
+     "title": "学芸員によるスライドトーク",
+     "who": "担当学芸員",
+     "place": "視聴覚室（B1）",
+     "booking": "当日10:30から受付で整理券配布（定員50名）",
+     "apply": "none",
+     "price": "無料（要入館券）",
+     "url": "https://www.ukiyoe-ota-muse.jp/anatanoshiranai/"
+    },
+    {
+     "d": "2026-12-16",
+     "time": "10:50–11:20",
+     "kind": "スライドトーク",
+     "title": "学芸員によるスライドトーク",
+     "who": "担当学芸員",
+     "place": "視聴覚室（B1）",
+     "booking": "当日10:30から受付で整理券配布（定員50名）",
+     "apply": "none",
+     "price": "無料（要入館券）",
+     "url": "https://www.ukiyoe-ota-muse.jp/anatanoshiranai/"
+    },
+    {
+     "d": "2027-01-07",
+     "time": "10:50–11:20",
+     "kind": "スライドトーク",
+     "title": "学芸員によるスライドトーク",
+     "who": "担当学芸員",
+     "place": "視聴覚室（B1）",
+     "booking": "当日10:30から受付で整理券配布（定員50名）",
+     "apply": "none",
+     "price": "無料（要入館券）",
+     "url": "https://www.ukiyoe-ota-muse.jp/anatanoshiranai/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-25"
   },
   {
    "id": "okada-kira",
@@ -4274,6 +4355,104 @@
    "geo": [
     35.23832,
     139.0463
+   ],
+   "events": [
+    {
+     "d": "2026-10-10",
+     "time": "13:00–14:30",
+     "kind": "講演会",
+     "title": "特別展関連講座「雲母の美／池大雅の金の使用」",
+     "who": null,
+     "place": "5階ホール",
+     "booking": null,
+     "apply": null,
+     "price": null,
+     "url": "https://www.okada-museum.com/event/post-16.html"
+    },
+    {
+     "d": "2026-11-27",
+     "time": "11:00",
+     "kind": "ギャラリートーク",
+     "title": "学芸員によるギャラリートーク 特別展「金銀雲母きら」",
+     "who": "当館学芸員",
+     "place": "3階会場",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（要入館料）",
+     "url": "https://www.okada-museum.com/event/post-14.html"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-25"
+  },
+  {
+   "id": "iwao-manda",
+   "t": "萬田康文写真展「少しだけ前のこと」",
+   "v": "iwao gallery",
+   "city": "台東区",
+   "pref": "東京",
+   "s": "2026-11-19",
+   "e": "2026-12-06",
+   "g": "pho",
+   "one": "北海道・東川町へ移った写真家が雨や霧、雪の光と影を捉えたモノクローム作品。",
+   "url": "https://iwaogallery.jp/a_little_while_ago202611/",
+   "official": true,
+   "price": "無料",
+   "booking": null,
+   "scale": "gallery",
+   "eventsCheckedAt": "2026-11-25",
+   "events": [
+    {
+     "d": "2026-11-20",
+     "time": "19:00–20:00",
+     "kind": "ギャラリートーク",
+     "title": "ギャラリートーク 鈴木理策×萬田康文",
+     "who": "鈴木理策、萬田康文",
+     "place": null,
+     "booking": "要予約・満席（11/1）",
+     "apply": "closed",
+     "price": "無料",
+     "url": "https://iwaogallery.jp/gallerytalk20261120/"
+    }
+   ]
+  },
+  {
+   "id": "kanagawa-rekihaku-nyumon",
+   "t": "特別展「入門!神奈川県立歴史博物館―県博の守り伝えていくコレクション―」",
+   "v": "神奈川県立歴史博物館",
+   "city": "横浜市中区",
+   "pref": "神奈川",
+   "s": "2026-10-17",
+   "e": "2026-12-13",
+   "g": "jpn",
+   "one": "改修後の再開館記念。重要文化財の十王図や甲冑など4件を約20年ぶりに同時公開。",
+   "url": "https://ch.kanagawa-museum.jp/exhibition/5337",
+   "official": true,
+   "price": null,
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.449124,
+    139.6362285
+   ]
+  },
+  {
+   "id": "moveum-monet",
+   "t": "印象派モネと浮世絵［モネを魅了した、日本の美］",
+   "v": "THE MOVEUM YOKOHAMA by TOYOTA GROUP",
+   "city": "横浜市中区",
+   "pref": "神奈川",
+   "s": "2026-10-24",
+   "e": "2027-03-31",
+   "g": "tec",
+   "one": "約1800㎡の巨大空間で、モネと北斎・広重らの浮世絵を約45分の没入映像で体験。",
+   "url": "https://global.toyota/info/themoveum/events/immersive-monet/",
+   "official": true,
+   "price": "一般3,000円（オンライン）／当日3,800円",
+   "booking": "日時指定（オンライン事前購入推奨・当日券あり）",
+   "scale": "space",
+   "geo": [
+    35.4500899,
+    139.6576077
    ]
   }
  ],
@@ -4689,6 +4868,22 @@
   {
    "name": "岡田美術館",
    "url": "https://www.okada-museum.com/"
+  },
+  {
+   "name": "iwao gallery 萬田康文写真展",
+   "url": "https://iwaogallery.jp/a_little_while_ago202611/"
+  },
+  {
+   "name": "神奈川県立歴史博物館 入門!県博",
+   "url": "https://ch.kanagawa-museum.jp/exhibition/5337"
+  },
+  {
+   "name": "THE MOVEUM 印象派モネと浮世絵 公式",
+   "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+  },
+  {
+   "name": "フジフイルム スクエア 野町和嘉写真展",
+   "url": "https://fujifilmsquare.jp/exhibition/261030_01.html"
   }
  ]
 }

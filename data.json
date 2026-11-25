@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-25",
- "notice": "今日（11/25）チームラボ 浜離宮とティム・バートンのラビリンスが開幕、竹久夢二展は後期展示へ。野町和嘉「サハラ」は明日11/26閉幕。ターナー展オンライン講演会は11/26 12:00受付開始、大チーバくん展トーク（12/12）の抽選申込は11/27まで。",
+ "updatedAt": "2026-11-26",
+ "notice": "横浜美術館のコレクション展は12/10まで閉室（12/11から再開）。ターナー展オンライン講演会（12/12）は本日11/26 12:00受付開始、大チーバくん展トーク（12/12）の抽選申込は明日11/27まで。野町和嘉「サハラ」は本日閉幕。",
  "picks": [
   {
+   "id": "fujifilm-sahara",
+   "why": "本日11/26閉幕・入場無料。半世紀近く撮り続けたサハラ砂漠の63点を見られる最終日。"
+  },
+  {
    "id": "teamlab-hamarikyu",
-   "why": "今日開幕。浜離宮恩賜庭園の夜をチームラボが光で包む12/24までの期間限定展示。"
+   "why": "昨日開幕。浜離宮恩賜庭園の夜をチームラボが光で包む12/24までの期間限定展示。"
   },
   {
-   "id": "moveum-monet",
-   "why": "山下ふ頭の巨大シアターで、モネと浮世絵の関係を45分の没入映像で体感できる。"
-  },
-  {
-   "id": "okada-kira",
-   "why": "12/6閉幕。金銀と雲母がきらめく日本美術、11/27には最後の学芸員ギャラリートークも。"
+   "id": "itabashi-corraini",
+   "why": "ムナーリらの絵本を手に取ってめくれる。11/28にはベバ・レステッリ講演会（無料・要申込）も。"
   }
  ],
  "exhibitions": [
@@ -213,7 +213,7 @@
    "booking": "不要（混雑時は入場待ちあり）",
    "scale": "museum",
    "events": [],
-   "eventsCheckedAt": "2026-11-21",
+   "eventsCheckedAt": "2026-11-26",
    "geo": [
     35.71904,
     139.77597
@@ -239,7 +239,7 @@
     139.77597
    ],
    "events": [],
-   "eventsCheckedAt": "2026-11-23"
+   "eventsCheckedAt": "2026-11-26"
   },
   {
    "id": "cincinnati",
@@ -1009,7 +1009,7 @@
   },
   {
    "official": true,
-   "price": null,
+   "price": "一般500円",
    "booking": null,
    "url": "https://yokohama.art.museum/wp-content/uploads/2025/09/20250926_pressrelease_2026schedule.pdf",
    "id": "yokohama-col",
@@ -1036,12 +1036,24 @@
      "apply": "closed"
     },
     {
+     "d": "2027-01-09",
+     "time": "14:00–15:30",
+     "kind": "トーク",
+     "title": "「海をこえてゆく彼女」アーティストトーク",
+     "who": "吉田亜世美（聞き手：片多祐子）",
+     "place": "グランドギャラリー まるまるラウンジ／ギャラリー3",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "無料（当日有効の観覧券が必要）",
+     "url": "https://yokohama.art.museum/exhibition/202608_collection/"
+    },
+    {
      "d": "2027-01-15",
-     "time": null,
+     "time": "14:00–14:30",
      "kind": "ギャラリートーク",
      "title": "コレクション展ギャラリートーク（1月）",
      "who": null,
-     "place": null,
+     "place": "3F ホワイエ集合",
      "booking": "当日参加",
      "price": "無料",
      "url": "https://yokohama.art.museum/event/yma_collection_gt202701/",
@@ -1049,7 +1061,7 @@
     },
     {
      "d": "2027-02-06",
-     "time": null,
+     "time": "11:00",
      "kind": "ギャラリートーク",
      "title": "コレクション展ギャラリートーク（手話通訳付き）",
      "who": null,
@@ -1060,7 +1072,7 @@
      "apply": "none"
     }
    ],
-   "eventsCheckedAt": "2026-11-11",
+   "eventsCheckedAt": "2026-11-26",
    "geo": [
     35.4571,
     139.63053
@@ -1346,7 +1358,9 @@
    "geo": [
     35.72175,
     139.7705
-   ]
+   ],
+   "events": [],
+   "eventsCheckedAt": "2026-11-26"
   },
   {
    "official": true,
@@ -1769,7 +1783,7 @@
     35.78423,
     139.64447
    ],
-   "eventsCheckedAt": "2026-11-24",
+   "eventsCheckedAt": "2026-11-26",
    "events": [
     {
      "d": "2026-11-21",
@@ -4453,7 +4467,118 @@
    "geo": [
     35.4500899,
     139.6576077
-   ]
+   ],
+   "events": [
+    {
+     "d": "2026-11-26",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "「和の彩り」で楽しむ アートワークショップ（20歳以上）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-11-28",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "MICRO-FOLIE 対話型アートワークショップ（親子向け）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-11-29",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "「モネの色彩」で楽しむ アートワークショップ（中学生以上）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-12-06",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "「箱の世界」で楽しむ アートワークショップ（親子向け）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-12-10",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "「和の彩り」で楽しむ アートワークショップ（20歳以上）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-12-12",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "MICRO-FOLIE 対話型アートワークショップ（親子向け）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-12-19",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "MICRO-FOLIE 対話型アートワークショップ（親子向け）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-12-20",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "「モネの色彩」で楽しむ アートワークショップ（中学生以上）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    },
+    {
+     "d": "2026-12-26",
+     "time": null,
+     "kind": "ワークショップ",
+     "title": "MICRO-FOLIE 対話型アートワークショップ（親子向け）",
+     "who": null,
+     "place": "THE MOVEUM YOKOHAMA",
+     "booking": "事前申込制（asoview）",
+     "apply": "required",
+     "price": null,
+     "url": "https://global.toyota/info/themoveum/events/immersive-monet/"
+    }
+   ],
+   "eventsCheckedAt": "2026-11-26"
   }
  ],
  "sources": [

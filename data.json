@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-26",
- "notice": "横浜美術館のコレクション展は12/10まで閉室（12/11から再開）。ターナー展オンライン講演会（12/12）は本日11/26 12:00受付開始、大チーバくん展トーク（12/12）の抽選申込は明日11/27まで。野町和嘉「サハラ」は本日閉幕。",
+ "updatedAt": "2026-11-27",
+ "notice": "大チーバくん展トーク（12/12）の抽選申込は本日11/27まで。コッライーニ展のレステッリ講演会（11/28）は満席。国立映画アーカイブは11/29まで休室。",
  "picks": [
   {
-   "id": "fujifilm-sahara",
-   "why": "本日11/26閉幕・入場無料。半世紀近く撮り続けたサハラ砂漠の63点を見られる最終日。"
+   "id": "nfaj-mizoguchi",
+   "why": "12/13まで。休室明けの12/1から最後の2週間、溝口健二の脚本・スチルなどの資料を600円で見られる。"
+  },
+  {
+   "id": "nezu-horu-urushi",
+   "why": "12/5開幕。彫漆の名品を集める企画展で、講演会・レクチャーのオンライン申込を受付中（先着100名）。"
   },
   {
    "id": "teamlab-hamarikyu",
-   "why": "昨日開幕。浜離宮恩賜庭園の夜をチームラボが光で包む12/24までの期間限定展示。"
-  },
-  {
-   "id": "itabashi-corraini",
-   "why": "ムナーリらの絵本を手に取ってめくれる。11/28にはベバ・レステッリ講演会（無料・要申込）も。"
+   "why": "浜離宮恩賜庭園の夜をチームラボが光で包む、12/24までの期間限定展示。"
   }
  ],
  "exhibitions": [
@@ -681,7 +681,7 @@
      "time": "13:00–",
      "who": "さかざきちはる（聞き手：学芸員）",
      "place": "講堂",
-     "booking": "事前申込・抽選（11/27締切）",
+     "booking": "事前申込・抽選（本日11/27締切）",
      "apply": "required",
      "price": "無料（チーバくんSTOREで書籍等購入者対象）",
      "d": "2026-12-12",
@@ -694,13 +694,14 @@
      "time": "13:30–14:30",
      "who": null,
      "place": "第2アトリエ",
-     "booking": "事前申込・先着18名（申込受付前）",
+     "booking": "事前申込・先着18名（12/1正午受付開始）",
      "apply": "required",
      "price": "無料",
      "d": "2026-12-26",
      "kind": "ワークショップ",
      "title": "うごくチーバくん「ゾーマトロープつくり」",
-     "url": "https://www.chiba-muse.or.jp/ART/event/events/12223/"
+     "url": "https://www.chiba-muse.or.jp/ART/event/events/12223/",
+     "opens": "2026-12-01"
     },
     {
      "time": "13:00–",
@@ -870,14 +871,14 @@
    "url": "https://www.ikimono-sei.jp/",
    "official": true,
    "price": "一般・大学生2,300円（前売2,100円）",
-   "booking": "土日祝は日時指定予約（無料）推奨",
+   "booking": "土日祝のみ日時指定予約制（無料）",
    "scale": "museum",
    "geo": [
     35.7159,
     139.77669
    ],
    "events": [],
-   "eventsCheckedAt": "2026-11-13"
+   "eventsCheckedAt": "2026-11-27"
   },
   {
    "official": false,
@@ -1380,7 +1381,9 @@
    "geo": [
     35.6603,
     139.73082
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-27",
+   "events": []
   },
   {
    "official": true,
@@ -1460,53 +1463,6 @@
     }
    ],
    "eventsCheckedAt": "2026-11-22"
-  },
-  {
-   "official": true,
-   "booking": "不要",
-   "id": "fujifilm-sahara",
-   "t": "野町和嘉写真展「サハラ SAHARA THE ETERNAL」",
-   "v": "フジフイルム スクエア",
-   "city": "港区",
-   "pref": "東京",
-   "s": "2026-10-30",
-   "e": "2026-11-26",
-   "g": "pho",
-   "one": "半世紀近く撮り続けたサハラ砂漠の63点。11/21〜23は休館",
-   "url": "https://fujifilmsquare.jp/exhibition/261030_01.html",
-   "price": "無料",
-   "scale": "gallery",
-   "geo": [
-    35.66584,
-    139.73092
-   ],
-   "events": [
-    {
-     "d": "2026-11-25",
-     "time": "14:00",
-     "kind": "ギャラリートーク",
-     "title": "野町和嘉氏 ギャラリートーク",
-     "who": "野町和嘉、佐伯剛（編集人）",
-     "place": "富士フイルムフォトサロン 東京 写真展会場内",
-     "booking": "予約不要・定員なし",
-     "apply": "none",
-     "price": "無料",
-     "url": "https://fujifilmsquare.jp/exhibition/261030_01.html"
-    },
-    {
-     "d": "2026-11-25",
-     "time": "17:00",
-     "kind": "ギャラリートーク",
-     "title": "野町和嘉氏 ギャラリートーク",
-     "who": "野町和嘉",
-     "place": "富士フイルムフォトサロン 東京 写真展会場内",
-     "booking": "予約不要・定員なし",
-     "apply": "none",
-     "price": "無料",
-     "url": "https://fujifilmsquare.jp/exhibition/261030_01.html"
-    }
-   ],
-   "eventsCheckedAt": "2026-11-25"
   },
   {
    "id": "a4-shen",
@@ -1829,10 +1785,11 @@
      "title": "ベバ・レステッリ氏講演会",
      "who": "ベバ・レステッリ（通訳：藤田寿伸）",
      "place": null,
-     "booking": "事前申込制（Webフォーム・定員60名）",
-     "apply": "required",
+     "booking": "満席",
+     "apply": "closed",
      "price": "無料",
-     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002108.html"
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4002108.html",
+     "opens": "2026-11-07"
     },
     {
      "d": "2026-11-29",
@@ -1853,10 +1810,11 @@
      "title": "こどもアトリエ「ステンシルで絵をかこう」",
      "who": "三浦太郎",
      "place": null,
-     "booking": "電話先着（11/14 9:00受付開始・各回12組）",
-     "apply": "required",
+     "booking": "受付終了",
+     "apply": "closed",
      "price": "1組1,300円",
-     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4001637/4002105.html"
+     "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000169/4001637/4002105.html",
+     "opens": "2026-11-14"
     },
     {
      "d": "2026-12-12",
@@ -1926,15 +1884,17 @@
    "e": "2027-02-23",
    "g": "pop",
    "one": "『チ。』『ひゃくえむ。』の漫画家・魚豊のデビュー10周年展",
-   "url": "https://www.timeout.jp/tokyo/ja/アート/anime-manga-2026-nov-dec",
-   "official": false,
+   "url": "https://uo10.jp/",
+   "official": true,
    "price": null,
    "booking": null,
    "scale": "space",
    "geo": [
     35.67496,
     139.7644
-   ]
+   ],
+   "eventsCheckedAt": "2026-11-27",
+   "events": []
   },
   {
    "id": "okyo",
@@ -3650,7 +3610,8 @@
      "booking": "事前申込制（抽選・受付期間延長の案内あり）",
      "apply": "required",
      "price": "無料（要観覧券）",
-     "url": "https://www.artmuseumlibraryota.jp/post_artmuseum/193648.html"
+     "url": "https://www.artmuseumlibraryota.jp/post_artmuseum/193648.html",
+     "opens": "2026-08-15"
     },
     {
      "d": "2027-01-10",
@@ -4579,6 +4540,65 @@
     }
    ],
    "eventsCheckedAt": "2026-11-26"
+  },
+  {
+   "id": "nfaj-mizoguchi",
+   "t": "没後70年 映画監督 溝口健二",
+   "v": "国立映画アーカイブ",
+   "city": "中央区",
+   "pref": "東京",
+   "s": "2026-08-11",
+   "e": "2026-12-13",
+   "g": "pho",
+   "one": "『雨月物語』の巨匠の仕事を資料で辿る。11/24〜29は休室。",
+   "url": "https://www.nfaj.go.jp/exhibition/mizoguchi2026/",
+   "official": true,
+   "price": "一般600円",
+   "booking": null,
+   "scale": "museum",
+   "geo": [
+    35.67557,
+    139.77066
+   ],
+   "eventsCheckedAt": "2026-11-27",
+   "events": [
+    {
+     "d": "2026-08-29",
+     "time": "15:30–16:30",
+     "kind": "ギャラリートーク",
+     "title": "失われた溝口映画――日活時代を中心に",
+     "who": "佐相勉",
+     "place": "展示室ロビー（7階）",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "参加無料",
+     "url": "https://www.nfaj.go.jp/exhibition/mizoguchi2026/"
+    },
+    {
+     "d": "2026-10-31",
+     "time": "15:30–16:30",
+     "kind": "ギャラリートーク",
+     "title": "1930～1940年代の溝口映画――松竹時代を中心に",
+     "who": "木下千花",
+     "place": "展示室ロビー（7階）",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "参加無料",
+     "url": "https://www.nfaj.go.jp/exhibition/mizoguchi2026/"
+    },
+    {
+     "d": "2026-11-14",
+     "time": "14:50–15:50",
+     "kind": "ギャラリートーク",
+     "title": "溝口健二の音世界",
+     "who": "長門洋平",
+     "place": "展示室ロビー（7階）",
+     "booking": "申込不要",
+     "apply": "none",
+     "price": "参加無料",
+     "url": "https://www.nfaj.go.jp/exhibition/mizoguchi2026/"
+    }
+   ]
   }
  ],
  "sources": [
@@ -5009,6 +5029,10 @@
   {
    "name": "フジフイルム スクエア 野町和嘉写真展",
    "url": "https://fujifilmsquare.jp/exhibition/261030_01.html"
+  },
+  {
+   "name": "国立映画アーカイブ",
+   "url": "https://www.nfaj.go.jp/"
   }
  ]
 }

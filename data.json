@@ -1,18 +1,18 @@
 {
- "updatedAt": "2026-11-27",
- "notice": "大チーバくん展トーク（12/12）の抽選申込は本日11/27まで。コッライーニ展のレステッリ講演会（11/28）は満席。国立映画アーカイブは11/29まで休室。",
+ "updatedAt": "2026-11-28",
+ "notice": "本日11/28、円山応挙展（江戸東京博物館）・ブーダン展（群馬県立近代美術館）・松本陽子展（葉山）が開幕。TOKYO ATLASの盛圭太ワークショップ（12/6）は12/5 17:00締切。国立映画アーカイブは11/29まで休室。",
  "picks": [
   {
-   "id": "nfaj-mizoguchi",
-   "why": "12/13まで。休室明けの12/1から最後の2週間、溝口健二の脚本・スチルなどの資料を600円で見られる。"
+   "id": "okyo",
+   "why": "本日11/28開幕。リニューアルした江戸東京博物館で、眼鏡絵から大乗寺障壁画の空間再現まで応挙を120点超で見る。"
   },
   {
-   "id": "nezu-horu-urushi",
-   "why": "12/5開幕。彫漆の名品を集める企画展で、講演会・レクチャーのオンライン申込を受付中（先着100名）。"
+   "id": "atlas",
+   "why": "観覧無料の臨海エリア国際展は12/20まで。12/5・6にトークや申込不要の関連企画が集中する。"
   },
   {
-   "id": "teamlab-hamarikyu",
-   "why": "浜離宮恩賜庭園の夜をチームラボが光で包む、12/24までの期間限定展示。"
+   "id": "hakone-takahashi",
+   "why": "本日開幕。光のアーティスト髙橋匡太が箱根・彫刻の森の冬の夜を染めるプロジェクト。"
   }
  ],
  "exhibitions": [
@@ -317,11 +317,87 @@
    "e": "2026-12-20",
    "g": "con",
    "one": "屋外会場中心の国際美術展。一部有料プログラムあり。",
-   "url": "https://www.tokyoartbeat.com/articles/-/autumn-night-museum-news-202608",
-   "official": false,
-   "price": null,
+   "url": "https://tokyoatlas.jp/",
+   "official": true,
+   "price": "観覧無料（一部有料プログラムあり）",
    "booking": null,
-   "scale": "space"
+   "scale": "space",
+   "eventsCheckedAt": "2026-11-28",
+   "events": [
+    {
+     "d": "2026-12-05",
+     "time": "13:00–16:30",
+     "kind": "ワークショップ",
+     "title": "関連企画「座標」筆談会 これより先、無言",
+     "who": null,
+     "place": "WHAT MUSEUM",
+     "booking": "申込不要・出入り自由",
+     "apply": "none",
+     "price": "無料",
+     "url": "https://tokyoatlas.jp/events/efjx2c7vnuqw"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "14:00–16:00",
+     "kind": "トーク",
+     "title": "品川区立品川歴史館連携企画「都市の記憶を未来へ ― 歴史・アート・地域をつなぐ座標―」",
+     "who": "冨川武史、木村こころ、中川千恵子",
+     "place": "品川区立品川歴史館講堂",
+     "booking": "要予約",
+     "apply": "required",
+     "price": null,
+     "url": "https://tokyoatlas.jp/events/shinagawa-history-museum-talk"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "14:00–16:20",
+     "kind": "ツアー",
+     "title": "有料 台場鑑賞ツアー＆ARTE TOKYO CRUISE乗船ツアー",
+     "who": "建畠晢（クルーズ便同乗）",
+     "place": "台場公園周辺〜天王洲ピア",
+     "booking": "要予約（定員25名程度）",
+     "apply": "required",
+     "price": "3,000円",
+     "url": "https://tokyoatlas.jp/events/54u-gktsc"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "17:00–18:00",
+     "kind": "トーク",
+     "title": "特別トークプログラム「といのいと」",
+     "who": "盛圭太、建畠晢、青柳正規",
+     "place": "アイルしながわ",
+     "booking": "要予約（定員50名）",
+     "apply": "required",
+     "price": "無料",
+     "url": "https://tokyoatlas.jp/events/event32"
+    },
+    {
+     "d": "2026-12-06",
+     "time": "10:00–12:00",
+     "kind": "ワークショップ",
+     "title": "盛圭太ワークショップ「いとのとい」（中高生対象）",
+     "who": "盛圭太",
+     "place": "アイルしながわ、EZOHUB TOKYO",
+     "booking": "要予約（12/5 17:00締切、定員30名程度）",
+     "apply": "required",
+     "deadline": "2026-12-05",
+     "price": "無料",
+     "url": "https://tokyoatlas.jp/events/event33"
+    },
+    {
+     "d": "2026-12-06",
+     "time": "15:00–16:30",
+     "kind": "トーク",
+     "title": "関連企画「座標」アーティストトーク：臼井仁美 × 黒田恭章 × 小林椋",
+     "who": "臼井仁美、黒田恭章、小林椋",
+     "place": "EZOHUB TOKYO",
+     "booking": "事前申込不要",
+     "apply": "none",
+     "price": null,
+     "url": "https://tokyoatlas.jp/events/event41"
+    }
+   ]
   },
   {
    "id": "duet",
@@ -943,7 +1019,7 @@
     35.64154,
     139.7134
    ],
-   "eventsCheckedAt": "2026-11-16",
+   "eventsCheckedAt": "2026-11-28",
    "events": [
     {
      "d": "2026-11-13",
@@ -989,7 +1065,7 @@
      "title": "橋本貘×辻川幸一郎",
      "who": "橋本貘、辻川幸一郎",
      "place": "1階ホール",
-     "booking": "当日10:00から整理券（先着190名）",
+     "booking": "当日10:00より1階総合受付で整理券配布",
      "apply": "none",
      "price": "無料",
      "url": "https://topmuseum.jp/exhibition/5423/"
@@ -1001,7 +1077,7 @@
      "title": "藤倉麻子×南後由和",
      "who": "藤倉麻子、南後由和",
      "place": "1階ホール",
-     "booking": "当日10:00から整理券（先着190名）",
+     "booking": "当日10:00より1階総合受付で整理券配布",
      "apply": "none",
      "price": "無料",
      "url": "https://topmuseum.jp/exhibition/5423/"
@@ -1140,7 +1216,7 @@
     35.66084,
     139.74065
    ],
-   "eventsCheckedAt": "2026-11-17",
+   "eventsCheckedAt": "2026-11-28",
    "events": []
   },
   {
@@ -1296,7 +1372,7 @@
     35.67978,
     139.80879
    ],
-   "eventsCheckedAt": "2026-11-17",
+   "eventsCheckedAt": "2026-11-28",
    "events": []
   },
   {
@@ -1338,7 +1414,7 @@
     35.69442,
     139.73794
    ],
-   "eventsCheckedAt": "2026-11-17",
+   "eventsCheckedAt": "2026-11-28",
    "events": []
   },
   {
@@ -1633,7 +1709,7 @@
     35.70341,
     139.41137
    ],
-   "eventsCheckedAt": "2026-11-16",
+   "eventsCheckedAt": "2026-11-28",
    "events": [
     {
      "d": "2026-10-17",
@@ -2748,7 +2824,7 @@
     139.72103
    ],
    "events": [],
-   "eventsCheckedAt": "2026-11-18"
+   "eventsCheckedAt": "2026-11-28"
   },
   {
    "id": "chiba-tamura",
@@ -2995,7 +3071,7 @@
     35.63963,
     139.74136
    ],
-   "eventsCheckedAt": "2026-11-16",
+   "eventsCheckedAt": "2026-11-28",
    "events": []
   },
   {
@@ -3099,7 +3175,7 @@
     36.37425,
     140.262
    ],
-   "eventsCheckedAt": "2026-11-16",
+   "eventsCheckedAt": "2026-11-28",
    "events": [
     {
      "d": "2026-11-22",
@@ -3112,6 +3188,31 @@
      "apply": "none",
      "price": "無料（当日の企画展観覧券が必要）",
      "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=605"
+    },
+    {
+     "d": "2026-11-28",
+     "time": "10:00–12:00／14:00–16:00",
+     "kind": "ワークショップ",
+     "title": "出品作家によるワークショップ 大槻智子「栗・くり・オーナメントづくり。」",
+     "who": "大槻智子",
+     "place": "地下1階 研修室",
+     "booking": "抽選（受付終了）",
+     "apply": "closed",
+     "deadline": "2026-11-03",
+     "price": "1,500円（要観覧券）",
+     "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=604"
+    },
+    {
+     "d": "2026-12-05",
+     "time": "14:00–14:45",
+     "kind": "ワークショップ",
+     "title": "ケラモんのおはなしのへや＋ ～ケラモんとキラキラパーティー～",
+     "who": null,
+     "place": "地下1階 研修室",
+     "booking": "予約不要",
+     "apply": "none",
+     "price": "無料（要観覧券）",
+     "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=608"
     }
    ]
   },
@@ -3970,7 +4071,7 @@
     140.262
    ],
    "events": [],
-   "eventsCheckedAt": "2026-11-20"
+   "eventsCheckedAt": "2026-11-28"
   },
   {
    "id": "taka-ishii-ruby",
@@ -5033,6 +5134,18 @@
   {
    "name": "国立映画アーカイブ",
    "url": "https://www.nfaj.go.jp/"
+  },
+  {
+   "name": "TOKYO ATLAS 公式",
+   "url": "https://tokyoatlas.jp/"
+  },
+  {
+   "name": "TOKYO ATLAS イベント",
+   "url": "https://tokyoatlas.jp/events"
+  },
+  {
+   "name": "茨城県陶芸美術館 THE HEADLINERS 関連イベント",
+   "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=603"
   }
  ]
 }
